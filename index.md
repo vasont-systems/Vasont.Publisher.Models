@@ -7,4 +7,4 @@ The GlobalLink Vasont Publisher Models is an open-source connector library, main
 
 ## Just Getting Started?
 
-Check out the [Models Documentation](https://vasont-systems.github.io/Vasont.Publisher.Models/Vasont.Publisher.Models.html)
+Check out the [Models Documentation](https://vasont-systems.github.io/Vasont.Publisher.Models/ref/Vasont.Publisher.Models.Common.html)

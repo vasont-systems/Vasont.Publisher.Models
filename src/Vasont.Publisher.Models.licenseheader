@@ -1,0 +1,23 @@
+﻿extensions: designer.cs generated.cs
+extensions: .cs .cpp .h
+//-----------------------------------------------------------------------
+// <copyright file="%Filename%" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+extensions: .aspx .ascx
+<%-- 
+//-----------------------------------------------------------------------
+// <copyright file="%Filename%" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+--%>
+extensions:  .xml .config .xsd
+<!--
+//-----------------------------------------------------------------------
+// <copyright file="%Filename%" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+-->

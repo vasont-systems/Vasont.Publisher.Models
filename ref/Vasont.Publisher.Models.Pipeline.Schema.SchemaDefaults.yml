@@ -1,0 +1,683 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  commentId: T:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  id: SchemaDefaults
+  parent: Vasont.Publisher.Models.Pipeline.Schema
+  children:
+  - Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultAgentCancelTimeoutMinutes
+  - Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobName
+  - Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobStepName
+  - Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobTimeoutMinutes
+  - Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultMaxParallelThreads
+  - Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultStageName
+  - Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskVersion
+  - Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTime
+  - Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTimeZone
+  langs:
+  - csharp
+  - vb
+  name: SchemaDefaults
+  nameWithType: SchemaDefaults
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  type: Class
+  source:
+    remote:
+      path: src/Pipeline/Schema/SchemaDefaults.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: SchemaDefaults
+    path: Pipeline/Schema/SchemaDefaults.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nContains a collection of default values for the schema definition classes.\n"
+  example: []
+  syntax:
+    content: public static class SchemaDefaults
+    content.vb: Public Module SchemaDefaults
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobTimeoutMinutes
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobTimeoutMinutes
+  id: DefaultJobTimeoutMinutes
+  parent: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultJobTimeoutMinutes
+  nameWithType: SchemaDefaults.DefaultJobTimeoutMinutes
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobTimeoutMinutes
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/SchemaDefaults.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DefaultJobTimeoutMinutes
+    path: Pipeline/Schema/SchemaDefaults.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe default job timeout minutes\n"
+  example: []
+  syntax:
+    content: public const int DefaultJobTimeoutMinutes = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const DefaultJobTimeoutMinutes As Integer = 10
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultAgentCancelTimeoutMinutes
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultAgentCancelTimeoutMinutes
+  id: DefaultAgentCancelTimeoutMinutes
+  parent: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAgentCancelTimeoutMinutes
+  nameWithType: SchemaDefaults.DefaultAgentCancelTimeoutMinutes
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultAgentCancelTimeoutMinutes
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/SchemaDefaults.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DefaultAgentCancelTimeoutMinutes
+    path: Pipeline/Schema/SchemaDefaults.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe default agent cancel timeout minutes\n"
+  example: []
+  syntax:
+    content: public const int DefaultAgentCancelTimeoutMinutes = 60
+    return:
+      type: System.Int32
+    content.vb: Public Const DefaultAgentCancelTimeoutMinutes As Integer = 60
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultMaxParallelThreads
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultMaxParallelThreads
+  id: DefaultMaxParallelThreads
+  parent: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultMaxParallelThreads
+  nameWithType: SchemaDefaults.DefaultMaxParallelThreads
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultMaxParallelThreads
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/SchemaDefaults.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DefaultMaxParallelThreads
+    path: Pipeline/Schema/SchemaDefaults.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe default maximum parallel threads a job can execute.\n"
+  example: []
+  syntax:
+    content: public const int DefaultMaxParallelThreads = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const DefaultMaxParallelThreads As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobStepName
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobStepName
+  id: DefaultJobStepName
+  parent: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultJobStepName
+  nameWithType: SchemaDefaults.DefaultJobStepName
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobStepName
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/SchemaDefaults.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DefaultJobStepName
+    path: Pipeline/Schema/SchemaDefaults.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe default job step name\n"
+  example: []
+  syntax:
+    content: public const string DefaultJobStepName = "Step"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultJobStepName As String = "Step"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobName
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobName
+  id: DefaultJobName
+  parent: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultJobName
+  nameWithType: SchemaDefaults.DefaultJobName
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobName
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/SchemaDefaults.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DefaultJobName
+    path: Pipeline/Schema/SchemaDefaults.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe default job name\n"
+  example: []
+  syntax:
+    content: public const string DefaultJobName = "Default"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultJobName As String = "Default"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultStageName
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultStageName
+  id: DefaultStageName
+  parent: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultStageName
+  nameWithType: SchemaDefaults.DefaultStageName
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultStageName
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/SchemaDefaults.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DefaultStageName
+    path: Pipeline/Schema/SchemaDefaults.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe default stage name\n"
+  example: []
+  syntax:
+    content: public const string DefaultStageName = "Default"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultStageName As String = "Default"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTime
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTime
+  id: DefaultTriggerScheduleTime
+  parent: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultTriggerScheduleTime
+  nameWithType: SchemaDefaults.DefaultTriggerScheduleTime
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTime
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/SchemaDefaults.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DefaultTriggerScheduleTime
+    path: Pipeline/Schema/SchemaDefaults.cs
+    startLine: 45
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe default trigger schedule time\n"
+  example: []
+  syntax:
+    content: public const string DefaultTriggerScheduleTime = "00:00"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTriggerScheduleTime As String = "00:00"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTimeZone
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTimeZone
+  id: DefaultTriggerScheduleTimeZone
+  parent: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultTriggerScheduleTimeZone
+  nameWithType: SchemaDefaults.DefaultTriggerScheduleTimeZone
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTimeZone
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/SchemaDefaults.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DefaultTriggerScheduleTimeZone
+    path: Pipeline/Schema/SchemaDefaults.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe default trigger schedule time zone\n"
+  example: []
+  syntax:
+    content: public const string DefaultTriggerScheduleTimeZone = "0"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTriggerScheduleTimeZone As String = "0"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskVersion
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskVersion
+  id: DefaultTaskVersion
+  parent: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultTaskVersion
+  nameWithType: SchemaDefaults.DefaultTaskVersion
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskVersion
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/SchemaDefaults.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DefaultTaskVersion
+    path: Pipeline/Schema/SchemaDefaults.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe default task version\n"
+  example: []
+  syntax:
+    content: public const string DefaultTaskVersion = "0.*"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTaskVersion As String = "0.*"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Publisher.Models.Pipeline.Schema
+  commentId: N:Vasont.Publisher.Models.Pipeline.Schema
+  name: Vasont.Publisher.Models.Pipeline.Schema
+  nameWithType: Vasont.Publisher.Models.Pipeline.Schema
+  fullName: Vasont.Publisher.Models.Pipeline.Schema
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

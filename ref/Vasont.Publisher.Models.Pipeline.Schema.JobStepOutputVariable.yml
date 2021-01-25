@@ -1,0 +1,468 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable
+  commentId: T:Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable
+  id: JobStepOutputVariable
+  parent: Vasont.Publisher.Models.Pipeline.Schema
+  children:
+  - Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Description
+  - Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Name
+  langs:
+  - csharp
+  - vb
+  name: JobStepOutputVariable
+  nameWithType: JobStepOutputVariable
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable
+  type: Class
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobStepOutputVariable.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: JobStepOutputVariable
+    path: Pipeline/Schema/JobStepOutputVariable.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThis class represents a job step output variable configuration.\n"
+  example: []
+  syntax:
+    content: public class JobStepOutputVariable
+    content.vb: Public Class JobStepOutputVariable
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Name
+  commentId: P:Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Name
+  id: Name
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: JobStepOutputVariable.Name
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Name
+  type: Property
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobStepOutputVariable.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Name
+    path: Pipeline/Schema/JobStepOutputVariable.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nGets or sets the job step output variable internal name.\n"
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [MaxLength(100)]
+
+      public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      <MaxLength(100)>
+
+      Public Property Name As String
+  overload: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Name*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.MaxLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.MaxLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 100
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Description
+  commentId: P:Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Description
+  id: Description
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: JobStepOutputVariable.Description
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Description
+  type: Property
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobStepOutputVariable.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Description
+    path: Pipeline/Schema/JobStepOutputVariable.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nGets or sets the job step output variable description.\n"
+  example: []
+  syntax:
+    content: >-
+      [MaxLength(1000)]
+
+      public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <MaxLength(1000)>
+
+      Public Property Description As String
+  overload: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Description*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.MaxLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.MaxLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 1000
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Publisher.Models.Pipeline.Schema
+  commentId: N:Vasont.Publisher.Models.Pipeline.Schema
+  name: Vasont.Publisher.Models.Pipeline.Schema
+  nameWithType: Vasont.Publisher.Models.Pipeline.Schema
+  fullName: Vasont.Publisher.Models.Pipeline.Schema
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Name*
+  commentId: Overload:Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Name
+  name: Name
+  nameWithType: JobStepOutputVariable.Name
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Description*
+  commentId: Overload:Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Description
+  name: Description
+  nameWithType: JobStepOutputVariable.Description
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Description

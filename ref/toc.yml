@@ -1,0 +1,64 @@
+### YamlMime:TableOfContent
+- uid: Vasont.Publisher.Models.Common
+  name: Vasont.Publisher.Models.Common
+  items:
+  - uid: Vasont.Publisher.Models.Common.OrganizationModel
+    name: OrganizationModel
+  - uid: Vasont.Publisher.Models.Common.PublishServerUserType
+    name: PublishServerUserType
+  - uid: Vasont.Publisher.Models.Common.UserModel
+    name: UserModel
+- uid: Vasont.Publisher.Models.Pipeline.Schema
+  name: Vasont.Publisher.Models.Pipeline.Schema
+  items:
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.Configuration
+    name: Configuration
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.Demand
+    name: Demand
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.Job
+    name: Job
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.JobPoolConfiguration
+    name: JobPoolConfiguration
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable
+    name: JobStepOutputVariable
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.JobStrategy
+    name: JobStrategy
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.JobTask
+    name: JobTask
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+    name: JobTaskCommand
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskType
+    name: JobTaskType
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.JobWorkspaceConfiguration
+    name: JobWorkspaceConfiguration
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+    name: PipelineDemandOperand
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineJobStrategyType
+    name: PipelineJobStrategyType
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceBase
+    name: PipelineSourceBase
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes
+    name: PipelineSourceTypes
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineVariable
+    name: PipelineVariable
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType
+    name: PipelineVariableType
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.Revision
+    name: Revision
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.RevisionActions
+    name: RevisionActions
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults
+    name: SchemaDefaults
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.Stage
+    name: Stage
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.Trigger
+    name: Trigger
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.TriggerSchedule
+    name: TriggerSchedule
+  - uid: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+    name: WorkspaceActionCleanup
+- uid: Vasont.Publisher.Models.Server
+  name: Vasont.Publisher.Models.Server
+  items:
+  - uid: Vasont.Publisher.Models.Server.JobHistoryModel
+    name: JobHistoryModel

@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Publisher.Models.Common
+  commentId: N:Vasont.Publisher.Models.Common
+  id: Vasont.Publisher.Models.Common
+  children:
+  - Vasont.Publisher.Models.Common.OrganizationModel
+  - Vasont.Publisher.Models.Common.PublishServerUserType
+  - Vasont.Publisher.Models.Common.UserModel
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Publisher.Models.Common
+  nameWithType: Vasont.Publisher.Models.Common
+  fullName: Vasont.Publisher.Models.Common
+  type: Namespace
+  assemblies:
+  - Vasont.Publisher.Models
+references:
+- uid: Vasont.Publisher.Models.Common.OrganizationModel
+  commentId: T:Vasont.Publisher.Models.Common.OrganizationModel
+  parent: Vasont.Publisher.Models.Common
+  name: OrganizationModel
+  nameWithType: OrganizationModel
+  fullName: Vasont.Publisher.Models.Common.OrganizationModel
+- uid: Vasont.Publisher.Models.Common.PublishServerUserType
+  commentId: T:Vasont.Publisher.Models.Common.PublishServerUserType
+  parent: Vasont.Publisher.Models.Common
+  name: PublishServerUserType
+  nameWithType: PublishServerUserType
+  fullName: Vasont.Publisher.Models.Common.PublishServerUserType
+- uid: Vasont.Publisher.Models.Common.UserModel
+  commentId: T:Vasont.Publisher.Models.Common.UserModel
+  parent: Vasont.Publisher.Models.Common
+  name: UserModel
+  nameWithType: UserModel
+  fullName: Vasont.Publisher.Models.Common.UserModel
+- uid: Vasont.Publisher.Models.Common
+  commentId: N:Vasont.Publisher.Models.Common
+  name: Vasont.Publisher.Models.Common
+  nameWithType: Vasont.Publisher.Models.Common
+  fullName: Vasont.Publisher.Models.Common

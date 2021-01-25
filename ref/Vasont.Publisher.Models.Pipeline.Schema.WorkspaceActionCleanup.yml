@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  commentId: T:Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  id: WorkspaceActionCleanup
+  parent: Vasont.Publisher.Models.Pipeline.Schema
+  children:
+  - Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.All
+  - Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.None
+  - Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.SourceOnly
+  langs:
+  - csharp
+  - vb
+  name: WorkspaceActionCleanup
+  nameWithType: WorkspaceActionCleanup
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  type: Enum
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobWorkspaceConfiguration.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: WorkspaceActionCleanup
+    path: Pipeline/Schema/JobWorkspaceConfiguration.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nContains an enumerated list of workspace cleanup actions.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum WorkspaceActionCleanup
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum WorkspaceActionCleanup
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.All
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.All
+  id: All
+  parent: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: WorkspaceActionCleanup.All
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.All
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobWorkspaceConfiguration.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: All
+    path: Pipeline/Schema/JobWorkspaceConfiguration.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nClean-up both source and output directories before attempting to execute job.\n"
+  example: []
+  syntax:
+    content: All = 0
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.SourceOnly
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.SourceOnly
+  id: SourceOnly
+  parent: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  langs:
+  - csharp
+  - vb
+  name: SourceOnly
+  nameWithType: WorkspaceActionCleanup.SourceOnly
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.SourceOnly
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobWorkspaceConfiguration.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: SourceOnly
+    path: Pipeline/Schema/JobWorkspaceConfiguration.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nClean-up only the source directories before attempting to execute job.\n"
+  example: []
+  syntax:
+    content: SourceOnly = 1
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.None
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.None
+  id: None
+  parent: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkspaceActionCleanup.None
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.None
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobWorkspaceConfiguration.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: None
+    path: Pipeline/Schema/JobWorkspaceConfiguration.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nDo not clean-up source or output directories before attempting to execute job.\n"
+  example: []
+  syntax:
+    content: None = 2
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Publisher.Models.Pipeline.Schema
+  commentId: N:Vasont.Publisher.Models.Pipeline.Schema
+  name: Vasont.Publisher.Models.Pipeline.Schema
+  nameWithType: Vasont.Publisher.Models.Pipeline.Schema
+  fullName: Vasont.Publisher.Models.Pipeline.Schema
+- uid: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  commentId: T:Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup
+  parent: Vasont.Publisher.Models.Pipeline.Schema
+  name: WorkspaceActionCleanup
+  nameWithType: WorkspaceActionCleanup
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup

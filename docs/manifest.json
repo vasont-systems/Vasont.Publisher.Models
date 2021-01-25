@@ -1,0 +1,469 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Projects/Vasont/Vasont.Publisher.Models/src",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "H5U/GFuiloZVJiJOV+BzOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../images/gl_vasont_logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gl_vasont_logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Common.OrganizationModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Common.OrganizationModel.html",
+          "hash": "xPuKKzcfQGXrNNBviUoDmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Common.PublishServerUserType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Common.PublishServerUserType.html",
+          "hash": "d2a2MZsAOPnqutmhEvpmAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Common.UserModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Common.UserModel.html",
+          "hash": "NMbeOdzCm8XZb1NPclxIXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Common.html",
+          "hash": "EIVHw/abVmfaeOkQ2biwBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Configuration.html",
+          "hash": "UnXb4PnmKg+bjfuGmLoFNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.Demand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Demand.html",
+          "hash": "wSYHZlQ60DgEyadqa8EIgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Job.html",
+          "hash": "CQ+J9jrUV4+9PR39N1KXHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.JobPoolConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobPoolConfiguration.html",
+          "hash": "qhKnHcQc3VX3D5WPYRbp+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.html",
+          "hash": "dEPFlrL4FyghL5zRb5PzkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.JobStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobStrategy.html",
+          "hash": "7aFkxhzqoSicX2co0qsH3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.JobTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobTask.html",
+          "hash": "3l9/BL4pmGltOd1EVaSWQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.html",
+          "hash": "kc2/WrmTrXj9HtTmHhBGTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.JobTaskType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobTaskType.html",
+          "hash": "9362drGLU/QZ6UWqDhplcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.JobWorkspaceConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobWorkspaceConfiguration.html",
+          "hash": "eggVwZJIdnpeNLcvlqiIyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.html",
+          "hash": "J2FyoFKAEvkx28ASYymPlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineJobStrategyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineJobStrategyType.html",
+          "hash": "J8OYpAc/8UHVoAKZauOePg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceBase.html",
+          "hash": "v+TOWXMnqU+YiViV6osdsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.html",
+          "hash": "ptCxLisrD/eBMuHWOz/tSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineVariable.html",
+          "hash": "PAFhiCTQF5X/LVdIAf0NBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType.html",
+          "hash": "585HWkXBiQiu7DnwzXYh8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.Revision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Revision.html",
+          "hash": "d9vSJpwMh93Mso36BoVkMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.RevisionActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.RevisionActions.html",
+          "hash": "De1y48vZJ+zxJ07Ucwl61w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.html",
+          "hash": "LLWHOT/rmIdawSBwx0h0fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.Stage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Stage.html",
+          "hash": "KavsAuxG+RzWeNpY4pjurg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.Trigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Trigger.html",
+          "hash": "TjuJkeWfMPALRCeTmn50bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.TriggerSchedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.TriggerSchedule.html",
+          "hash": "buj0fqXGNWRpezygsX4EoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.html",
+          "hash": "2UYFmyLp0UEHDA7Y32BfEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Pipeline.Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.html",
+          "hash": "43uLwZOLlPLhFP08M1aB2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Server.JobHistoryModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Server.JobHistoryModel.html",
+          "hash": "CgE7l64SK9bZOwpePN4szA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Publisher.Models.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Publisher.Models.Server.html",
+          "hash": "KpNpelmz2c2RMLbg046+PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../ref/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/toc.html",
+          "hash": "2sYou9OB9hVLGvMKssryBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 30,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

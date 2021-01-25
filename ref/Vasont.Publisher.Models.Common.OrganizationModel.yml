@@ -1,0 +1,458 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Publisher.Models.Common.OrganizationModel
+  commentId: T:Vasont.Publisher.Models.Common.OrganizationModel
+  id: OrganizationModel
+  parent: Vasont.Publisher.Models.Common
+  children:
+  - Vasont.Publisher.Models.Common.OrganizationModel.Name
+  - Vasont.Publisher.Models.Common.OrganizationModel.OrganizationId
+  langs:
+  - csharp
+  - vb
+  name: OrganizationModel
+  nameWithType: OrganizationModel
+  fullName: Vasont.Publisher.Models.Common.OrganizationModel
+  type: Class
+  source:
+    remote:
+      path: src/Common/OrganizationModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: OrganizationModel
+    path: Common/OrganizationModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Common
+  summary: "\nThis class represents an organization.\n"
+  example: []
+  syntax:
+    content: public class OrganizationModel
+    content.vb: Public Class OrganizationModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Publisher.Models.Common.OrganizationModel.OrganizationId
+  commentId: P:Vasont.Publisher.Models.Common.OrganizationModel.OrganizationId
+  id: OrganizationId
+  parent: Vasont.Publisher.Models.Common.OrganizationModel
+  langs:
+  - csharp
+  - vb
+  name: OrganizationId
+  nameWithType: OrganizationModel.OrganizationId
+  fullName: Vasont.Publisher.Models.Common.OrganizationModel.OrganizationId
+  type: Property
+  source:
+    remote:
+      path: src/Common/OrganizationModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: OrganizationId
+    path: Common/OrganizationModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Common
+  summary: "\nGets or sets the organization identifier.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(200)]
+
+      public Guid OrganizationId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+      description: The organization identifier.
+    content.vb: >-
+      <StringLength(200)>
+
+      Public Property OrganizationId As Guid
+  overload: Vasont.Publisher.Models.Common.OrganizationModel.OrganizationId*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 200
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Common.OrganizationModel.Name
+  commentId: P:Vasont.Publisher.Models.Common.OrganizationModel.Name
+  id: Name
+  parent: Vasont.Publisher.Models.Common.OrganizationModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: OrganizationModel.Name
+  fullName: Vasont.Publisher.Models.Common.OrganizationModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Common/OrganizationModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Name
+    path: Common/OrganizationModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Common
+  summary: "\nGets or sets the name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The name.
+    content.vb: Public Property Name As String
+  overload: Vasont.Publisher.Models.Common.OrganizationModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Publisher.Models.Common
+  commentId: N:Vasont.Publisher.Models.Common
+  name: Vasont.Publisher.Models.Common
+  nameWithType: Vasont.Publisher.Models.Common
+  fullName: Vasont.Publisher.Models.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Publisher.Models.Common.OrganizationModel.OrganizationId*
+  commentId: Overload:Vasont.Publisher.Models.Common.OrganizationModel.OrganizationId
+  name: OrganizationId
+  nameWithType: OrganizationModel.OrganizationId
+  fullName: Vasont.Publisher.Models.Common.OrganizationModel.OrganizationId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Publisher.Models.Common.OrganizationModel.Name*
+  commentId: Overload:Vasont.Publisher.Models.Common.OrganizationModel.Name
+  name: Name
+  nameWithType: OrganizationModel.Name
+  fullName: Vasont.Publisher.Models.Common.OrganizationModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

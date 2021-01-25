@@ -1,0 +1,760 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  commentId: T:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  id: JobTaskCommand
+  parent: Vasont.Publisher.Models.Pipeline.Schema
+  children:
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AntennaHouse
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ArchiveFiles
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AwsBucket
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AzureBlob
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.CopyFiles
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Curl
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DeleteFiles
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DitaOt
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DocBook
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DropBox
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Email
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.GoogleDrive
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.InstallSshKey
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.JavaSaxon
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.MoveFiles
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.OneDrive
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Python
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Sftp
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Ssh
+  - Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.XltProc
+  langs:
+  - csharp
+  - vb
+  name: JobTaskCommand
+  nameWithType: JobTaskCommand
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  type: Enum
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: JobTaskCommand
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nContains an enumerated list of available commands to execute within the job task.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum JobTaskCommand
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum JobTaskCommand
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Python
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Python
+  id: Python
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: Python
+  nameWithType: JobTaskCommand.Python
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Python
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Python
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA Python script is to be executed.\n"
+  example: []
+  syntax:
+    content: Python = 0
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.JavaSaxon
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.JavaSaxon
+  id: JavaSaxon
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: JavaSaxon
+  nameWithType: JobTaskCommand.JavaSaxon
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.JavaSaxon
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: JavaSaxon
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA Java Saxon script is to be executed.\n"
+  example: []
+  syntax:
+    content: JavaSaxon = 1
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.XltProc
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.XltProc
+  id: XltProc
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: XltProc
+  nameWithType: JobTaskCommand.XltProc
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.XltProc
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: XltProc
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA XLTPROC script is to be executed.\n"
+  example: []
+  syntax:
+    content: XltProc = 2
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DitaOt
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DitaOt
+  id: DitaOt
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: DitaOt
+  nameWithType: JobTaskCommand.DitaOt
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DitaOt
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DitaOt
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 59
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA DITA-OT script is to be executed.\n"
+  example: []
+  syntax:
+    content: DitaOt = 3
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AntennaHouse
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AntennaHouse
+  id: AntennaHouse
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: AntennaHouse
+  nameWithType: JobTaskCommand.AntennaHouse
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AntennaHouse
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: AntennaHouse
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 64
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA Antenna House script is to be executed.\n"
+  example: []
+  syntax:
+    content: AntennaHouse = 4
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DocBook
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DocBook
+  id: DocBook
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: DocBook
+  nameWithType: JobTaskCommand.DocBook
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DocBook
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DocBook
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 69
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA DocBook script is to be executed.\n"
+  example: []
+  syntax:
+    content: DocBook = 5
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ArchiveFiles
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ArchiveFiles
+  id: ArchiveFiles
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: ArchiveFiles
+  nameWithType: JobTaskCommand.ArchiveFiles
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ArchiveFiles
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: ArchiveFiles
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nAn Archive files command is to be executed.\n"
+  example: []
+  syntax:
+    content: ArchiveFiles = 6
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.CopyFiles
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.CopyFiles
+  id: CopyFiles
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: CopyFiles
+  nameWithType: JobTaskCommand.CopyFiles
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.CopyFiles
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: CopyFiles
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 79
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA copy files command is to be executed.\n"
+  example: []
+  syntax:
+    content: CopyFiles = 7
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.MoveFiles
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.MoveFiles
+  id: MoveFiles
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: MoveFiles
+  nameWithType: JobTaskCommand.MoveFiles
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.MoveFiles
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: MoveFiles
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 84
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA move files command is to be executed.\n"
+  example: []
+  syntax:
+    content: MoveFiles = 8
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DeleteFiles
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DeleteFiles
+  id: DeleteFiles
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: DeleteFiles
+  nameWithType: JobTaskCommand.DeleteFiles
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DeleteFiles
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DeleteFiles
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 89
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA delete files command is to be executed.\n"
+  example: []
+  syntax:
+    content: DeleteFiles = 9
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Curl
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Curl
+  id: Curl
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: Curl
+  nameWithType: JobTaskCommand.Curl
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Curl
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Curl
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 94
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA cURL command is to be executed.\n"
+  example: []
+  syntax:
+    content: Curl = 10
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.InstallSshKey
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.InstallSshKey
+  id: InstallSshKey
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: InstallSshKey
+  nameWithType: JobTaskCommand.InstallSshKey
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.InstallSshKey
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: InstallSshKey
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 99
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nAn install of an SSH key is to be executed.\n"
+  example: []
+  syntax:
+    content: InstallSshKey = 11
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Ssh
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Ssh
+  id: Ssh
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: Ssh
+  nameWithType: JobTaskCommand.Ssh
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Ssh
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Ssh
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 104
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nAn SSH command is to be executed.\n"
+  example: []
+  syntax:
+    content: Ssh = 12
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Sftp
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Sftp
+  id: Sftp
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: Sftp
+  nameWithType: JobTaskCommand.Sftp
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Sftp
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Sftp
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 109
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nAn SFTP command is to be executed.\n"
+  example: []
+  syntax:
+    content: Sftp = 13
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DropBox
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DropBox
+  id: DropBox
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: DropBox
+  nameWithType: JobTaskCommand.DropBox
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DropBox
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DropBox
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 114
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA DropBox command is to be executed.\n"
+  example: []
+  syntax:
+    content: DropBox = 14
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.GoogleDrive
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.GoogleDrive
+  id: GoogleDrive
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: GoogleDrive
+  nameWithType: JobTaskCommand.GoogleDrive
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.GoogleDrive
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: GoogleDrive
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 119
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA Google Drive command is to be executed.\n"
+  example: []
+  syntax:
+    content: GoogleDrive = 15
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.OneDrive
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.OneDrive
+  id: OneDrive
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: OneDrive
+  nameWithType: JobTaskCommand.OneDrive
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.OneDrive
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: OneDrive
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 124
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA Microsoft OneDrive command is to be executed.\n"
+  example: []
+  syntax:
+    content: OneDrive = 16
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AzureBlob
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AzureBlob
+  id: AzureBlob
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: AzureBlob
+  nameWithType: JobTaskCommand.AzureBlob
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AzureBlob
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: AzureBlob
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 129
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nA Microsoft Azure Blob command is to be executed.\n"
+  example: []
+  syntax:
+    content: AzureBlob = 17
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AwsBucket
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AwsBucket
+  id: AwsBucket
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: AwsBucket
+  nameWithType: JobTaskCommand.AwsBucket
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AwsBucket
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: AwsBucket
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 134
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nAn AWS Bucket command is to be executed.\n"
+  example: []
+  syntax:
+    content: AwsBucket = 18
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Email
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Email
+  id: Email
+  parent: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: JobTaskCommand.Email
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Email
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/JobTask.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Email
+    path: Pipeline/Schema/JobTask.cs
+    startLine: 139
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nAn e-mail delivery is to be executed.\n"
+  example: []
+  syntax:
+    content: Email = 19
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Publisher.Models.Pipeline.Schema
+  commentId: N:Vasont.Publisher.Models.Pipeline.Schema
+  name: Vasont.Publisher.Models.Pipeline.Schema
+  nameWithType: Vasont.Publisher.Models.Pipeline.Schema
+  fullName: Vasont.Publisher.Models.Pipeline.Schema
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  commentId: T:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand
+  parent: Vasont.Publisher.Models.Pipeline.Schema
+  name: JobTaskCommand
+  nameWithType: JobTaskCommand
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand

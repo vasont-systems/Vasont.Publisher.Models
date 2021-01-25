@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="Operands.cs" company="GlobalLink Vasont">
+// <copyright file="PipelineDemandOperand.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -10,7 +10,7 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
     using Newtonsoft.Json.Converters;
 
     /// <summary>
-    /// An enumerated list of available operands used in pipline execution demand configurations.
+    /// An enumerated list of available operands used in pipeline execution demand configurations.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
     public enum PipelineDemandOperand

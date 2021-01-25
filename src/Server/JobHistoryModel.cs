@@ -49,10 +49,11 @@ namespace Vasont.Publisher.Models.Server
         public string RequestType { get; set; }
 
         /// <summary>
-        /// Gets or sets the requested Dita-ot toolkit version.
+        /// Gets or sets the requested task tooling version if any.
         /// </summary>
+        /// <remarks>For example, if the task tool was DITA-OT, the version of the DITA-OT tool would be displayed here.</remarks>
         [StringLength(10)]
-        public string ToolkitVersion { get; set; }
+        public string Version { get; set; }
 
         /// <summary>
         /// Gets or sets the request date of a job.

@@ -44,7 +44,7 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         public int Version { get; set; }
 
         /// <summary>
-        /// Contains the revision action that occurred.
+        /// Gets or sets the revision action that occurred.
         /// </summary>
         public RevisionActions Change { get; set; }
 

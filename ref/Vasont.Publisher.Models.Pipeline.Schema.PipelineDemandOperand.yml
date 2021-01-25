@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  commentId: T:Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  id: PipelineDemandOperand
+  parent: Vasont.Publisher.Models.Pipeline.Schema
+  children:
+  - Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.Equals
+  - Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.Exists
+  - Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.NotEquals
+  langs:
+  - csharp
+  - vb
+  name: PipelineDemandOperand
+  nameWithType: PipelineDemandOperand
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  type: Enum
+  source:
+    remote:
+      path: src/Pipeline/Schema/PipelineDemandOperand.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: PipelineDemandOperand
+    path: Pipeline/Schema/PipelineDemandOperand.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nAn enumerated list of available operands used in pipeline execution demand configurations.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum PipelineDemandOperand
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum PipelineDemandOperand
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.Exists
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.Exists
+  id: Exists
+  parent: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  langs:
+  - csharp
+  - vb
+  name: Exists
+  nameWithType: PipelineDemandOperand.Exists
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.Exists
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/PipelineDemandOperand.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Exists
+    path: Pipeline/Schema/PipelineDemandOperand.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe demand value determines if the pipeline runner environment contains the demand name in the docker image.\n"
+  remarks: Allowed values are only true or false.
+  example: []
+  syntax:
+    content: Exists = 0
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.Equals
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.Equals
+  id: Equals
+  parent: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  langs:
+  - csharp
+  - vb
+  name: Equals
+  nameWithType: PipelineDemandOperand.Equals
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.Equals
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/PipelineDemandOperand.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Equals
+    path: Pipeline/Schema/PipelineDemandOperand.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe demand value must match exactly.\n"
+  example: []
+  syntax:
+    content: Equals = 1
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.NotEquals
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.NotEquals
+  id: NotEquals
+  parent: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  langs:
+  - csharp
+  - vb
+  name: NotEquals
+  nameWithType: PipelineDemandOperand.NotEquals
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.NotEquals
+  type: Field
+  source:
+    remote:
+      path: src/Pipeline/Schema/PipelineDemandOperand.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: NotEquals
+    path: Pipeline/Schema/PipelineDemandOperand.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Pipeline.Schema
+  summary: "\nThe demand value must not match exactly.\n"
+  example: []
+  syntax:
+    content: NotEquals = 2
+    return:
+      type: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Publisher.Models.Pipeline.Schema
+  commentId: N:Vasont.Publisher.Models.Pipeline.Schema
+  name: Vasont.Publisher.Models.Pipeline.Schema
+  nameWithType: Vasont.Publisher.Models.Pipeline.Schema
+  fullName: Vasont.Publisher.Models.Pipeline.Schema
+- uid: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  commentId: T:Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand
+  parent: Vasont.Publisher.Models.Pipeline.Schema
+  name: PipelineDemandOperand
+  nameWithType: PipelineDemandOperand
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand

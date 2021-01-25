@@ -1,0 +1,195 @@
+﻿//-----------------------------------------------------------------------
+// <copyright file="JobTask.cs" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+namespace Vasont.Publisher.Models.Pipeline.Schema
+{
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+
+    /// <summary>
+    /// Contains an enumerated list of job task types.
+    /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum JobTaskType
+    {
+        /// <summary>
+        /// Step is used for input compilation.
+        /// </summary>
+        Build,
+
+        /// <summary>
+        /// Step is used for input utility based changes.
+        /// </summary>
+        Utility,
+
+        /// <summary>
+        /// Step is used for output publishing.
+        /// </summary>
+        Publish
+    }
+
+    /// <summary>
+    /// Contains an enumerated list of available commands to execute within the job task.
+    /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum JobTaskCommand
+    {
+        /// <summary>
+        /// A Python script is to be executed.
+        /// </summary>
+        Python,
+
+        /// <summary>
+        /// A Java Saxon script is to be executed.
+        /// </summary>
+        JavaSaxon,
+
+        /// <summary>
+        /// A XLTPROC script is to be executed.
+        /// </summary>
+        XltProc,
+
+        /// <summary>
+        /// A DITA-OT script is to be executed.
+        /// </summary>
+        DitaOt,
+
+        /// <summary>
+        /// A Antenna House script is to be executed.
+        /// </summary>
+        AntennaHouse,
+
+        /// <summary>
+        /// A DocBook script is to be executed.
+        /// </summary>
+        DocBook,
+
+        /// <summary>
+        /// An Archive files command is to be executed.
+        /// </summary>
+        ArchiveFiles,
+
+        /// <summary>
+        /// A copy files command is to be executed.
+        /// </summary>
+        CopyFiles,
+
+        /// <summary>
+        /// A move files command is to be executed.
+        /// </summary>
+        MoveFiles,
+
+        /// <summary>
+        /// A delete files command is to be executed.
+        /// </summary>
+        DeleteFiles,
+
+        /// <summary>
+        /// A cURL command is to be executed.
+        /// </summary>
+        Curl,
+
+        /// <summary>
+        /// An install of an SSH key is to be executed.
+        /// </summary>
+        InstallSshKey,
+
+        /// <summary>
+        /// An SSH command is to be executed.
+        /// </summary>
+        Ssh,
+
+        /// <summary>
+        /// An SFTP command is to be executed.
+        /// </summary>
+        Sftp,
+
+        /// <summary>
+        /// A DropBox command is to be executed.
+        /// </summary>
+        DropBox,
+
+        /// <summary>
+        /// A Google Drive command is to be executed.
+        /// </summary>
+        GoogleDrive,
+
+        /// <summary>
+        /// A Microsoft OneDrive command is to be executed.
+        /// </summary>
+        OneDrive,
+
+        /// <summary>
+        /// A Microsoft Azure Blob command is to be executed.
+        /// </summary>
+        AzureBlob,
+
+        /// <summary>
+        /// An AWS Bucket command is to be executed.
+        /// </summary>
+        AwsBucket,
+
+        /// <summary>
+        /// An e-mail delivery is to be executed.
+        /// </summary>
+        Email
+    }
+
+    /// <summary>
+    /// Gets or sets the job task configuration for a pipeline job execution.
+    /// </summary>
+    public class JobTask
+    {
+        /// <summary>
+        /// Gets or sets the job step identifier.
+        /// </summary>
+        /// <value>The job step identifier.</value>
+        public Guid JobStepId { get; set; } = Guid.NewGuid();
+
+        /// <summary>
+        /// Gets or sets the job task internal name.
+        /// </summary>
+        [Required]
+        [MaxLength(100)]
+        public string Name { get; set; } = SchemaDefaults.DefaultJobStepName;
+
+        /// <summary>
+        /// Gets or sets the job task description.
+        /// </summary>
+        [MaxLength(1000)]
+        public string Description { get; set; }
+
+        /// <summary>
+        /// Gets or sets the version.
+        /// </summary>
+        /// <value>The version.</value>
+        [Required]
+        public string Version { get; set; } = SchemaDefaults.DefaultTaskVersion;
+
+        /// <summary>
+        /// Gets or sets the job task plugin command to execute within the job.
+        /// </summary>
+        [Required]
+        public JobTaskCommand Command { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the step is enabled.
+        /// </summary>
+        public bool Enabled { get; set; } = true;
+
+        /// <summary>
+        /// Gets or sets the job task output variables used within the overall job execution.
+        /// </summary>
+        public List<JobStepOutputVariable> OutputVariables { get; set; } = new List<JobStepOutputVariable>();
+
+        /// <summary>
+        /// Gets or sets the custom configuration parameters for the selected step plugin.
+        /// </summary>
+        public Dictionary<string, string> Configuration { get; set; } = new Dictionary<string, string>();
+    }
+}

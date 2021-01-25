@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Publisher.Models.Common.PublishServerUserType
+  commentId: T:Vasont.Publisher.Models.Common.PublishServerUserType
+  id: PublishServerUserType
+  parent: Vasont.Publisher.Models.Common
+  children:
+  - Vasont.Publisher.Models.Common.PublishServerUserType.Administrator
+  - Vasont.Publisher.Models.Common.PublishServerUserType.Standard
+  - Vasont.Publisher.Models.Common.PublishServerUserType.Support
+  langs:
+  - csharp
+  - vb
+  name: PublishServerUserType
+  nameWithType: PublishServerUserType
+  fullName: Vasont.Publisher.Models.Common.PublishServerUserType
+  type: Enum
+  source:
+    remote:
+      path: src/Common/UserModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: PublishServerUserType
+    path: Common/UserModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Common
+  summary: "\nContains an enumerated list of user types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum PublishServerUserType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum PublishServerUserType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Publisher.Models.Common.PublishServerUserType.Standard
+  commentId: F:Vasont.Publisher.Models.Common.PublishServerUserType.Standard
+  id: Standard
+  parent: Vasont.Publisher.Models.Common.PublishServerUserType
+  langs:
+  - csharp
+  - vb
+  name: Standard
+  nameWithType: PublishServerUserType.Standard
+  fullName: Vasont.Publisher.Models.Common.PublishServerUserType.Standard
+  type: Field
+  source:
+    remote:
+      path: src/Common/UserModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Standard
+    path: Common/UserModel.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Common
+  summary: "\nA standard user\n"
+  example: []
+  syntax:
+    content: Standard = 0
+    return:
+      type: Vasont.Publisher.Models.Common.PublishServerUserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Common.PublishServerUserType.Support
+  commentId: F:Vasont.Publisher.Models.Common.PublishServerUserType.Support
+  id: Support
+  parent: Vasont.Publisher.Models.Common.PublishServerUserType
+  langs:
+  - csharp
+  - vb
+  name: Support
+  nameWithType: PublishServerUserType.Support
+  fullName: Vasont.Publisher.Models.Common.PublishServerUserType.Support
+  type: Field
+  source:
+    remote:
+      path: src/Common/UserModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Support
+    path: Common/UserModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Common
+  summary: "\nA GlobalLink Vasont global support technician.\n"
+  example: []
+  syntax:
+    content: Support = 1
+    return:
+      type: Vasont.Publisher.Models.Common.PublishServerUserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Publisher.Models.Common.PublishServerUserType.Administrator
+  commentId: F:Vasont.Publisher.Models.Common.PublishServerUserType.Administrator
+  id: Administrator
+  parent: Vasont.Publisher.Models.Common.PublishServerUserType
+  langs:
+  - csharp
+  - vb
+  name: Administrator
+  nameWithType: PublishServerUserType.Administrator
+  fullName: Vasont.Publisher.Models.Common.PublishServerUserType.Administrator
+  type: Field
+  source:
+    remote:
+      path: src/Common/UserModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Administrator
+    path: Common/UserModel.cs
+    startLine: 31
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Common
+  summary: "\nA GlobalLink Vasont publish server administrator.\n"
+  example: []
+  syntax:
+    content: Administrator = 2
+    return:
+      type: Vasont.Publisher.Models.Common.PublishServerUserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Publisher.Models.Common
+  commentId: N:Vasont.Publisher.Models.Common
+  name: Vasont.Publisher.Models.Common
+  nameWithType: Vasont.Publisher.Models.Common
+  fullName: Vasont.Publisher.Models.Common
+- uid: Vasont.Publisher.Models.Common.PublishServerUserType
+  commentId: T:Vasont.Publisher.Models.Common.PublishServerUserType
+  parent: Vasont.Publisher.Models.Common
+  name: PublishServerUserType
+  nameWithType: PublishServerUserType
+  fullName: Vasont.Publisher.Models.Common.PublishServerUserType

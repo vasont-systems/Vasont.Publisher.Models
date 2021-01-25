@@ -42,7 +42,7 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// Gets or sets the job strategy configuration.
         /// </summary>
         [Required]
-        public JobStrategy Strategy = new JobStrategy();
+        public JobStrategy Strategy { get; set; } = new JobStrategy();
 
         /// <summary>
         /// Gets or sets a value indicating whether the job will continue if one or more tasks return an error result.
@@ -55,11 +55,6 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         public uint TimeoutInMinutes { get; set; } = SchemaDefaults.DefaultJobTimeoutMinutes;
 
         /// <summary>
-        /// Gets or sets the timeout in minutes that the job will wait before cancelling the job.
-        /// </summary>
-        public uint CancelTimeoutInMinutes { get; set; } = SchemaDefaults.DefaultJobCancelTimeoutMinutes;
-
-        /// <summary>
         /// Gets or sets the job pool configuration.
         /// </summary>
         [Required]
@@ -68,14 +63,13 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// <summary>
         /// Gets or sets the job workspace configuration.
         /// </summary>
-        [Required]
-        public JobWorkspaceConfiguration Workspace = new JobWorkspaceConfiguration();
+        public JobWorkspaceConfiguration Workspace { get; set; } = new JobWorkspaceConfiguration();
 
         /// <summary>
-        /// Gets or sets a list of job steps to execute within the configuration.
+        /// Gets or sets a list of job tasks to execute within the configuration.
         /// </summary>
         [Required]
-        public List<JobStep> Steps { get; set; } = new List<JobStep>();
+        public List<JobTask> Tasks { get; set; } = new List<JobTask>();
 
         /// <summary>
         /// Gets or sets a value indicating whether the job is enabled within the configuration.

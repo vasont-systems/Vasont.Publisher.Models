@@ -1,0 +1,1002 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel
+  commentId: T:Vasont.Publisher.Models.Server.JobHistoryModel
+  id: JobHistoryModel
+  parent: Vasont.Publisher.Models.Server
+  children:
+  - Vasont.Publisher.Models.Server.JobHistoryModel.Deliverable
+  - Vasont.Publisher.Models.Server.JobHistoryModel.DomainKey
+  - Vasont.Publisher.Models.Server.JobHistoryModel.JobId
+  - Vasont.Publisher.Models.Server.JobHistoryModel.Organization
+  - Vasont.Publisher.Models.Server.JobHistoryModel.OrganizationId
+  - Vasont.Publisher.Models.Server.JobHistoryModel.Package
+  - Vasont.Publisher.Models.Server.JobHistoryModel.RequestDate
+  - Vasont.Publisher.Models.Server.JobHistoryModel.RequestName
+  - Vasont.Publisher.Models.Server.JobHistoryModel.RequestType
+  - Vasont.Publisher.Models.Server.JobHistoryModel.User
+  - Vasont.Publisher.Models.Server.JobHistoryModel.UserId
+  - Vasont.Publisher.Models.Server.JobHistoryModel.Version
+  langs:
+  - csharp
+  - vb
+  name: JobHistoryModel
+  nameWithType: JobHistoryModel
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel
+  type: Class
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: JobHistoryModel
+    path: Server/JobHistoryModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nContains a model of a job history record.\n"
+  example: []
+  syntax:
+    content: public class JobHistoryModel
+    content.vb: Public Class JobHistoryModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.JobId
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.JobId
+  id: JobId
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: JobId
+  nameWithType: JobHistoryModel.JobId
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.JobId
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: JobId
+    path: Server/JobHistoryModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the unique identity of the job history.\n"
+  example: []
+  syntax:
+    content: public Guid JobId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property JobId As Guid
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.JobId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.DomainKey
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.DomainKey
+  id: DomainKey
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: DomainKey
+  nameWithType: JobHistoryModel.DomainKey
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.DomainKey
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: DomainKey
+    path: Server/JobHistoryModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the unique domain key used for subscription lookup.\n"
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [MaxLength(100)]
+
+      public string DomainKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      <MaxLength(100)>
+
+      Public Property DomainKey As String
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.DomainKey*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.MaxLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.MaxLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 100
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.OrganizationId
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.OrganizationId
+  id: OrganizationId
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: OrganizationId
+  nameWithType: JobHistoryModel.OrganizationId
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.OrganizationId
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: OrganizationId
+    path: Server/JobHistoryModel.cs
+    startLine: 31
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the organization identity.\n"
+  example: []
+  syntax:
+    content: public Guid OrganizationId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property OrganizationId As Guid
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.OrganizationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.UserId
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.UserId
+  id: UserId
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: JobHistoryModel.UserId
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.UserId
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: UserId
+    path: Server/JobHistoryModel.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the user identifier.\n"
+  example: []
+  syntax:
+    content: public Guid UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property UserId As Guid
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.RequestName
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.RequestName
+  id: RequestName
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: RequestName
+  nameWithType: JobHistoryModel.RequestName
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.RequestName
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: RequestName
+    path: Server/JobHistoryModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the name of the requested Publish Configuration.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(50)]
+
+      public string RequestName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(50)>
+
+      Public Property RequestName As String
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.RequestName*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 50
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.RequestType
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.RequestType
+  id: RequestType
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: RequestType
+  nameWithType: JobHistoryModel.RequestType
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.RequestType
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: RequestType
+    path: Server/JobHistoryModel.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the type of the requested job.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(50)]
+
+      public string RequestType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(50)>
+
+      Public Property RequestType As String
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.RequestType*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 50
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.Version
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.Version
+  id: Version
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: JobHistoryModel.Version
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.Version
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Version
+    path: Server/JobHistoryModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the requested task tooling version if any.\n"
+  remarks: For example, if the task tool was DITA-OT, the version of the DITA-OT tool would be displayed here.
+  example: []
+  syntax:
+    content: >-
+      [StringLength(10)]
+
+      public string Version { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(10)>
+
+      Public Property Version As String
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.Version*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 10
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.RequestDate
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.RequestDate
+  id: RequestDate
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: RequestDate
+  nameWithType: JobHistoryModel.RequestDate
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.RequestDate
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: RequestDate
+    path: Server/JobHistoryModel.cs
+    startLine: 60
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the request date of a job.\n"
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      public DateTime RequestDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <Required>
+
+      Public Property RequestDate As Date
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.RequestDate*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.Package
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.Package
+  id: Package
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: Package
+  nameWithType: JobHistoryModel.Package
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.Package
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Package
+    path: Server/JobHistoryModel.cs
+    startLine: 66
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the name of the package to be processed.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(255)]
+
+      [Required]
+
+      public string Package { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(255)>
+
+      <Required>
+
+      Public Property Package As String
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.Package*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 255
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.Deliverable
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.Deliverable
+  id: Deliverable
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: Deliverable
+  nameWithType: JobHistoryModel.Deliverable
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.Deliverable
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Deliverable
+    path: Server/JobHistoryModel.cs
+    startLine: 73
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the name of the deliverable file.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(255)]
+
+      [Required]
+
+      public string Deliverable { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(255)>
+
+      <Required>
+
+      Public Property Deliverable As String
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.Deliverable*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 255
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.User
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.User
+  id: User
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: JobHistoryModel.User
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.User
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: User
+    path: Server/JobHistoryModel.cs
+    startLine: 80
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the user navigation property.\n"
+  example: []
+  syntax:
+    content: public UserModel User { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Publisher.Models.Common.UserModel
+    content.vb: Public Property User As UserModel
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.User*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.Organization
+  commentId: P:Vasont.Publisher.Models.Server.JobHistoryModel.Organization
+  id: Organization
+  parent: Vasont.Publisher.Models.Server.JobHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: Organization
+  nameWithType: JobHistoryModel.Organization
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.Organization
+  type: Property
+  source:
+    remote:
+      path: src/Server/JobHistoryModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+    id: Organization
+    path: Server/JobHistoryModel.cs
+    startLine: 85
+  assemblies:
+  - Vasont.Publisher.Models
+  namespace: Vasont.Publisher.Models.Server
+  summary: "\nGets or sets the organization navigation property.\n"
+  example: []
+  syntax:
+    content: public OrganizationModel Organization { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Publisher.Models.Common.OrganizationModel
+    content.vb: Public Property Organization As OrganizationModel
+  overload: Vasont.Publisher.Models.Server.JobHistoryModel.Organization*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Publisher.Models.Server
+  commentId: N:Vasont.Publisher.Models.Server
+  name: Vasont.Publisher.Models.Server
+  nameWithType: Vasont.Publisher.Models.Server
+  fullName: Vasont.Publisher.Models.Server
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.JobId*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.JobId
+  name: JobId
+  nameWithType: JobHistoryModel.JobId
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.JobId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.DomainKey*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.DomainKey
+  name: DomainKey
+  nameWithType: JobHistoryModel.DomainKey
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.DomainKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.OrganizationId*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.OrganizationId
+  name: OrganizationId
+  nameWithType: JobHistoryModel.OrganizationId
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.OrganizationId
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.UserId*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.UserId
+  name: UserId
+  nameWithType: JobHistoryModel.UserId
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.UserId
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.RequestName*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.RequestName
+  name: RequestName
+  nameWithType: JobHistoryModel.RequestName
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.RequestName
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.RequestType*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.RequestType
+  name: RequestType
+  nameWithType: JobHistoryModel.RequestType
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.RequestType
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.Version*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.Version
+  name: Version
+  nameWithType: JobHistoryModel.Version
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.Version
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.RequestDate*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.RequestDate
+  name: RequestDate
+  nameWithType: JobHistoryModel.RequestDate
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.RequestDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.Package*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.Package
+  name: Package
+  nameWithType: JobHistoryModel.Package
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.Package
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.Deliverable*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.Deliverable
+  name: Deliverable
+  nameWithType: JobHistoryModel.Deliverable
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.Deliverable
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.User*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.User
+  name: User
+  nameWithType: JobHistoryModel.User
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.User
+- uid: Vasont.Publisher.Models.Common.UserModel
+  commentId: T:Vasont.Publisher.Models.Common.UserModel
+  parent: Vasont.Publisher.Models.Common
+  name: UserModel
+  nameWithType: UserModel
+  fullName: Vasont.Publisher.Models.Common.UserModel
+- uid: Vasont.Publisher.Models.Common
+  commentId: N:Vasont.Publisher.Models.Common
+  name: Vasont.Publisher.Models.Common
+  nameWithType: Vasont.Publisher.Models.Common
+  fullName: Vasont.Publisher.Models.Common
+- uid: Vasont.Publisher.Models.Server.JobHistoryModel.Organization*
+  commentId: Overload:Vasont.Publisher.Models.Server.JobHistoryModel.Organization
+  name: Organization
+  nameWithType: JobHistoryModel.Organization
+  fullName: Vasont.Publisher.Models.Server.JobHistoryModel.Organization
+- uid: Vasont.Publisher.Models.Common.OrganizationModel
+  commentId: T:Vasont.Publisher.Models.Common.OrganizationModel
+  parent: Vasont.Publisher.Models.Common
+  name: OrganizationModel
+  nameWithType: OrganizationModel
+  fullName: Vasont.Publisher.Models.Common.OrganizationModel

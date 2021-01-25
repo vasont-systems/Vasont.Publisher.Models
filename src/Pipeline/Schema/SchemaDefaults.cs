@@ -1,4 +1,9 @@
-﻿namespace Vasont.Publisher.Models.Pipeline.Schema
+﻿//-----------------------------------------------------------------------
+// <copyright file="SchemaDefaults.cs" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+namespace Vasont.Publisher.Models.Pipeline.Schema
 {
     /// <summary>
     /// Contains a collection of default values for the schema definition classes.
@@ -11,9 +16,9 @@
         public const int DefaultJobTimeoutMinutes = 10;
 
         /// <summary>
-        /// The default job cancel timeout minutes
+        /// The default agent cancel timeout minutes
         /// </summary>
-        public const int DefaultJobCancelTimeoutMinutes = 15;
+        public const int DefaultAgentCancelTimeoutMinutes = 60;
 
         /// <summary>
         /// The default maximum parallel threads a job can execute.
@@ -44,5 +49,10 @@
         /// The default trigger schedule time zone
         /// </summary>
         public const string DefaultTriggerScheduleTimeZone = "0";
+
+        /// <summary>
+        /// The default task version
+        /// </summary>
+        public const string DefaultTaskVersion = "0.*";
     }
 }

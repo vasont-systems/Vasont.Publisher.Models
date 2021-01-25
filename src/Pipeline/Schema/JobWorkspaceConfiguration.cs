@@ -38,6 +38,6 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// <summary>
         /// Gets or sets the workspace configuration for the job execution.
         /// </summary>
-        public WorkspaceActionCleanup Clean { get; set; } = WorkspaceActionCleanup.All;
+        public WorkspaceActionCleanup Clean { get; set; } = WorkspaceActionCleanup.None;
     }
 }

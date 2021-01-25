@@ -27,7 +27,7 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         public List<Guid> Completions { get; set; } = new List<Guid>();
 
         /// <summary>
-        /// The trigger job will execute only if the content has changed from the source.
+        /// Gets or sets a value indicating whether the trigger job will execute only if the content has changed from the source.
         /// </summary>
         public bool ContinueJobOnlyOnDiff { get; set; } = true;
     }

@@ -57,6 +57,11 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         public List<Demand> Demands { get; set; } = new List<Demand>();
 
         /// <summary>
+        /// Gets or sets the timeout in minutes that the agent run will wait before cancelling the job.
+        /// </summary>
+        public uint CancelTimeoutInMinutes { get; set; } = SchemaDefaults.DefaultAgentCancelTimeoutMinutes;
+
+        /// <summary>
         /// Gets or sets the pipeline content source configuration. This is where the configuration source content will be received.
         /// </summary>
         [Required]

@@ -38,6 +38,18 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "../index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "pUzlPI342nju0oVDbjnu7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "../ref/Vasont.Publisher.Models.Common.OrganizationModel.yml",
       "output": {
@@ -424,7 +436,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 1,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Pipeline.Schema
 {
+    using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
@@ -14,18 +15,17 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
     public class Job
     {
         /// <summary>
+        /// Gets or sets the unique job identifier.
+        /// </summary>
+        /// <value>The job identifier.</value>
+        public Guid JobId { get; set; } = Guid.NewGuid();
+
+        /// <summary>
         /// Gets or sets the job name.
         /// </summary>
         [Required]
         [MaxLength(100)]
-        public string Name { get; set; }
-
-        /// <summary>
-        /// Gets or sets the display name.
-        /// </summary>
-        [Required]
-        [MaxLength(100)]
-        public string DisplayName { get; set; }
+        public string Name { get; set; } = SchemaDefaults.DefaultJobName;
 
         /// <summary>
         /// Gets or sets the description.
@@ -39,14 +39,9 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         public List<string> Dependencies { get; set; } = new List<string>();
 
         /// <summary>
-        /// Gets or sets a condition to be met in order for the job to execute.
-        /// </summary>
-        [MaxLength(100)]
-        public string Condition { get; set; }
-
-        /// <summary>
         /// Gets or sets the job strategy configuration.
         /// </summary>
+        [Required]
         public JobStrategy Strategy = new JobStrategy();
 
         /// <summary>
@@ -57,26 +52,29 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// <summary>
         /// Gets or sets the timeout in minutes that the job will wait before the task runner stops the job for failing to complete.
         /// </summary>
-        public uint TimeoutInMinutes { get; set; } = 10;
+        public uint TimeoutInMinutes { get; set; } = SchemaDefaults.DefaultJobTimeoutMinutes;
 
         /// <summary>
         /// Gets or sets the timeout in minutes that the job will wait before cancelling the job.
         /// </summary>
-        public uint CancelTimeoutInMinutes { get; set; } = 15;
+        public uint CancelTimeoutInMinutes { get; set; } = SchemaDefaults.DefaultJobCancelTimeoutMinutes;
 
         /// <summary>
         /// Gets or sets the job pool configuration.
         /// </summary>
+        [Required]
         public JobPoolConfiguration Pool { get; set; } = new JobPoolConfiguration();
 
         /// <summary>
         /// Gets or sets the job workspace configuration.
         /// </summary>
+        [Required]
         public JobWorkspaceConfiguration Workspace = new JobWorkspaceConfiguration();
 
         /// <summary>
         /// Gets or sets a list of job steps to execute within the configuration.
         /// </summary>
+        [Required]
         public List<JobStep> Steps { get; set; } = new List<JobStep>();
 
         /// <summary>

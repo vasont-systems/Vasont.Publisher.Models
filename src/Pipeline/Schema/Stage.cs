@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Pipeline.Schema
 {
+    using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
@@ -14,18 +15,17 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
     public class Stage
     {
         /// <summary>
+        /// Gets or sets the stage identifier.
+        /// </summary>
+        /// <value>The stage identifier.</value>
+        public Guid StageId { get; set; } = Guid.NewGuid();
+
+        /// <summary>
         /// Gets or sets the name of the stage.
         /// </summary>
         [Required]
         [MaxLength(100)]
-        public string Name { get; set; } = "Stage";
-
-        /// <summary>
-        /// Gets or sets the display name of the stage.
-        /// </summary>
-        [Required]
-        [MaxLength(100)]
-        public string DisplayName { get; set; } = "Default";
+        public string Name { get; set; } = SchemaDefaults.DefaultStageName;
 
         /// <summary>
         /// Gets or sets an optional stage description.
@@ -36,6 +36,7 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// <summary>
         /// Gets or sets a list of jobs to execute within the stage.
         /// </summary>
+        [Required]
         public List<Job> Jobs { get; set; } = new List<Job>();
     }
 }

@@ -3,11 +3,11 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-
 namespace Vasont.Publisher.Models.Pipeline.Schema
 {
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+
     /// <summary>
     /// Contains an enumerated list of job strategy types.
     /// </summary>
@@ -39,6 +39,6 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// Gets or sets the maximum parallel threads to execute within the job.
         /// </summary>
         /// <remarks>Setting the value to 0 will not limit the number of parallel threads executing at one time in the job, which is the default.</remarks>
-        public short MaxParallel { get; set; }
+        public short MaxParallel { get; set; } = SchemaDefaults.DefaultMaxParallelThreads;
     }
 }

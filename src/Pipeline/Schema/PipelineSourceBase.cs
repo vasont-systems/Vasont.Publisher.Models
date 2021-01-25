@@ -22,6 +22,11 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         API,
 
         /// <summary>
+        /// Content is derived from the local container storage.
+        /// </summary>
+        Local,
+
+        /// <summary>
         /// Content is derived from a Git repository.
         /// </summary>
         Git,

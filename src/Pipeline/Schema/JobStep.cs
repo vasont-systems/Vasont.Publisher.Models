@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Pipeline.Schema
 {
+    using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using Newtonsoft.Json;
@@ -33,34 +34,18 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
     }
 
     /// <summary>
-    /// Contains an enumerated list of job step plugins used for step execution.
-    /// </summary>
-    public enum JobStepPlugin
-    {
-        /// <summary>
-        /// The job step will execute a command line call.
-        /// </summary>
-        Command
-    }
-
-    /// <summary>
     /// Gets or sets the job step configuration for a pipeline job execution.
     /// </summary>
     public class JobStep
     {
+        public Guid JobStepId { get; set; } = Guid.NewGuid();
+
         /// <summary>
         /// Gets or sets the job step internal name.
         /// </summary>
         [Required]
         [MaxLength(100)]
-        public string Name { get; set; }
-
-        /// <summary>
-        /// Gets or sets the job step display name.
-        /// </summary>
-        [Required]
-        [MaxLength(100)]
-        public string DisplayName { get; set; }
+        public string Name { get; set; } = SchemaDefaults.DefaultJobStepName;
 
         /// <summary>
         /// Gets or sets the job step description.
@@ -74,9 +59,9 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         public JobStepType Type { get; set; } = JobStepType.Build;
 
         /// <summary>
-        /// Gets or sets the job step plugin to execute within the job.
+        /// Gets or sets the job step plugin command to execute within the job.
         /// </summary>
-        public JobStepPlugin Plugin { get; set; } = JobStepPlugin.Command;
+        public string Command { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether the step is enabled.

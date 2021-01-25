@@ -23,13 +23,13 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// </summary>
         [Required]
         [MaxLength(5)]
-        public string Time { get; set; } = "00:00";
+        public string Time { get; set; } = SchemaDefaults.DefaultTriggerScheduleTime;
 
         /// <summary>
         /// Gets or sets the IANA time zone for the trigger time setting.
         /// </summary>
         [Required]
         [MaxLength(100)]
-        public string TimeZone { get; set; } = "0";
+        public string TimeZone { get; set; } = SchemaDefaults.DefaultTriggerScheduleTimeZone;
     }
 }

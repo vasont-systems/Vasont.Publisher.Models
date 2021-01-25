@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Pipeline.Schema
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
@@ -21,9 +22,9 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// Gets or sets a list of other publish jobs that will trigger this configuration in a chained execution event.
         /// </summary>
         /// <remarks>
-        /// The system will allow one publisher pipeline job to execute and then execute another pipeline configuration automatically if defined by name.
+        /// The system will allow one publisher pipeline job to execute and then execute another pipeline configuration automatically if defined by ConfigurationId.
         /// </remarks>
-        public List<string> Completions { get; set; } = new List<string>();
+        public List<Guid> Completions { get; set; } = new List<Guid>();
 
         /// <summary>
         /// The trigger job will execute only if the content has changed from the source.

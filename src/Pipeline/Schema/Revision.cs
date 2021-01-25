@@ -32,6 +32,9 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         Archive
     }
 
+    /// <summary>
+    /// This class represents a recent record of change revision made to the configuration.
+    /// </summary>
     public class Revision
     {
         /// <summary>
@@ -43,7 +46,7 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// <summary>
         /// Contains the revision action that occurred.
         /// </summary>
-        public RevisionActions Change { get; set; } = RevisionActions.Create;
+        public RevisionActions Change { get; set; }
 
         /// <summary>
         /// Gets or sets the optional comment for the revision.

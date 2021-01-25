@@ -12,7 +12,11 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
     using Newtonsoft.Json.Schema.Generation;
 
     /// <summary>
-    /// This class defines the publisher pipeline configuration to be executed.
+    /// <para>This class represents the main entry of a Publisher Pipeline Configuration within the GlobalLink Publisher application.</para>
+    /// <para>It is an object representation of a configuration script to be executed by the Publisher Agent.</para>
+    /// <para>
+    /// It consists of a basic definition one or more stages, that consist of one or more jobs, each containing one or more Job steps to execute by the agent.
+    /// </para>
     /// </summary>
     public class Configuration
     {
@@ -20,7 +24,7 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// Gets or sets the unique configuration identifier.
         /// </summary>
         /// <value>The unique configuration identifier.</value>
-        public Guid ConfigurationId { get; set; }
+        public Guid ConfigurationId { get; set; } = Guid.NewGuid();
 
         /// <summary>
         /// Gets or sets the name/title of the configuration.
@@ -48,32 +52,34 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         public bool StatusBadgesEnabled { get; set; }
 
         /// <summary>
-        /// Gets or sets a list of demands for the configuration.
+        /// Gets or sets a list of demands necessary for the configuration to execute.
         /// </summary>
         public List<Demand> Demands { get; set; } = new List<Demand>();
 
         /// <summary>
-        /// Gets or sets the pipeline content source model.
+        /// Gets or sets the pipeline content source configuration. This is where the configuration source content will be received.
         /// </summary>
+        [Required]
         public PipelineSourceBase Source { get; set; } = new PipelineSourceBase();
 
         /// <summary>
-        /// Gets or sets a list of pipeline configuration variables.
+        /// Gets or sets a list of optional pipeline configuration variables used within the job steps of the configuration.
         /// </summary>
         public List<PipelineVariable> Variables { get; set; } = new List<PipelineVariable>();
 
         /// <summary>
-        /// Gets or sets a list of stages to execute.
+        /// Gets or sets a list of stages for the agent to process and execute through. Stages are an organizational concept within the configuration.
         /// </summary>
+        [Required]
         public List<Stage> Stages { get; set; } = new List<Stage>();
 
         /// <summary>
-        /// Gets or sets a list of triggers.
+        /// Gets or sets a list of optional trigger configurations that will automate the execution of this configuration.
         /// </summary>
         public List<Trigger> Triggers { get; set; } = new List<Trigger>();
 
         /// <summary>
-        /// Gets or sets a list of revision audit records to this configuration.
+        /// Gets or sets a list of revision audit records noting recent changes to this configuration.
         /// </summary>
         public List<Revision> Revisions { get; set; } = new List<Revision>();
 

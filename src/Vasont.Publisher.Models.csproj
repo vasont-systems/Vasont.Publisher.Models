@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>GlobalLink Vasont</Authors>
+    <Company>GlobalLink Vasont</Company>
+    <Product>GlobalLink Publisher</Product>
+    <Description>This library contains the API endpoint and configuration models necessary to communicate with the GlobalLink Publisher Application API.</Description>
+    <Copyright>Copyright (c) GlobalLink Vasont. All rights reserved.</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/vasont-systems/Vasont.Publisher.Models</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://vasont-systems.github.io/Vasont.Publisher.Models</PackageProjectUrl>
+    <PackageTags>CMS</PackageTags>
+    <PackageReleaseNotes>Updated package information</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

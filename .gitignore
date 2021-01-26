@@ -350,4 +350,5 @@ MigrationBackup/
 .ionide/
 
 #additional files
-log.txt
+/src/log.txt
+/ref

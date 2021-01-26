@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Projects/Vasont/Vasont.Publisher.Models/src",
+  "source_base_path": "D:/Projects/Vasont Systems/GitHub/Vasont.Publisher.Models/src",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "InGTuNCccdd9asjj3l9cUw=="
+          "hash": "xy8ZW5c6y90FIc23xO3Piw=="
         }
       },
       "is_incremental": false,
@@ -43,7 +43,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "O8PXhLnfali0kpL1FRgDJA=="
+          "hash": "/72gersmxw9ZP+54e2lYCQ=="
         }
       },
       "is_incremental": false,
@@ -55,7 +55,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Common.OrganizationModel.html",
-          "hash": "YWZb2JpB/1iQp+b32dgWhw=="
+          "hash": "iN/VxRgXh0zgByGcousNPQ=="
         }
       },
       "is_incremental": false,
@@ -67,7 +67,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Common.PublishServerUserType.html",
-          "hash": "zuBC/SRmxKc54H/Rh1N6xA=="
+          "hash": "J9K0fGhIyEPJITJDQIatIg=="
         }
       },
       "is_incremental": false,
@@ -79,7 +79,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Common.UserModel.html",
-          "hash": "1vvaO3Ih8qlmzA7kjzQ5aA=="
+          "hash": "GHETgmR0zC4u3S1xUa6h/g=="
         }
       },
       "is_incremental": false,
@@ -103,7 +103,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Configuration.html",
-          "hash": "gjuMtxZYhSRz+Ys+SyLgMg=="
+          "hash": "xQnfYGMgIEEZrpdY2g1Hbw=="
         }
       },
       "is_incremental": false,
@@ -115,7 +115,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Demand.html",
-          "hash": "dfl8dGswl8vpMssj3PDoxQ=="
+          "hash": "kz8qeOjdRVZcy5rr8isQTw=="
         }
       },
       "is_incremental": false,
@@ -127,7 +127,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Job.html",
-          "hash": "+1MjMV9lmEAnq4Wtucb4/A=="
+          "hash": "tzjIHHgMyuTWn31SvMKPMA=="
         }
       },
       "is_incremental": false,
@@ -139,7 +139,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobPoolConfiguration.html",
-          "hash": "Zsv5UuNhCeRzhJBLUus+oA=="
+          "hash": "TlK73CKZ/Sj6dAykcmRYnA=="
         }
       },
       "is_incremental": false,
@@ -151,7 +151,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.html",
-          "hash": "va0ZuAYFaDCFwiMPT5350A=="
+          "hash": "6qIkyvtRsTRdy4bFFLkv8Q=="
         }
       },
       "is_incremental": false,
@@ -163,7 +163,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobStrategy.html",
-          "hash": "JYiF129aPMu3hjizFTb93w=="
+          "hash": "NlSH75/o6ULilWfiiM+wWw=="
         }
       },
       "is_incremental": false,
@@ -175,7 +175,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobTask.html",
-          "hash": "zEAZIpJC5iuG7ny+XcWwXQ=="
+          "hash": "mGhiCpgkRblzCiEp2UJAwg=="
         }
       },
       "is_incremental": false,
@@ -187,7 +187,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.html",
-          "hash": "NIJh7zxelc4qMGQDHX9tmg=="
+          "hash": "pL1fSmBAvgseujCNLq2JSw=="
         }
       },
       "is_incremental": false,
@@ -199,7 +199,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobTaskType.html",
-          "hash": "4109S0f764YjXK2rThRoIw=="
+          "hash": "cGiJXgsWouuHlzrsWJtr9w=="
         }
       },
       "is_incremental": false,
@@ -211,7 +211,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.JobWorkspaceConfiguration.html",
-          "hash": "ZS/aYIDxiA/1SBSxqrOhsw=="
+          "hash": "ukqB9NdIzfI2GJFDcvhscQ=="
         }
       },
       "is_incremental": false,
@@ -223,7 +223,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.html",
-          "hash": "J/a//DKe9vjdXBopXDm0XA=="
+          "hash": "6OCCew1gyj28qsdwrjFWaA=="
         }
       },
       "is_incremental": false,
@@ -235,7 +235,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineJobStrategyType.html",
-          "hash": "pVT0zCu7NoIbTlpTT6Jzxw=="
+          "hash": "ktK4eWCoRs6mPG6fZKv6fg=="
         }
       },
       "is_incremental": false,
@@ -247,7 +247,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceBase.html",
-          "hash": "FmrzPZJ4iUux5fSMU4Lu8g=="
+          "hash": "xjYWvZmOs7eXURHvX/0BOg=="
         }
       },
       "is_incremental": false,
@@ -259,7 +259,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.html",
-          "hash": "0IbODKYvX0IV/X8QBmlVeQ=="
+          "hash": "QYYINHwMvHv1eUClI5+iLw=="
         }
       },
       "is_incremental": false,
@@ -271,7 +271,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineVariable.html",
-          "hash": "i267sjAhgZmw61P5BE+VrQ=="
+          "hash": "aMzxmmjZm7SKIW6OfLqwhQ=="
         }
       },
       "is_incremental": false,
@@ -283,7 +283,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType.html",
-          "hash": "PJ0RKz4g5B1qkSGY4W2N3Q=="
+          "hash": "K/SMiHEvv4didb7eNHuJDA=="
         }
       },
       "is_incremental": false,
@@ -295,7 +295,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Revision.html",
-          "hash": "I30D+mkGYxXa7SU1Zzof+A=="
+          "hash": "knUZtEgJGEsOKfss8DzmpQ=="
         }
       },
       "is_incremental": false,
@@ -307,7 +307,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.RevisionActions.html",
-          "hash": "/jN//IS8uRKxvQLhO0KR4A=="
+          "hash": "xid5M/GRIqQ3gFmSJwJZUw=="
         }
       },
       "is_incremental": false,
@@ -319,7 +319,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.html",
-          "hash": "aJUwcxTYssoEBBQMWH1d8g=="
+          "hash": "nw76fE6QkSbGeYf0wYrZrA=="
         }
       },
       "is_incremental": false,
@@ -331,7 +331,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Stage.html",
-          "hash": "Y7v/4s21weIHlw1h0dInvg=="
+          "hash": "pe1ax27ta0PiTiJmFxCeGA=="
         }
       },
       "is_incremental": false,
@@ -343,7 +343,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.Trigger.html",
-          "hash": "av5uXgv0JTye+IuOL7dHyQ=="
+          "hash": "hOn6+OAdNxDRFyFwK7jo8A=="
         }
       },
       "is_incremental": false,
@@ -355,7 +355,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.TriggerSchedule.html",
-          "hash": "/caFdzsQk42wosdSb6kU8Q=="
+          "hash": "IL+TX7TBA2D0gTFY0dBCEg=="
         }
       },
       "is_incremental": false,
@@ -367,7 +367,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.html",
-          "hash": "BysL40zJDK06y90jw54eJw=="
+          "hash": "Z4EHga4q+SfqljQUSfXnpg=="
         }
       },
       "is_incremental": false,
@@ -391,7 +391,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Publisher.Models.Server.JobHistoryModel.html",
-          "hash": "FIcjGxao96rDlWrfwZOgTw=="
+          "hash": "r76yC3gisIboaL1uFEcO4Q=="
         }
       },
       "is_incremental": false,
@@ -438,11 +438,11 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
         "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
@@ -475,8 +475,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

@@ -19,7 +19,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineDemandOperand.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: PipelineDemandOperand
     path: Pipeline/Schema/PipelineDemandOperand.cs
     startLine: 14
@@ -64,7 +64,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineDemandOperand.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Exists
     path: Pipeline/Schema/PipelineDemandOperand.cs
     startLine: 21
@@ -99,7 +99,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineDemandOperand.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Equals
     path: Pipeline/Schema/PipelineDemandOperand.cs
     startLine: 26
@@ -133,7 +133,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineDemandOperand.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: NotEquals
     path: Pipeline/Schema/PipelineDemandOperand.cs
     startLine: 32

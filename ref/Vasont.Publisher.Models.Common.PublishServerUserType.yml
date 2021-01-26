@@ -19,7 +19,7 @@ items:
     remote:
       path: src/Common/UserModel.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: PublishServerUserType
     path: Common/UserModel.cs
     startLine: 15
@@ -64,7 +64,7 @@ items:
     remote:
       path: src/Common/UserModel.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Standard
     path: Common/UserModel.cs
     startLine: 21
@@ -98,7 +98,7 @@ items:
     remote:
       path: src/Common/UserModel.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Support
     path: Common/UserModel.cs
     startLine: 26
@@ -132,7 +132,7 @@ items:
     remote:
       path: src/Common/UserModel.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Administrator
     path: Common/UserModel.cs
     startLine: 31

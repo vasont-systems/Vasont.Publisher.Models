@@ -27,7 +27,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Job
     path: Pipeline/Schema/Job.cs
     startLine: 14
@@ -42,13 +42,13 @@ items:
   inheritance:
   - System.Object
   inheritedMembers:
+  - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -70,7 +70,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: JobId
     path: Pipeline/Schema/Job.cs
     startLine: 20
@@ -108,7 +108,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Name
     path: Pipeline/Schema/Job.cs
     startLine: 25
@@ -164,7 +164,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Description
     path: Pipeline/Schema/Job.cs
     startLine: 32
@@ -213,7 +213,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Dependencies
     path: Pipeline/Schema/Job.cs
     startLine: 38
@@ -250,7 +250,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Strategy
     path: Pipeline/Schema/Job.cs
     startLine: 43
@@ -297,7 +297,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: ContinueOnError
     path: Pipeline/Schema/Job.cs
     startLine: 49
@@ -334,7 +334,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: TimeoutInMinutes
     path: Pipeline/Schema/Job.cs
     startLine: 54
@@ -371,7 +371,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Pool
     path: Pipeline/Schema/Job.cs
     startLine: 59
@@ -418,7 +418,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Workspace
     path: Pipeline/Schema/Job.cs
     startLine: 65
@@ -455,7 +455,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Tasks
     path: Pipeline/Schema/Job.cs
     startLine: 70
@@ -502,7 +502,7 @@ items:
     remote:
       path: src/Pipeline/Schema/Job.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Enabled
     path: Pipeline/Schema/Job.cs
     startLine: 76
@@ -537,6 +537,37 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -615,6 +646,63 @@ references:
     name: Equals
     nameWithType: Object.Equals
     fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
     isExternal: true
   - name: (
     nameWithType: (
@@ -721,94 +809,6 @@ references:
     name: MemberwiseClone
     nameWithType: Object.MemberwiseClone
     fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
   - name: (
     nameWithType: (

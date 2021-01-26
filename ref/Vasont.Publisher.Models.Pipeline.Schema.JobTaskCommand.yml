@@ -36,7 +36,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: JobTaskCommand
     path: Pipeline/Schema/JobTask.cs
     startLine: 38
@@ -81,7 +81,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Python
     path: Pipeline/Schema/JobTask.cs
     startLine: 44
@@ -115,7 +115,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: JavaSaxon
     path: Pipeline/Schema/JobTask.cs
     startLine: 49
@@ -149,7 +149,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: XltProc
     path: Pipeline/Schema/JobTask.cs
     startLine: 54
@@ -183,7 +183,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: DitaOt
     path: Pipeline/Schema/JobTask.cs
     startLine: 59
@@ -217,7 +217,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: AntennaHouse
     path: Pipeline/Schema/JobTask.cs
     startLine: 64
@@ -251,7 +251,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: DocBook
     path: Pipeline/Schema/JobTask.cs
     startLine: 69
@@ -285,7 +285,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: ArchiveFiles
     path: Pipeline/Schema/JobTask.cs
     startLine: 74
@@ -319,7 +319,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: CopyFiles
     path: Pipeline/Schema/JobTask.cs
     startLine: 79
@@ -353,7 +353,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: MoveFiles
     path: Pipeline/Schema/JobTask.cs
     startLine: 84
@@ -387,7 +387,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: DeleteFiles
     path: Pipeline/Schema/JobTask.cs
     startLine: 89
@@ -421,7 +421,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Curl
     path: Pipeline/Schema/JobTask.cs
     startLine: 94
@@ -455,7 +455,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: InstallSshKey
     path: Pipeline/Schema/JobTask.cs
     startLine: 99
@@ -489,7 +489,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Ssh
     path: Pipeline/Schema/JobTask.cs
     startLine: 104
@@ -523,7 +523,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Sftp
     path: Pipeline/Schema/JobTask.cs
     startLine: 109
@@ -557,7 +557,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: DropBox
     path: Pipeline/Schema/JobTask.cs
     startLine: 114
@@ -591,7 +591,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: GoogleDrive
     path: Pipeline/Schema/JobTask.cs
     startLine: 119
@@ -625,7 +625,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: OneDrive
     path: Pipeline/Schema/JobTask.cs
     startLine: 124
@@ -659,7 +659,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: AzureBlob
     path: Pipeline/Schema/JobTask.cs
     startLine: 129
@@ -693,7 +693,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: AwsBucket
     path: Pipeline/Schema/JobTask.cs
     startLine: 134
@@ -727,7 +727,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Email
     path: Pipeline/Schema/JobTask.cs
     startLine: 139

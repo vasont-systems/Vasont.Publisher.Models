@@ -22,7 +22,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineVariable.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: PipelineVariableType
     path: Pipeline/Schema/PipelineVariable.cs
     startLine: 14
@@ -67,7 +67,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineVariable.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: String
     path: Pipeline/Schema/PipelineVariable.cs
     startLine: 20
@@ -101,7 +101,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineVariable.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Guid
     path: Pipeline/Schema/PipelineVariable.cs
     startLine: 25
@@ -135,7 +135,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineVariable.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Integer
     path: Pipeline/Schema/PipelineVariable.cs
     startLine: 30
@@ -169,7 +169,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineVariable.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Boolean
     path: Pipeline/Schema/PipelineVariable.cs
     startLine: 35
@@ -203,7 +203,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineVariable.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Double
     path: Pipeline/Schema/PipelineVariable.cs
     startLine: 40
@@ -237,7 +237,7 @@ items:
     remote:
       path: src/Pipeline/Schema/PipelineVariable.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: DateTime
     path: Pipeline/Schema/PipelineVariable.cs
     startLine: 45

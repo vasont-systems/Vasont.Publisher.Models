@@ -19,7 +19,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: JobTaskType
     path: Pipeline/Schema/JobTask.cs
     startLine: 16
@@ -64,7 +64,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Build
     path: Pipeline/Schema/JobTask.cs
     startLine: 22
@@ -98,7 +98,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Utility
     path: Pipeline/Schema/JobTask.cs
     startLine: 27
@@ -132,7 +132,7 @@ items:
     remote:
       path: src/Pipeline/Schema/JobTask.cs
       branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Publisher.Models.git
+      repo: https://github.com/vasont-systems/Vasont.Publisher.Models.git
     id: Publish
     path: Pipeline/Schema/JobTask.cs
     startLine: 32

@@ -21,7 +21,7 @@ namespace Vasont.Publisher.Models.Notifications
         /// <summary>
         /// Gets or sets the user identity.
         /// </summary>
-        public long UserId { get; set; }
+        public string UserId { get; set; }
 
         /// <summary>
         /// Gets or sets the notification date.

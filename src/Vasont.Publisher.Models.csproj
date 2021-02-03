@@ -13,10 +13,10 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://vasont-systems.github.io/Vasont.Publisher.Models</PackageProjectUrl>
     <PackageTags>CMS</PackageTags>
-    <PackageReleaseNotes>Updated to include notification models.</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed some missing changes related to new Publisher user identity being a string instead of a long.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2021.1.1.1</Version>
+    <Version>2021.1.2.0</Version>
   </PropertyGroup>
   
   <PropertyGroup>

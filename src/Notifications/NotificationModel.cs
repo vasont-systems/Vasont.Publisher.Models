@@ -21,24 +21,9 @@ namespace Vasont.Publisher.Models.Notifications
         Message,
 
         /// <summary>
-        /// A notification about a given folder.
+        /// A notification about a currently executing run.
         /// </summary>
-        Folder,
-
-        /// <summary>
-        /// A notification about a given component.
-        /// </summary>
-        Component,
-
-        /// <summary>
-        /// A notification about a given review.
-        /// </summary>
-        Review,
-
-        /// <summary>
-        /// A notification about a given project.
-        /// </summary>
-        Project
+        Runner
     }
 
     /// <summary>

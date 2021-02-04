@@ -13,16 +13,16 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://vasont-systems.github.io/Vasont.Publisher.Models</PackageProjectUrl>
     <PackageTags>CMS</PackageTags>
-    <PackageReleaseNotes>Fixed some missing changes related to new Publisher user identity being a string instead of a long.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added additional models to support the application interfaces and security.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2021.1.2.0</Version>
+    <Version>2021.1.2.1</Version>
   </PropertyGroup>
   
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>2021.1.2.0</AssemblyVersion>
-    <FileVersion>2021.1.2.0</FileVersion>
+    <AssemblyVersion>2021.1.2.1</AssemblyVersion>
+    <FileVersion>2021.1.2.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

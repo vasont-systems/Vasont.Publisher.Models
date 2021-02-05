@@ -1,8 +1,8 @@
-﻿//-------------------------------------------------------------
+﻿//-----------------------------------------------------------------------
 // <copyright file="CreatedUpdaterModelBase.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
-//-------------------------------------------------------------
+//-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Common
 {
     using System;

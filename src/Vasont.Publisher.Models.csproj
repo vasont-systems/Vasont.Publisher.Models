@@ -13,10 +13,10 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://vasont-systems.github.io/Vasont.Publisher.Models</PackageProjectUrl>
     <PackageTags>CMS</PackageTags>
-    <PackageReleaseNotes>Added additional models to support the application interfaces and security.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added additional filter queries. Added new AllAbilities flag.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2021.1.2.1</Version>
+    <Version>2021.1.2.2</Version>
   </PropertyGroup>
   
   <PropertyGroup>

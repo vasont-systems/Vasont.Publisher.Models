@@ -1,8 +1,8 @@
-﻿//-------------------------------------------------------------
+﻿//-----------------------------------------------------------------------
 // <copyright file="UserRoleAssociationModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
-//-------------------------------------------------------------
+//-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Security
 {
     using System.Collections.Generic;

@@ -1,9 +1,9 @@
-﻿//-------------------------------------------------------------
+﻿//-----------------------------------------------------------------------
 // <copyright file="PaginatedQueryRequestModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
-//-------------------------------------------------------------
-namespace Vasont.Publisher.Models.Common
+//-----------------------------------------------------------------------
+namespace Vasont.Publisher.Models.Queries
 {
     using System;
     using Vasont.Inspire.Core.Extensions;

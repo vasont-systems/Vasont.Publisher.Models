@@ -2,6 +2,7 @@
 // <copyright file="MinimalRoleModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
+//-----------------------------------------------------------------------
 
 //-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Security

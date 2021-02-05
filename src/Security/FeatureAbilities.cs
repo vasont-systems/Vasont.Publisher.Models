@@ -67,5 +67,10 @@ namespace Vasont.Publisher.Models.Security
         /// Feature ability for users to be able to administrate a tenant settings and security configuration.
         /// </summary>
         public const string AdminTenantManage = "admin:tenant:manage";
+
+        /// <summary>
+        /// Feature ability covers all abilities.
+        /// </summary>
+        public const string AllAbilities = "tenant:all";
     }
 }

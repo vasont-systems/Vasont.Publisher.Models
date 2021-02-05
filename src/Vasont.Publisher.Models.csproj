@@ -13,16 +13,16 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://vasont-systems.github.io/Vasont.Publisher.Models</PackageProjectUrl>
     <PackageTags>CMS</PackageTags>
-    <PackageReleaseNotes>Added additional filter queries. Added new AllAbilities flag.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added audit log and pipeline browse entities</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2021.1.2.2</Version>
+    <Version>2021.1.2.3</Version>
   </PropertyGroup>
   
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>2021.1.2.1</AssemblyVersion>
-    <FileVersion>2021.1.2.1</FileVersion>
+    <AssemblyVersion>2021.1.2.3</AssemblyVersion>
+    <FileVersion>2021.1.2.3</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

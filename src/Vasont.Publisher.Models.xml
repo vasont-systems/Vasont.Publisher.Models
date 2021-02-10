@@ -1,0 +1,1921 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vasont.Publisher.Models</name>
+    </assembly>
+    <members>
+        <member name="T:Vasont.Publisher.Models.Common.AuditEvent">
+            <summary>
+            Contains an enumerated list of audit event types.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Common.AuditEvent.Information">
+            <summary>
+            Informational audit event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Common.AuditEvent.Error">
+            <summary>
+            Error audit event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Common.AuditEvent.Security">
+            <summary>
+            Security audit event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Common.AuditEvent.Pipeline">
+            <summary>
+            Pipeline audit event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Common.AuditEvent.Configuration">
+            <summary>
+            Configuration audit event.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.AuditResult">
+            <summary>
+            Contains an enumerated list of security event results.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Common.AuditResult.Success">
+            <summary>
+            Successful event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Common.AuditResult.Fail">
+            <summary>
+            Unsuccessful event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Common.AuditResult.Info">
+            <summary>
+            Informational event.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.AuditLogModel">
+            <summary>
+            This entity class represents a security log event record within the data store.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.AuditLogId">
+            <summary>
+            Gets or sets the unique identity of the security event log record.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.EventDateTime">
+            <summary>
+            Gets or sets the event date time the event occurred.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.UserId">
+            <summary>
+            Gets or sets the optional associated user that generated the event.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.Event">
+            <summary>
+            Gets or sets the event type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.Action">
+            <summary>
+            Gets or sets the event type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.Result">
+            <summary>
+            Gets or sets the event result.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.Message">
+            <summary>
+            Gets or sets an additional event message.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.ClientAddress">
+            <summary>
+            Gets or sets the client's IP address.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.Request">
+            <summary>
+            Gets or sets the request.
+            </summary>
+            <value>The request.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.User">
+            <summary>
+            Gets or sets the user.
+            </summary>
+            <value>The user.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.CreatedUpdaterModelBase">
+            <summary>
+            This class contains basic created and updater properties for model records.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.CreatedUpdaterModelBase.CreatedDate">
+            <summary>
+            Gets or sets the record created date time.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.CreatedUpdaterModelBase.CreatedBy">
+            <summary>
+            Gets or sets the record creator model object.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.CreatedUpdaterModelBase.UpdatedDate">
+            <summary>
+            Gets or sets the record last updated date time.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.CreatedUpdaterModelBase.UpdatedBy">
+            <summary>
+            Gets or sets the record updater model object.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.DeleteResultModelBase">
+            <summary>
+            This abstract class defines common model properties to return during a delete action within the application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.DeleteResultModelBase.Id">
+            <summary>
+            Gets or sets the identity of the record that was deleted.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.DeleteResultModelBase.Successful">
+            <summary>
+            Gets or sets a value indicating whether the value was successful.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.DisplayValuePair`2">
+            <summary>
+            This class represents a base for displaying a name value pair combination.
+            </summary>
+            <typeparam name="TDisplay">Contains the display data type.</typeparam>
+            <typeparam name="TValue">Contains the value data type.</typeparam>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.DisplayValuePair`2.Display">
+            <summary>
+            Gets or sets the pair display value.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.DisplayValuePair`2.Value">
+            <summary>
+            Gets or sets the pair value.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.ErrorModel">
+            <summary>
+            This class represents an error message within the <see cref="T:Vasont.Publisher.Models.Common.ErrorResponseModel" /> class.
+            </summary>
+        </member>
+        <member name="M:Vasont.Publisher.Models.Common.ErrorModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Vasont.Publisher.Models.Common.ErrorModel" /> class.
+            </summary>
+        </member>
+        <member name="M:Vasont.Publisher.Models.Common.ErrorModel.#ctor(System.String,Vasont.Inspire.Core.Errors.ErrorType,System.DateTime,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Vasont.Publisher.Models.Common.ErrorModel" /> class.
+            </summary>
+            <param name="message">Contains the error message text.</param>
+            <param name="type">Contains the error message type.</param>
+            <param name="eventDate">Contains the date time when the error was created.</param>
+            <param name="stackTrace">Contains an error stack trace message.</param>
+            <param name="propertyName">Contains the property name for validation errors.</param>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.ErrorModel.ErrorType">
+            <summary>
+            Gets or sets the error message type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.ErrorModel.Message">
+            <summary>
+            Gets or sets the error message text.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.ErrorModel.PropertyName">
+            <summary>
+            Gets or sets a related property name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.ErrorModel.EventDate">
+            <summary>
+            Gets or sets the date time when the error was generated.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.ErrorModel.StackTrace">
+            <summary>
+            Gets or sets the error stack trace generated if any.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.ErrorResponseModel">
+            <summary>
+            This class is used as the Error Response Model.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.ErrorResponseModel.Messages">
+            <summary>
+            Gets the error messages.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.ErrorResponseModel.FailedIds">
+            <summary>
+            Gets or sets the failed ids.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.ErrorResponseModel.HasUnhandledException">
+            <summary>
+            Gets or sets a value indicating whether this instance has unhandled exception.
+            </summary>
+            <value><c>true</c> if this instance has unhandled exception; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.LanguageModel">
+            <summary>
+            This class represents a supported language definition for the application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.LanguageModel.LanguageCode">
+            <summary>
+            Gets or sets the unique language code.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.LanguageModel.Name">
+            <summary>
+            Gets or sets the language display name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.LanguageModel.IsLocale">
+            <summary>
+            Gets or sets a value indicating whether the language is available as an application locale.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.LanguageModel.HasDictionary">
+            <summary>
+            Gets or sets a value indicating whether the language has a related spelling dictionary.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.LanguageModel.Default">
+            <summary>
+            Gets or sets a value indicating whether the language is a default language for all locales.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.LanguageModel.Active">
+            <summary>
+            Gets or sets a value indicating whether the language code is active.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.LanguageModel.TranslationTarget">
+            <summary>
+            Gets or sets a value indicating whether the language is a valid translation target.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.MicroCreatedUpdaterModelBase">
+            <summary>
+            This class contains basic created and updater properties for model records.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MicroCreatedUpdaterModelBase.CreatedDate">
+            <summary>
+            Gets or sets the record created date time.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MicroCreatedUpdaterModelBase.CreatedBy">
+            <summary>
+            Gets or sets the record creator model object.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MicroCreatedUpdaterModelBase.UpdatedDate">
+            <summary>
+            Gets or sets the record last updated date time.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MicroCreatedUpdaterModelBase.UpdatedBy">
+            <summary>
+            Gets or sets the record updater model object.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.MinimalLanguageModel">
+            <summary>
+            This class represents a minimal representation of a language within the application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MinimalLanguageModel.LanguageCode">
+            <summary>
+            Gets or sets the unique language code.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MinimalLanguageModel.Name">
+            <summary>
+            Gets or sets the language display name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MinimalLanguageModel.IsLocale">
+            <summary>
+            Gets or sets a value indicating whether the language is a UI locale.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Common.TenantDetailModel">
+            <summary>
+            This class represents the basic tenant information needed for the web application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.DomainKey">
+            <summary>
+            Gets or sets the domain key.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.Name">
+            <summary>
+            Gets or sets the tenant name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.SupportInfo">
+            <summary>
+            Gets or sets the support information about the Tenant.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.SupportEmail">
+            <summary>
+            Gets or sets the support contact e-mail address for the Tenant.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.DefaultLanguage">
+            <summary>
+            Gets or sets the default language to use for the tenant application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.SessionTimeout">
+            <summary>
+            Gets or sets the server's session timeout in minutes.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.Copyright">
+            <summary>
+            Gets or sets the copyright of the tenant application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.Version">
+            <summary>
+            Gets or sets the version of the tenant application.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.NotificationType">
+            <summary>
+            Contains an enumerated list of available notification types.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationType.Message">
+            <summary>
+            A notification message alert.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationType.Runner">
+            <summary>
+            A notification about a currently executing run.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.NotificationTarget">
+            <summary>
+            Contains an enumerated list of notification target types.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationTarget.User">
+            <summary>
+            Notify a specific user.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationTarget.Tenant">
+            <summary>
+            Notify all users of a specific tenant.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationTarget.All">
+            <summary>
+            Notify all users. All tenants. Admin only.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.NotificationState">
+            <summary>
+            Contains an enumerated list of notification states.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationState.Unread">
+            <summary>
+            The notification is unread.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationState.Read">
+            <summary>
+            The notification is read.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationState.Archived">
+            <summary>
+            The notification is archived.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.NotificationMessageAlertStatus">
+            <summary>
+            Contains an enumerated list of available notification alert statuses.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationMessageAlertStatus.None">
+            <summary>
+            The specified notification has no alert status.
+            </summary>
+            <remarks>No icon necessary.</remarks>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationMessageAlertStatus.Info">
+            <summary>
+            The specified notification is for information.
+            </summary>
+            <remarks>Can denote with an information icon.</remarks>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationMessageAlertStatus.Warning">
+            <summary>
+            The specified notification is for a warning.
+            </summary>
+            <remarks>Can denote with a yield icon.</remarks>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationMessageAlertStatus.Failure">
+            <summary>
+            The specified notification is for a failure.
+            </summary>
+            <remarks>Can denote with a red/stop icon.</remarks>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Notifications.NotificationMessageAlertStatus.Finished">
+            <summary>
+            The specified notification is for a finished alert.
+            </summary>
+            <remarks>Can denote with a checkered flag or green icon.</remarks>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.NotificationModel`2">
+            <summary>
+            This class represents a notification message to be sent.
+            </summary>
+            <typeparam name="TModel">Contains the model type.</typeparam>
+            <typeparam name="TTargetId">Contains the target identity type.</typeparam>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationModel`2.NotificationId">
+            <summary>
+            Gets or sets a unique message identity.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationModel`2.NotificationDate">
+            <summary>
+            Gets or sets the notification date time in UTC.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationModel`2.Type">
+            <summary>
+            Gets or sets the notification type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationModel`2.State">
+            <summary>
+            Gets or sets the notification state to pass to the system.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationModel`2.Target">
+            <summary>
+            Gets or sets the target type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationModel`2.TenantId">
+            <summary>
+            Gets or sets the tenant identity for the notification message.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationModel`2.TargetId">
+            <summary>
+            Gets or sets the notification target identity.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationModel`2.Alert">
+            <summary>
+            Gets or sets the message alert status type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationModel`2.Model">
+            <summary>
+            Gets or sets the additional notification model to be sent to the client.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.NotificationStoreModel">
+            <summary>
+            This model represents a notification alert that has been stored in the user's store for load on UI/Profile startup.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreModel.NotificationId">
+            <summary>
+            Gets or sets the Notification identity.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreModel.UserId">
+            <summary>
+            Gets or sets the user identity.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreModel.NotificationDate">
+            <summary>
+            Gets or sets the notification date.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreModel.Alert">
+            <summary>
+            Gets or sets the alert state of the notification.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreModel.State">
+            <summary>
+            Gets or sets the notification state.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreModel.Target">
+            <summary>
+            Gets or sets the target type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreModel.Type">
+            <summary>
+            Gets or sets the type of notification.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreModel.Message">
+            <summary>
+            Gets or sets the message model properties.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.NotificationStoreQueryModel">
+            <summary>
+            This class represents a notification store query model used in paging interfaces for notification messages.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreQueryModel.SearchText">
+            <summary>
+            Gets or sets a string used for filtering notification results.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreQueryModel.State">
+            <summary>
+            Gets or sets a list of states to filter by. An empty list will not filter by state.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreQueryModel.Alert">
+            <summary>
+            Gets or sets a list of alerts to filter by. An empty list will not filter by alert.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.NotificationStoreResultModel">
+            <summary>
+            This class represents the results of a notifications store query request.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationStoreResultModel.TotalUnreadCount">
+            <summary>
+            Gets or sets the total number of unread notification messages for the user.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.NotificationUpdateModel">
+            <summary>
+            This model represents the inputs for a notification message update call within the Inspire application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.NotificationUpdateModel.State">
+            <summary>
+            Gets or sets the notification state of the message.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.Types.NotificationMessageModel">
+            <summary>
+            This class represents a message.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.Types.NotificationMessageModel.Subject">
+            <summary>
+            Gets or sets the message subject.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.Types.NotificationMessageModel.Summary">
+            <summary>
+            Gets or sets the summary message to display to the user in notification toasts.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.Types.NotificationMessageModel.HtmlBody">
+            <summary>
+            Gets or sets the message content body in optional HTML format.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Notifications.Types.NotificationModelBase">
+            <summary>
+            This abstract class contains properties that are to be applied to all notification model classes.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.Types.NotificationModelBase.MetadataModel">
+            <summary>
+            Gets or sets the metadata string and deserializes JSON formatted metadata into the Metadata dictionary.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Notifications.Types.NotificationModelBase.Metadata">
+            <summary>
+            Gets or sets an optional set of metadata for the notification message.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.PipelineModel">
+            <summary>
+            This class represents a pipeline configuration model within the application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.PipelineId">
+            <summary>
+            Gets or sets the pipeline identifier.
+            </summary>
+            <value>The pipeline identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.Name">
+            <summary>
+            Gets or sets the name/title of the configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.Description">
+            <summary>
+            Gets or sets the description details of the configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.StatusBadgesEnabled">
+            <summary>
+            Gets or sets a value indicating whether the status badges of the server are enabled for this configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.PipelineSource">
+            <summary>
+            Gets or sets the pipeline source.
+            </summary>
+            <value>The pipeline source.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.Configuration">
+            <summary>
+            Gets or sets the configuration.
+            </summary>
+            <value>The configuration.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.Default">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="!:Role" /> is default.
+            </summary>
+            <value><c>true</c> if default; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.SystemLocked">
+            <summary>
+            Gets or sets a value indicating whether [system locked].
+            </summary>
+            <value><c>true</c> if [system locked]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.CreatedDate">
+            <summary>
+            Gets or sets the created date.
+            </summary>
+            <value>The created date.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.CreatedByUserId">
+            <summary>
+            Gets or sets the created by user identifier.
+            </summary>
+            <value>The created by user identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.UpdatedDate">
+            <summary>
+            Gets or sets the updated date.
+            </summary>
+            <value>The updated date.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.UpdatedByUserId">
+            <summary>
+            Gets or sets the updated by user identifier.
+            </summary>
+            <value>The updated by user identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.UpdatedBy">
+            <summary>
+            Gets or sets the updated by user.
+            </summary>
+            <value>The updated by user.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.CreatedBy">
+            <summary>
+            Gets or sets the created by user.
+            </summary>
+            <value>The created by user.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.Active">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="N:Vasont.Publisher.Models.Pipeline" /> is active.
+            </summary>
+            <value><c>true</c> if active; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.PipelineQueryRequestModel">
+            <summary>
+            This class contains query request parameters for browsing pipeline configurations.
+            </summary>
+            <seealso cref="T:Vasont.Publisher.Models.Pipeline.PipelineQueryRequestModel" />
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineQueryRequestModel.SearchText">
+            <summary>
+            Gets or sets the search text.
+            </summary>
+            <value>The search text.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.Configuration">
+            <summary>
+            <para>This class represents the main entry of a Publisher Pipeline Configuration within the GlobalLink Publisher application.</para>
+            <para>It is an object representation of a configuration script to be executed by the Publisher Agent.</para>
+            <para>
+            It consists of a basic definition one or more stages, that consist of one or more jobs, each containing one or more Job steps to execute by the agent.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.ConfigurationId">
+            <summary>
+            Gets or sets the unique configuration identifier.
+            </summary>
+            <value>The unique configuration identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Name">
+            <summary>
+            Gets or sets the name/title of the configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Description">
+            <summary>
+            Gets or sets the description details of the configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.BuildNumberFormat">
+            <summary>
+            Gets or sets the output build and revision number template string.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.StatusBadgesEnabled">
+            <summary>
+            Gets or sets a value indicating whether the status badges of the server are enabled for this configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Demands">
+            <summary>
+            Gets or sets a list of demands necessary for the configuration to execute.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.CancelTimeoutInMinutes">
+            <summary>
+            Gets or sets the timeout in minutes that the agent run will wait before cancelling the job.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Source">
+            <summary>
+            Gets or sets the pipeline content source configuration. This is where the configuration source content will be received.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Variables">
+            <summary>
+            Gets or sets a list of optional pipeline configuration variables used within the job steps of the configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Stages">
+            <summary>
+            Gets or sets a list of stages for the agent to process and execute through. Stages are an organizational concept within the configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Triggers">
+            <summary>
+            Gets or sets a list of optional trigger configurations that will automate the execution of this configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Revisions">
+            <summary>
+            Gets or sets a list of revision audit records noting recent changes to this configuration.
+            </summary>
+        </member>
+        <member name="M:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Schema">
+            <summary>
+            This method is used to generate the JSON schema object dynamically for the configuration models.
+            </summary>
+            <returns>Returns a new <see cref="T:Newtonsoft.Json.Schema.JSchema" /> object for the Configuration model.</returns>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.Demand">
+            <summary>
+            This class represents a demand to be included in the publisher pipeline configuration.
+            </summary>
+            <remarks>Demands are specific tag requirements of a build image/runner needed for the particular publisher pipeline configuration to be executed.</remarks>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Demand.Name">
+            <summary>
+            Gets or sets the demand name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Demand.Operand">
+            <summary>
+            Gets or sets the demand operand.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Demand.Value">
+            <summary>
+            Gets or sets the demand value.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.Job">
+            <summary>
+            This class represents a job in the pipeline configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.JobId">
+            <summary>
+            Gets or sets the unique job identifier.
+            </summary>
+            <value>The job identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.Name">
+            <summary>
+            Gets or sets the job name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.Dependencies">
+            <summary>
+            Gets or sets a list of dependency names required for this job.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.Strategy">
+            <summary>
+            Gets or sets the job strategy configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.ContinueOnError">
+            <summary>
+            Gets or sets a value indicating whether the job will continue if one or more tasks return an error result.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.TimeoutInMinutes">
+            <summary>
+            Gets or sets the timeout in minutes that the job will wait before the task runner stops the job for failing to complete.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.Pool">
+            <summary>
+            Gets or sets the job pool configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.Workspace">
+            <summary>
+            Gets or sets the job workspace configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.Tasks">
+            <summary>
+            Gets or sets a list of job tasks to execute within the configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.Enabled">
+            <summary>
+            Gets or sets a value indicating whether the job is enabled within the configuration.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.JobPoolConfiguration">
+            <summary>
+            This class contains job runner pool configuration information.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobPoolConfiguration.Image">
+            <summary>
+            Gets or sets the docker container image name used to run the job.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable">
+            <summary>
+            This class represents a job step output variable configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Name">
+            <summary>
+            Gets or sets the job step output variable internal name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobStepOutputVariable.Description">
+            <summary>
+            Gets or sets the job step output variable description.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.PipelineJobStrategyType">
+            <summary>
+            Contains an enumerated list of job strategy types.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineJobStrategyType.Serial">
+            <summary>
+            The job strategy is toward executing tasks in serial order.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineJobStrategyType.Parallel">
+            <summary>
+            The job strategy is toward executing tasks in parallel.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.JobStrategy">
+            <summary>
+            This class defines the job strategy configuration values.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobStrategy.Type">
+            <summary>
+            Gets or sets the job execution strategy type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobStrategy.MaxParallel">
+            <summary>
+            Gets or sets the maximum parallel threads to execute within the job.
+            </summary>
+            <remarks>Setting the value to 0 will not limit the number of parallel threads executing at one time in the job, which is the default.</remarks>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.JobTaskType">
+            <summary>
+            Contains an enumerated list of job task types.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskType.Build">
+            <summary>
+            Step is used for input compilation.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskType.Utility">
+            <summary>
+            Step is used for input utility based changes.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskType.Publish">
+            <summary>
+            Step is used for output publishing.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand">
+            <summary>
+            Contains an enumerated list of available commands to execute within the job task.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Python">
+            <summary>
+            A Python script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.JavaSaxon">
+            <summary>
+            A Java Saxon script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.XltProc">
+            <summary>
+            A XLTPROC script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DitaOt">
+            <summary>
+            A DITA-OT script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AntennaHouse">
+            <summary>
+            A Antenna House script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DocBook">
+            <summary>
+            A DocBook script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ArchiveFiles">
+            <summary>
+            An Archive files command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.CopyFiles">
+            <summary>
+            A copy files command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.MoveFiles">
+            <summary>
+            A move files command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DeleteFiles">
+            <summary>
+            A delete files command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Curl">
+            <summary>
+            A cURL command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.InstallSshKey">
+            <summary>
+            An install of an SSH key is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Ssh">
+            <summary>
+            An SSH command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Sftp">
+            <summary>
+            An SFTP command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DropBox">
+            <summary>
+            A DropBox command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.GoogleDrive">
+            <summary>
+            A Google Drive command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.OneDrive">
+            <summary>
+            A Microsoft OneDrive command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AzureBlob">
+            <summary>
+            A Microsoft Azure Blob command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AwsBucket">
+            <summary>
+            An AWS Bucket command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Email">
+            <summary>
+            An e-mail delivery is to be executed.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.JobTask">
+            <summary>
+            Gets or sets the job task configuration for a pipeline job execution.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobTask.JobStepId">
+            <summary>
+            Gets or sets the job step identifier.
+            </summary>
+            <value>The job step identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobTask.Name">
+            <summary>
+            Gets or sets the job task internal name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobTask.Description">
+            <summary>
+            Gets or sets the job task description.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobTask.Version">
+            <summary>
+            Gets or sets the version.
+            </summary>
+            <value>The version.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobTask.Command">
+            <summary>
+            Gets or sets the job task plugin command to execute within the job.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobTask.Enabled">
+            <summary>
+            Gets or sets a value indicating whether the step is enabled.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobTask.OutputVariables">
+            <summary>
+            Gets or sets the job task output variables used within the overall job execution.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobTask.Configuration">
+            <summary>
+            Gets or sets the custom configuration parameters for the selected step plugin.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup">
+            <summary>
+            Contains an enumerated list of workspace cleanup actions.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.All">
+            <summary>
+            Clean-up both source and output directories before attempting to execute job.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.SourceOnly">
+            <summary>
+            Clean-up only the source directories before attempting to execute job.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup.None">
+            <summary>
+            Do not clean-up source or output directories before attempting to execute job.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.JobWorkspaceConfiguration">
+            <summary>
+            This class represents the workspace configuration for a job.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobWorkspaceConfiguration.Clean">
+            <summary>
+            Gets or sets the workspace configuration for the job execution.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand">
+            <summary>
+            An enumerated list of available operands used in pipeline execution demand configurations.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.Exists">
+            <summary>
+            The demand value determines if the pipeline runner environment contains the demand name in the docker image.
+            </summary>
+            <remarks>Allowed values are only true or false.</remarks>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.Equals">
+            <summary>
+            The demand value must match exactly.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineDemandOperand.NotEquals">
+            <summary>
+            The demand value must not match exactly.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes">
+            <summary>
+            Contains an enumerated list of available pipeline source types
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.API">
+            <summary>
+            Content is derived from the publisher API.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.Local">
+            <summary>
+            Content is derived from the local container storage.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.Git">
+            <summary>
+            Content is derived from a Git repository.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.GitHub">
+            <summary>
+            Content is derived from a GitHub repository.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.AzureBlob">
+            <summary>
+            Content is derived from an Azure blob repository.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.Dropbox">
+            <summary>
+            Content is derived from a drop box cloud storage.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.OneDrive">
+            <summary>
+            Content is derived from a Microsoft OneDrive cloud storage.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceBase">
+            <summary>
+            This class represents a pipeline source from which content will be derived from in order to execute the pipeline stages.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceBase.SourceType">
+            <summary>
+            Gets or sets the pipeline content source type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceBase.Comment">
+            <summary>
+            Gets or sets an optional comment field for the source.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceBase.Configuration">
+            <summary>
+            Gets or sets the pipeline source configuration dictionary.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType">
+            <summary>
+            Contains an enumerated list of pipeline variable data types.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType.String">
+            <summary>
+            Variable type is a string.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType.Guid">
+            <summary>
+            Variable type is a GUID.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType.Integer">
+            <summary>
+            Variable type is an integer.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType.Boolean">
+            <summary>
+            Variable type is a boolean.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType.Double">
+            <summary>
+            Variable type is a double.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariableType.DateTime">
+            <summary>
+            Variable type is a date time.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariable">
+            <summary>
+            This class represents a pipeline variable setting within the configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariable.Name">
+            <summary>
+            Gets or sets the internal name of the variable.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariable.Value">
+            <summary>
+            Gets or sets the default value of the variable.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariable.ReadOnly">
+            <summary>
+            Gets or sets a value indicating whether the variable is read-only during execution.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.PipelineVariable.Type">
+            <summary>
+            Gets or sets the pipeline variable data type.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.RevisionActions">
+            <summary>
+            Contains an enumerated list of revision action types.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.RevisionActions.Create">
+            <summary>
+            The revision was creating a new pipeline configuration.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.RevisionActions.Update">
+            <summary>
+            The revision was updating the pipeline configuration.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.RevisionActions.Archive">
+            <summary>
+            The revision was archiving/removing the pipeline configuration.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.Revision">
+            <summary>
+            This class represents a recent record of change revision made to the configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Revision.Version">
+            <summary>
+            Gets or sets the revision version number.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Revision.Change">
+            <summary>
+            Gets or sets the revision action that occurred.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Revision.Comment">
+            <summary>
+            Gets or sets the optional comment for the revision.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Revision.RevisionBy">
+            <summary>
+            Gets or sets the full name of the user who created the revision.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Revision.RevisionByUniqueId">
+            <summary>
+            Gets or sets the unique identity of the user who created the revision.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Revision.RevisionDate">
+            <summary>
+            Gets or sets the date time when the revision occurred.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults">
+            <summary>
+            Contains a collection of default values for the schema definition classes.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobTimeoutMinutes">
+            <summary>
+            The default job timeout minutes
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultAgentCancelTimeoutMinutes">
+            <summary>
+            The default agent cancel timeout minutes
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultMaxParallelThreads">
+            <summary>
+            The default maximum parallel threads a job can execute.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobStepName">
+            <summary>
+            The default job step name
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobName">
+            <summary>
+            The default job name
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultStageName">
+            <summary>
+            The default stage name
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTime">
+            <summary>
+            The default trigger schedule time
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTimeZone">
+            <summary>
+            The default trigger schedule time zone
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskVersion">
+            <summary>
+            The default task version
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.Stage">
+            <summary>
+            This class represents a pipeline execution stage within the configuration.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Stage.StageId">
+            <summary>
+            Gets or sets the stage identifier.
+            </summary>
+            <value>The stage identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Stage.Name">
+            <summary>
+            Gets or sets the name of the stage.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Stage.Description">
+            <summary>
+            Gets or sets an optional stage description.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Stage.Jobs">
+            <summary>
+            Gets or sets a list of jobs to execute within the stage.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.Trigger">
+            <summary>
+            This class represents a pipeline configuration execution trigger.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Trigger.Automated">
+            <summary>
+            Gets or sets a value indicating whether the trigger is automated.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Trigger.Completions">
+            <summary>
+            Gets or sets a list of other publish jobs that will trigger this configuration in a chained execution event.
+            </summary>
+            <remarks>
+            The system will allow one publisher pipeline job to execute and then execute another pipeline configuration automatically if defined by ConfigurationId.
+            </remarks>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Trigger.ContinueJobOnlyOnDiff">
+            <summary>
+            Gets or sets a value indicating whether the trigger job will execute only if the content has changed from the source.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.TriggerSchedule">
+            <summary>
+            This class represents a trigger schedule that will denote when a publisher pipeline event is to occur.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.TriggerSchedule.Days">
+            <summary>
+            Gets or sets a list of days the scheduled trigger will occur.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.TriggerSchedule.Time">
+            <summary>
+            Gets or sets the time of day in hours and minutes when the trigger will occur.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.TriggerSchedule.TimeZone">
+            <summary>
+            Gets or sets the IANA time zone for the trigger time setting.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel">
+            <summary>
+            This class contains parameters passed to the query for filtering.
+            </summary>
+        </member>
+        <member name="M:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel" /> class.
+            </summary>
+        </member>
+        <member name="M:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel" /> class.
+            </summary>
+            <param name="maxPageSize">Contains the maximum page size.</param>
+            <param name="currentPage">Contains an optional current page number.</param>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel.Page">
+            <summary>
+            Gets or sets current page number.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel.Limit">
+            <summary>
+            Gets or sets the result limit.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel.Sort">
+            <summary>
+            Gets or sets the name of the column to sort by.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel.Dir">
+            <summary>
+            Gets or sets the sort direction.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Queries.PaginatedQueryResultModel`1">
+            <summary>
+            This class defines the basic query result model for the paginated query.
+            </summary>
+            <typeparam name="TQueryModel">The type of the query result.</typeparam>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Queries.PaginatedQueryResultModel`1.TotalCount">
+            <summary>
+            Gets or sets the total records.
+            </summary>
+            <value>The total records.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Queries.PaginatedQueryResultModel`1.Results">
+            <summary>
+            Gets or sets the results of the model query.
+            </summary>
+            <value>The results.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.FeatureAbilities">
+            <summary>
+            This class contains static feature ability keys used for feature security claims assignment.
+            </summary>
+            <remarks>
+            Users will always be able to read their own request runs. Otherwise, specific feature abilities must be specified. Additional abilities are related to
+            organizational request runs.
+            <para>
+            The concept of "manage" is a combination of create/update a record. We try to keep things as simple as possible within Publisher to read and/or manage
+            records. In some cases delete will be included, in others it may not.
+            </para>
+            </remarks>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.RequestUserManage">
+            <summary>
+            Feature ability for user to manage their own request runs.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.RequestUserDelete">
+            <summary>
+            Feature ability for user to delete their own request run records.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.RequestTenantRead">
+            <summary>
+            Feature ability for user to read all tenant request run records. Organization level read.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.RequestTenantManage">
+            <summary>
+            Feature ability for user to manage all tenant request run records.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.RequestTenantDelete">
+            <summary>
+            Feature ability for user to delete all tenant request run records.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.PipelineTenantRead">
+            <summary>
+            Feature ability for user to be able to view/read pipeline configurations in detail.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.PipelineTenantManage">
+            <summary>
+            Feature ability for user to be able to create, update, and delete pipeline configurations.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.ReportsUserRead">
+            <summary>
+            Feature ability for user to be able read their own analytic reports.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.ReportsTenantRead">
+            <summary>
+            Feature ability for user to be able read tenant analytic reports.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.AdminTenantManage">
+            <summary>
+            Feature ability for users to be able to administrate a tenant settings and security configuration.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.FeatureAbilities.AllAbilities">
+            <summary>
+            Feature ability covers all abilities.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.MicroUserModel">
+            <summary>
+            This class contains the bare minimum properties to represent a user in the interface.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MicroUserModel.UserId">
+            <summary>
+            Gets or sets the unique identity of the user.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MicroUserModel.Email">
+            <summary>
+            Gets or sets the user's e-mail address.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MicroUserModel.FirstName">
+            <summary>
+            Gets or sets the first name.
+            </summary>
+            <value>The first name.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MicroUserModel.LastName">
+            <summary>
+            Gets or sets the last name.
+            </summary>
+            <value>The last name.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MicroUserModel.FullName">
+            <summary>
+            Gets or sets the user full name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MicroUserModel.UserName">
+            <summary>
+            Gets or sets the user name of the user.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.MinimalRoleModel">
+            <summary>
+            This class represents a role associated with a user model. This contains the bare minimum properties for the application UI to display the associations.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalRoleModel.RoleId">
+            <summary>
+            Gets or sets the role identity.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalRoleModel.Name">
+            <summary>
+            Gets or sets the role name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalRoleModel.Description">
+            <summary>
+            Gets or sets the role description.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalRoleModel.SystemRole">
+            <summary>
+            Gets or sets a value indicating whether the role is a system role and cannot be deleted.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.MinimalTimeZoneModel">
+            <summary>
+            This class represents a minimal set of time zone model information.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalTimeZoneModel.TimeZoneId">
+            <summary>
+            Gets or sets the time zone identity value.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalTimeZoneModel.ShortName">
+            <summary>
+            Gets or sets the time zone short name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalTimeZoneModel.Default">
+            <summary>
+            Gets or sets a value indicating whether the time zone is the default selection.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.MinimalUserModel">
+            <summary>
+            This class represents a user that is assigned to a role. It is a stripped down version of the user and returns only essential information related to the
+            user for role associations.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalUserModel.Locale">
+            <summary>
+            Gets or sets the user's desired language.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalUserModel.TimeZone">
+            <summary>
+            Gets or sets the user's time zone.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalUserModel.Locked">
+            <summary>
+            Gets a value indicating whether the user is locked.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.MinimalUserModel.LockExpirationDate">
+            <summary>
+            Gets or sets the lock expiration date.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.RoleModel">
+            <summary>
+            This model class represents a security role within the application.
+            </summary>
+        </member>
+        <member name="M:Vasont.Publisher.Models.Security.RoleModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Vasont.Publisher.Models.Security.RoleModel" /> class.
+            </summary>
+        </member>
+        <member name="M:Vasont.Publisher.Models.Security.RoleModel.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Vasont.Publisher.Models.Security.RoleModel" /> class.
+            </summary>
+            <param name="roleName">Contains the name of the role.</param>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.RoleModel.CreatedDate">
+            <summary>
+            Gets or sets the record created date time.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.RoleModel.CreatedBy">
+            <summary>
+            Gets or sets the user model for the creating user.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.RoleModel.UpdatedDate">
+            <summary>
+            Gets or sets the record last updated date time.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.RoleModel.UpdatedBy">
+            <summary>
+            Gets or sets the user model for the updating user.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.RoleModel.Default">
+            <summary>
+            Gets or sets a value indicating whether the role is automatically added to users when they are synchronized via the application subscription Redis channel.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.RoleModel.Users">
+            <summary>
+            Gets or sets a list of user models assigned to this role.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.RoleModel.Abilities">
+            <summary>
+            Gets or sets the abilities.
+            </summary>
+            <value>The abilities.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.RoleQueryFilterModel">
+            <summary>
+            This class defines the administration role query filter model.
+            </summary>
+            <seealso cref="!:Vasont.Publisher.Models.Common.PaginatedQueryRequestModel" />
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.RoleQueryFilterModel.SearchText">
+            <summary>
+            Gets or sets the search text.
+            </summary>
+            <value>The search text.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.PublishServerUserType">
+            <summary>
+            Contains an enumerated list of user types.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.PublishServerUserType.Standard">
+            <summary>
+            A standard user
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.PublishServerUserType.Support">
+            <summary>
+            A GlobalLink Vasont global support technician.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.PublishServerUserType.Administrator">
+            <summary>
+            A GlobalLink Vasont publish server administrator.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.UserModel">
+            <summary>
+            This class represents a security user within the application.
+            </summary>
+        </member>
+        <member name="M:Vasont.Publisher.Models.Security.UserModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Vasont.Publisher.Models.Security.UserModel" /> class.
+            </summary>
+        </member>
+        <member name="M:Vasont.Publisher.Models.Security.UserModel.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Vasont.Publisher.Models.Security.UserModel" /> class.
+            </summary>
+            <param name="userName">Contains the user name of the account.</param>
+            <param name="emailAddress">Contains the e-mail address of the account.</param>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserModel.UserType">
+            <summary>
+            Gets or sets the user type of the user model.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserModel.CreatedDate">
+            <summary>
+            Gets or sets the date time when the account was created.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserModel.CreatedBy">
+            <summary>
+            Gets or sets the user model for the creator user.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserModel.UpdatedDate">
+            <summary>
+            Gets or sets the date time when the account was last updated.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserModel.UpdatedBy">
+            <summary>
+            Gets or sets the user model for the updating user.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserModel.Roles">
+            <summary>
+            Gets or sets a list of associated roles.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserModel.Notes">
+            <summary>
+            Gets or sets the user notes.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserModel.Active">
+            <summary>
+            Gets or sets a value indicating whether the user account is active.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserModel.Deletable">
+            <summary>
+            Gets or sets a value indicating whether the user can be deleted. Typically set to true if the user model matches the current user. The current user
+            cannot delete themselves.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserModel.Abilities">
+            <summary>
+            Gets or sets the abilities.
+            </summary>
+            <value>The abilities.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.UserQueryFilterModel">
+            <summary>
+            This class defines the administration user query filter model.
+            </summary>
+            <seealso cref="!:Vasont.Publisher.Models.Common.PaginatedQueryRequestModel" />
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserQueryFilterModel.SearchText">
+            <summary>
+            Gets or sets the search text.
+            </summary>
+            <value>The search text.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.SecurityType">
+            <summary>
+            Contains an enumerated list of security types.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.SecurityType.User">
+            <summary>
+            The security type is a system user.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Security.SecurityType.Role">
+            <summary>
+            The security type is a system role.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.UserRoleAssociationModel">
+            <summary>
+            This class is a model representation of a user or role that is associated with a related record.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserRoleAssociationModel.Id">
+            <summary>
+            Gets or sets the unique identity of the participant.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserRoleAssociationModel.ExternalUserId">
+            <summary>
+            Gets or sets the external user identity value.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserRoleAssociationModel.Type">
+            <summary>
+            Gets or sets the participant type. (i.e. User or Role).
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserRoleAssociationModel.TypeText">
+            <summary>
+            Gets or sets the type via a string.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserRoleAssociationModel.Name">
+            <summary>
+            Gets or sets the name of the participant.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserRoleAssociationModel.Description">
+            <summary>
+            Gets or sets the participant description.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserRoleAssociationModel.Email">
+            <summary>
+            Gets or sets the participant description.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.UserRoleAssociationModel.Memberships">
+            <summary>
+            Gets or sets a list of participant memberships.
+            </summary>
+        </member>
+    </members>
+</doc>

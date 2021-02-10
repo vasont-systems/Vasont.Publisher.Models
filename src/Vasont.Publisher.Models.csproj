@@ -13,20 +13,30 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://vasont-systems.github.io/Vasont.Publisher.Models</PackageProjectUrl>
     <PackageTags>CMS</PackageTags>
-    <PackageReleaseNotes>Added audit log and pipeline browse entities</PackageReleaseNotes>
+    <PackageReleaseNotes>Added additional models for pagination and pipeline configuration interaction.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2021.1.2.3</Version>
+    <Version>2021.1.2.4</Version>
   </PropertyGroup>
   
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>2021.1.2.3</AssemblyVersion>
-    <FileVersion>2021.1.2.3</FileVersion>
+    <AssemblyVersion>2021.1.2.4</AssemblyVersion>
+    <FileVersion>2021.1.2.4</FileVersion>
+    <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
+    <PackageIcon>logo.png</PackageIcon>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
+    <DocumentationFile>D:\Projects\Vasont Systems\GitHub\Vasont.Publisher.Models\src\Vasont.Publisher.Models.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="log.txt" />
+    <None Include="Assets\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +55,10 @@
     </PackageReference>
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
     <PackageReference Include="Vasont.Inspire.Core" Version="1.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\" />
   </ItemGroup>
 
 </Project>

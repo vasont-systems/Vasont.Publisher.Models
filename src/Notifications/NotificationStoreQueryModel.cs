@@ -3,10 +3,10 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace Vasont.Publisher.Models.Queries
+namespace Vasont.Publisher.Models.Notifications
 {
     using System.Collections.Generic;
-    using Vasont.Publisher.Models.Notifications;
+    using Vasont.Publisher.Models.Queries;
 
     /// <summary>
     /// This class represents a notification store query model used in paging interfaces for notification messages.

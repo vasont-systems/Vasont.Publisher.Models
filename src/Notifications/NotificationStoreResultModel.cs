@@ -5,26 +5,16 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Notifications
 {
-    using System.Collections.Generic;
+    using Vasont.Publisher.Models.Queries;
 
     /// <summary>
     /// This class represents the results of a notifications store query request.
     /// </summary>
-    public class NotificationStoreResultModel
+    public class NotificationStoreResultModel : PaginatedQueryResultModel<NotificationStoreModel>
     {
-        /// <summary>
-        /// Gets or sets the total number of notifications for the user.
-        /// </summary>
-        public long TotalCount { get; set; }
-
         /// <summary>
         /// Gets or sets the total number of unread notification messages for the user.
         /// </summary>
         public long TotalUnreadCount { get; set; }
-
-        /// <summary>
-        /// Gets or sets the resulting notifications from the query request.
-        /// </summary>
-        public List<NotificationStoreModel> Notifications { get; set; } = new List<NotificationStoreModel>();
     }
 }

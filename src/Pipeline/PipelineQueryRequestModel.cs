@@ -1,15 +1,17 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="UserQueryFilterModel.cs" company="GlobalLink Vasont">
+// <copyright file="PipelineQueryRequestModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace Vasont.Publisher.Models.Queries
+namespace Vasont.Publisher.Models.Pipeline
 {
+    using Vasont.Publisher.Models.Queries;
+
     /// <summary>
-    /// This class defines the administration user query filter model.
+    /// This class contains query request parameters for browsing pipeline configurations.
     /// </summary>
-    /// <seealso cref="Vasont.Publisher.Models.Common.PaginatedQueryRequestModel" />
-    public class UserQueryFilterModel : PaginatedQueryRequestModel
+    /// <seealso cref="Vasont.Publisher.Models.Pipeline.PipelineQueryRequestModel" />
+    public class PipelineQueryRequestModel : PaginatedQueryRequestModel
     {
         /// <summary>
         /// Gets or sets the search text.

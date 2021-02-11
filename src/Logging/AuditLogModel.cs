@@ -3,7 +3,7 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace Vasont.Publisher.Models.Common
+namespace Vasont.Publisher.Models.Logging
 {
     using System;
     using System.ComponentModel.DataAnnotations;
@@ -66,7 +66,7 @@ namespace Vasont.Publisher.Models.Common
     }
 
     /// <summary>
-    /// This entity class represents a security log event record within the data store.
+    /// This class represents an event log entry within the application.
     /// </summary>
     public class AuditLogModel
     {
@@ -78,6 +78,7 @@ namespace Vasont.Publisher.Models.Common
         /// <summary>
         /// Gets or sets the event date time the event occurred.
         /// </summary>
+        [Required]
         public DateTime EventDateTime { get; set; }
 
         /// <summary>
@@ -89,6 +90,8 @@ namespace Vasont.Publisher.Models.Common
         /// <summary>
         /// Gets or sets the event type.
         /// </summary>
+        [Required]
+        [MaxLength(30)]
         public AuditEvent Event { get; set; }
 
         /// <summary>
@@ -100,6 +103,8 @@ namespace Vasont.Publisher.Models.Common
         /// <summary>
         /// Gets or sets the event result.
         /// </summary>
+        [Required]
+        [MaxLength(30)]
         public AuditResult Result { get; set; }
 
         /// <summary>
@@ -122,9 +127,8 @@ namespace Vasont.Publisher.Models.Common
         public string Request { get; set; }
 
         /// <summary>
-        /// Gets or sets the user.
+        /// Gets or sets the associated user.
         /// </summary>
-        /// <value>The user.</value>
         public MicroUserModel User { get; set; }
     }
 }

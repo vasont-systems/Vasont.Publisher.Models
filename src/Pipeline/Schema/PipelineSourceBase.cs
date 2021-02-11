@@ -11,7 +11,7 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
     using Newtonsoft.Json.Converters;
 
     /// <summary>
-    /// Contains an enumerated list of available pipeline source types
+    /// Contains an enumerated list of available pipeline source types.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
     public enum PipelineSourceTypes

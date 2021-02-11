@@ -10,7 +10,7 @@ namespace Vasont.Publisher.Models.Security
     /// <summary>
     /// This class defines the administration user query filter model.
     /// </summary>
-    /// <seealso cref="Vasont.Publisher.Models.Common.PaginatedQueryRequestModel" />
+    /// <seealso cref="Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel" />
     public class UserQueryFilterModel : PaginatedQueryRequestModel
     {
         /// <summary>

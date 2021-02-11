@@ -13,16 +13,16 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://vasont-systems.github.io/Vasont.Publisher.Models</PackageProjectUrl>
     <PackageTags>CMS</PackageTags>
-    <PackageReleaseNotes>Updated audit log models</PackageReleaseNotes>
+    <PackageReleaseNotes>Added pipline run models.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2021.1.2.5</Version>
+    <Version>2021.1.2.6</Version>
   </PropertyGroup>
   
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>2021.1.2.5</AssemblyVersion>
-    <FileVersion>2021.1.2.5</FileVersion>
+    <AssemblyVersion>2021.1.2.6</AssemblyVersion>
+    <FileVersion>2021.1.2.6</FileVersion>
     <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
     <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>

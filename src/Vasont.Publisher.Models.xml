@@ -4,113 +4,6 @@
         <name>Vasont.Publisher.Models</name>
     </assembly>
     <members>
-        <member name="T:Vasont.Publisher.Models.Common.AuditEvent">
-            <summary>
-            Contains an enumerated list of audit event types.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Common.AuditEvent.Information">
-            <summary>
-            Informational audit event.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Common.AuditEvent.Error">
-            <summary>
-            Error audit event.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Common.AuditEvent.Security">
-            <summary>
-            Security audit event.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Common.AuditEvent.Pipeline">
-            <summary>
-            Pipeline audit event.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Common.AuditEvent.Configuration">
-            <summary>
-            Configuration audit event.
-            </summary>
-        </member>
-        <member name="T:Vasont.Publisher.Models.Common.AuditResult">
-            <summary>
-            Contains an enumerated list of security event results.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Common.AuditResult.Success">
-            <summary>
-            Successful event.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Common.AuditResult.Fail">
-            <summary>
-            Unsuccessful event.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Common.AuditResult.Info">
-            <summary>
-            Informational event.
-            </summary>
-        </member>
-        <member name="T:Vasont.Publisher.Models.Common.AuditLogModel">
-            <summary>
-            This entity class represents a security log event record within the data store.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.AuditLogId">
-            <summary>
-            Gets or sets the unique identity of the security event log record.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.EventDateTime">
-            <summary>
-            Gets or sets the event date time the event occurred.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.UserId">
-            <summary>
-            Gets or sets the optional associated user that generated the event.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.Event">
-            <summary>
-            Gets or sets the event type.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.Action">
-            <summary>
-            Gets or sets the event type.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.Result">
-            <summary>
-            Gets or sets the event result.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.Message">
-            <summary>
-            Gets or sets an additional event message.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.ClientAddress">
-            <summary>
-            Gets or sets the client's IP address.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.Request">
-            <summary>
-            Gets or sets the request.
-            </summary>
-            <value>The request.</value>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.AuditLogModel.User">
-            <summary>
-            Gets or sets the user.
-            </summary>
-            <value>The user.</value>
-        </member>
         <member name="T:Vasont.Publisher.Models.Common.CreatedUpdaterModelBase">
             <summary>
             This class contains basic created and updater properties for model records.
@@ -362,6 +255,132 @@
         <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.Version">
             <summary>
             Gets or sets the version of the tenant application.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Logging.AuditEvent">
+            <summary>
+            Contains an enumerated list of audit event types.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Logging.AuditEvent.Information">
+            <summary>
+            Informational audit event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Logging.AuditEvent.Error">
+            <summary>
+            Error audit event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Logging.AuditEvent.Security">
+            <summary>
+            Security audit event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Logging.AuditEvent.Pipeline">
+            <summary>
+            Pipeline audit event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Logging.AuditEvent.Configuration">
+            <summary>
+            Configuration audit event.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Logging.AuditResult">
+            <summary>
+            Contains an enumerated list of security event results.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Logging.AuditResult.Success">
+            <summary>
+            Successful event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Logging.AuditResult.Fail">
+            <summary>
+            Unsuccessful event.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Logging.AuditResult.Info">
+            <summary>
+            Informational event.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Logging.AuditLogModel">
+            <summary>
+            This class represents an event log entry within the application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogModel.AuditLogId">
+            <summary>
+            Gets or sets the unique identity of the security event log record.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogModel.EventDateTime">
+            <summary>
+            Gets or sets the event date time the event occurred.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogModel.UserId">
+            <summary>
+            Gets or sets the optional associated user that generated the event.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogModel.Event">
+            <summary>
+            Gets or sets the event type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogModel.Action">
+            <summary>
+            Gets or sets the event type.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogModel.Result">
+            <summary>
+            Gets or sets the event result.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogModel.Message">
+            <summary>
+            Gets or sets an additional event message.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogModel.ClientAddress">
+            <summary>
+            Gets or sets the client's IP address.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogModel.Request">
+            <summary>
+            Gets or sets the request.
+            </summary>
+            <value>The request.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogModel.User">
+            <summary>
+            Gets or sets the associated user.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Logging.AuditLogQueryModel">
+            <summary>
+            This class contains parameters passed to the query for filtering.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogQueryModel.SearchText">
+            <summary>
+            Gets or sets the search text of the paged query.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogQueryModel.StartDate">
+            <summary>
+            Gets or sets the start date of the paged query.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogQueryModel.EndDate">
+            <summary>
+            Gets or sets the end date of the paged query.
             </summary>
         </member>
         <member name="T:Vasont.Publisher.Models.Notifications.NotificationType">
@@ -666,7 +685,7 @@
         </member>
         <member name="P:Vasont.Publisher.Models.Pipeline.PipelineModel.Default">
             <summary>
-            Gets or sets a value indicating whether this <see cref="!:Role" /> is default.
+            Gets or sets a value indicating whether this <see cref="T:Vasont.Publisher.Models.Pipeline.PipelineModel" /> is default.
             </summary>
             <value><c>true</c> if default; otherwise, <c>false</c>.</value>
         </member>
@@ -1169,7 +1188,7 @@
         </member>
         <member name="T:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes">
             <summary>
-            Contains an enumerated list of available pipeline source types
+            Contains an enumerated list of available pipeline source types.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.PipelineSourceTypes.API">
@@ -1349,12 +1368,12 @@
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobTimeoutMinutes">
             <summary>
-            The default job timeout minutes
+            The default job timeout minutes.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultAgentCancelTimeoutMinutes">
             <summary>
-            The default agent cancel timeout minutes
+            The default agent cancel timeout minutes.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultMaxParallelThreads">
@@ -1364,32 +1383,32 @@
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobStepName">
             <summary>
-            The default job step name
+            The default job step name.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobName">
             <summary>
-            The default job name
+            The default job name.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultStageName">
             <summary>
-            The default stage name
+            The default stage name.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTime">
             <summary>
-            The default trigger schedule time
+            The default trigger schedule time.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTriggerScheduleTimeZone">
             <summary>
-            The default trigger schedule time zone
+            The default trigger schedule time zone.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskVersion">
             <summary>
-            The default task version
+            The default task version.
             </summary>
         </member>
         <member name="T:Vasont.Publisher.Models.Pipeline.Schema.Stage">
@@ -1748,7 +1767,7 @@
             <summary>
             This class defines the administration role query filter model.
             </summary>
-            <seealso cref="!:Vasont.Publisher.Models.Common.PaginatedQueryRequestModel" />
+            <seealso cref="T:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel" />
         </member>
         <member name="P:Vasont.Publisher.Models.Security.RoleQueryFilterModel.SearchText">
             <summary>
@@ -1849,7 +1868,7 @@
             <summary>
             This class defines the administration user query filter model.
             </summary>
-            <seealso cref="!:Vasont.Publisher.Models.Common.PaginatedQueryRequestModel" />
+            <seealso cref="T:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel" />
         </member>
         <member name="P:Vasont.Publisher.Models.Security.UserQueryFilterModel.SearchText">
             <summary>

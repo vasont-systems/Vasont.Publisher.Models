@@ -11,12 +11,12 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
     public static class SchemaDefaults
     {
         /// <summary>
-        /// The default job timeout minutes
+        /// The default job timeout minutes.
         /// </summary>
         public const int DefaultJobTimeoutMinutes = 10;
 
         /// <summary>
-        /// The default agent cancel timeout minutes
+        /// The default agent cancel timeout minutes.
         /// </summary>
         public const int DefaultAgentCancelTimeoutMinutes = 60;
 
@@ -26,32 +26,32 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         public const int DefaultMaxParallelThreads = 4;
 
         /// <summary>
-        /// The default job step name
+        /// The default job step name.
         /// </summary>
         public const string DefaultJobStepName = "Step";
 
         /// <summary>
-        /// The default job name
+        /// The default job name.
         /// </summary>
         public const string DefaultJobName = "Default";
 
         /// <summary>
-        /// The default stage name
+        /// The default stage name.
         /// </summary>
         public const string DefaultStageName = "Default";
 
         /// <summary>
-        /// The default trigger schedule time
+        /// The default trigger schedule time.
         /// </summary>
         public const string DefaultTriggerScheduleTime = "00:00";
 
         /// <summary>
-        /// The default trigger schedule time zone
+        /// The default trigger schedule time zone.
         /// </summary>
         public const string DefaultTriggerScheduleTimeZone = "0";
 
         /// <summary>
-        /// The default task version
+        /// The default task version.
         /// </summary>
         public const string DefaultTaskVersion = "0.*";
     }

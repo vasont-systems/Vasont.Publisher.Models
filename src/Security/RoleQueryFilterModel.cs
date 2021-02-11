@@ -3,7 +3,6 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-
 namespace Vasont.Publisher.Models.Security
 {
     using Vasont.Publisher.Models.Queries;
@@ -11,7 +10,7 @@ namespace Vasont.Publisher.Models.Security
     /// <summary>
     /// This class defines the administration role query filter model.
     /// </summary>
-    /// <seealso cref="Vasont.Publisher.Models.Common.PaginatedQueryRequestModel" />
+    /// <seealso cref="Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel" />
     public class RoleQueryFilterModel : PaginatedQueryRequestModel
     {
         /// <summary>

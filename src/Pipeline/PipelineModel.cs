@@ -51,7 +51,7 @@ namespace Vasont.Publisher.Models.Pipeline
         public string Configuration { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether this <see cref="Role" /> is default.
+        /// Gets or sets a value indicating whether this <see cref="PipelineModel" /> is default.
         /// </summary>
         /// <value><c>true</c> if default; otherwise, <c>false</c>.</value>
         public bool Default { get; set; }

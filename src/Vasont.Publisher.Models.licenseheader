@@ -5,19 +5,9 @@ extensions: .cs .cpp .h
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-extensions: .aspx .ascx
-<%-- 
-//-----------------------------------------------------------------------
-// <copyright file="%Filename%" company="GlobalLink Vasont">
-// Copyright (c) GlobalLink Vasont. All rights reserved.
-// </copyright>
-//-----------------------------------------------------------------------
---%>
 extensions:  .xml .config .xsd
 <!--
-//-----------------------------------------------------------------------
 // <copyright file="%Filename%" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
-//-----------------------------------------------------------------------
 -->

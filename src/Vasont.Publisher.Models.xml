@@ -192,6 +192,31 @@
             Gets or sets the record updater model object.
             </summary>
         </member>
+        <member name="T:Vasont.Publisher.Models.Common.MicroTenantModel">
+            <summary>
+            This class contains the absolute minimum information for the application tenant details.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MicroTenantModel.Key">
+            <summary>
+            Gets or sets the tenant key.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MicroTenantModel.Name">
+            <summary>
+            Gets or sets the tenant name.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MicroTenantModel.SupportInfo">
+            <summary>
+            Gets or sets the support information about the Tenant.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Common.MicroTenantModel.SupportEmail">
+            <summary>
+            Gets or sets the support contact e-mail address for the Tenant.
+            </summary>
+        </member>
         <member name="T:Vasont.Publisher.Models.Common.MinimalLanguageModel">
             <summary>
             This class represents a minimal representation of a language within the application.
@@ -210,51 +235,6 @@
         <member name="P:Vasont.Publisher.Models.Common.MinimalLanguageModel.IsLocale">
             <summary>
             Gets or sets a value indicating whether the language is a UI locale.
-            </summary>
-        </member>
-        <member name="T:Vasont.Publisher.Models.Common.TenantDetailModel">
-            <summary>
-            This class represents the basic tenant information needed for the web application.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.DomainKey">
-            <summary>
-            Gets or sets the domain key.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.Name">
-            <summary>
-            Gets or sets the tenant name.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.SupportInfo">
-            <summary>
-            Gets or sets the support information about the Tenant.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.SupportEmail">
-            <summary>
-            Gets or sets the support contact e-mail address for the Tenant.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.DefaultLanguage">
-            <summary>
-            Gets or sets the default language to use for the tenant application.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.SessionTimeout">
-            <summary>
-            Gets or sets the server's session timeout in minutes.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.Copyright">
-            <summary>
-            Gets or sets the copyright of the tenant application.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Common.TenantDetailModel.Version">
-            <summary>
-            Gets or sets the version of the tenant application.
             </summary>
         </member>
         <member name="T:Vasont.Publisher.Models.Logging.AuditEvent">
@@ -372,6 +352,18 @@
             <summary>
             Gets or sets the search text of the paged query.
             </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogQueryModel.Events">
+            <summary>
+            Gets or sets the events.
+            </summary>
+            <value>The events.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Logging.AuditLogQueryModel.Results">
+            <summary>
+            Gets or sets the results.
+            </summary>
+            <value>The results.</value>
         </member>
         <member name="P:Vasont.Publisher.Models.Logging.AuditLogQueryModel.StartDate">
             <summary>
@@ -744,6 +736,138 @@
             <seealso cref="T:Vasont.Publisher.Models.Pipeline.PipelineQueryRequestModel" />
         </member>
         <member name="P:Vasont.Publisher.Models.Pipeline.PipelineQueryRequestModel.SearchText">
+            <summary>
+            Gets or sets the search text.
+            </summary>
+            <value>The search text.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunState">
+            <summary>
+            Contains an enumerated list of pipeline run states.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunState.Unknown">
+            <summary>
+            The run is in an unknown state.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunState.Queued">
+            <summary>
+            The run is queued.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunState.Startup">
+            <summary>
+            The run is starting up
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunState.Running">
+            <summary>
+            The run is running.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunState.Cleanup">
+            <summary>
+            The run is cleaning up
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunState.Success">
+            <summary>
+            The run was successful.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunState.Failed">
+            <summary>
+            The run failed.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunModel">
+            <summary>
+            This class represents a Pipeline run model.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.PipelineRunId">
+            <summary>
+            Gets or sets the pipeline run identifier.
+            </summary>
+            <value>The pipeline run identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.PipelineId">
+            <summary>
+            Gets or sets the pipeline identifier.
+            </summary>
+            <value>The pipeline identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.PipelineName">
+            <summary>
+            Gets or sets the name of the pipeline.
+            </summary>
+            <value>The name of the pipeline.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.State">
+            <summary>
+            Gets or sets the state.
+            </summary>
+            <value>The state.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.Build">
+            <summary>
+            Gets or sets the build.
+            </summary>
+            <value>The build.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.MetadataModel">
+            <summary>
+            Gets or sets the metadata string and deserializes JSON formatted metadata into the Metadata dictionary.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.Metadata">
+            <summary>
+            Gets or sets an optional set of metadata for the notification message.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.RequestDateTime">
+            <summary>
+            Gets or sets the request date of a job.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.StartDateTime">
+            <summary>
+            Gets or sets the completed date.
+            </summary>
+            <value>The completed date.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.EndDateTime">
+            <summary>
+            Gets or sets the completed date.
+            </summary>
+            <value>The completed date.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.UpdatedDate">
+            <summary>
+            Gets or sets the updated date.
+            </summary>
+            <value>The updated date.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunModel.User">
+            <summary>
+            Gets or sets the user.
+            </summary>
+            <value>The user.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunQueryRequestModel">
+            <summary>
+            This class contains query request parameters for browsing pipeline configurations.
+            </summary>
+            <seealso cref="T:Vasont.Publisher.Models.Pipeline.PipelineQueryRequestModel" />
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunQueryRequestModel.States">
+            <summary>
+            Gets or sets the states.
+            </summary>
+            <value>The states.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunQueryRequestModel.SearchText">
             <summary>
             Gets or sets the search text.
             </summary>
@@ -1710,6 +1834,37 @@
             <summary>
             Gets or sets the lock expiration date.
             </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.ProfileModel">
+            <summary>
+            This class loads the initial profile details for the user and returns available tenants.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.ProfileModel.Copyright">
+            <summary>
+            Gets or sets the copyright of the tenant application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.ProfileModel.Version">
+            <summary>
+            Gets or sets the version of the tenant application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.ProfileModel.DefaultLanguage">
+            <summary>
+            Gets or sets the default language to use for the tenant application.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.ProfileModel.SessionTimeout">
+            <summary>
+            Gets or sets the server's session timeout in minutes.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.ProfileModel.Tenants">
+            <summary>
+            Gets or sets the tenants.
+            </summary>
+            <value>The tenants.</value>
         </member>
         <member name="T:Vasont.Publisher.Models.Security.RoleModel">
             <summary>

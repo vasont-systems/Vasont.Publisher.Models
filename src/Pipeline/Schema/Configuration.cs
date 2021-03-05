@@ -73,10 +73,11 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         public List<PipelineVariable> Variables { get; set; } = new List<PipelineVariable>();
 
         /// <summary>
-        /// Gets or sets a list of stages for the agent to process and execute through. Stages are an organizational concept within the configuration.
+        /// Gets or sets a list of jobs for the agent to process and execute through. Jobs are an organizational concept within the configuration to process a
+        /// list of tasks within a single context.
         /// </summary>
         [Required]
-        public List<Stage> Stages { get; set; } = new List<Stage>();
+        public List<Job> Jobs { get; set; } = new List<Job>();
 
         /// <summary>
         /// Gets or sets a list of optional trigger configurations that will automate the execution of this configuration.

@@ -928,9 +928,10 @@
             Gets or sets a list of optional pipeline configuration variables used within the job steps of the configuration.
             </summary>
         </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Stages">
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Jobs">
             <summary>
-            Gets or sets a list of stages for the agent to process and execute through. Stages are an organizational concept within the configuration.
+            Gets or sets a list of jobs for the agent to process and execute through. Jobs are an organizational concept within the configuration to process a
+            list of tasks within a single context.
             </summary>
         </member>
         <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Configuration.Triggers">
@@ -1533,32 +1534,6 @@
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskVersion">
             <summary>
             The default task version.
-            </summary>
-        </member>
-        <member name="T:Vasont.Publisher.Models.Pipeline.Schema.Stage">
-            <summary>
-            This class represents a pipeline execution stage within the configuration.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Stage.StageId">
-            <summary>
-            Gets or sets the stage identifier.
-            </summary>
-            <value>The stage identifier.</value>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Stage.Name">
-            <summary>
-            Gets or sets the name of the stage.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Stage.Description">
-            <summary>
-            Gets or sets an optional stage description.
-            </summary>
-        </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Stage.Jobs">
-            <summary>
-            Gets or sets a list of jobs to execute within the stage.
             </summary>
         </member>
         <member name="T:Vasont.Publisher.Models.Pipeline.Schema.Trigger">

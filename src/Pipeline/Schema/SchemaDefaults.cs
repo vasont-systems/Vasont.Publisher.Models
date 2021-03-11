@@ -26,19 +26,14 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         public const int DefaultMaxParallelThreads = 4;
 
         /// <summary>
-        /// The default job step name.
+        /// The default job task name.
         /// </summary>
-        public const string DefaultJobStepName = "Step";
+        public const string DefaultJobTaskName = "Task";
 
         /// <summary>
         /// The default job name.
         /// </summary>
-        public const string DefaultJobName = "Default";
-
-        /// <summary>
-        /// The default stage name.
-        /// </summary>
-        public const string DefaultStageName = "Default";
+        public const string DefaultJobName = "Default Job";
 
         /// <summary>
         /// The default trigger schedule time.

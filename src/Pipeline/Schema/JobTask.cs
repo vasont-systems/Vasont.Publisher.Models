@@ -156,7 +156,7 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// </summary>
         [Required]
         [MaxLength(100)]
-        public string Name { get; set; } = SchemaDefaults.DefaultJobStepName;
+        public string Name { get; set; } = SchemaDefaults.DefaultJobTaskName;
 
         /// <summary>
         /// Gets or sets the job task description.

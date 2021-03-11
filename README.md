@@ -3,6 +3,9 @@ Vasont Systems GlobalLink Publisher Models Library
 
 This repository (Vasont.Publisher.Models) is where we (Vasont Systems) develop the GlobalLink Publisher Models library. The source code here is available to everyone under the standard [Apache 2.0 license](https://github.com/vasont-systems/Vasont.Inspire.Models/blob/master/LICENSE).
 
+## Documentation
+Documentation can now be found [here](https://vasont-systems.github.io/Vasont.Publisher.Models/).
+
 ## Contributing
 There are many ways in which you can participate in the project, for example:
 

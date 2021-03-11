@@ -28,7 +28,7 @@
   </PropertyGroup>
   
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
-    <DocumentationFile>D:\Projects\Vasont Systems\GitHub\Vasont.Publisher.Models\src\Vasont.Publisher.Models.xml</DocumentationFile>
+    <DocumentationFile>.\Vasont.Publisher.Models.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -44,17 +44,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="docfx.console" Version="2.56.6">
+    <PackageReference Include="docfx.console" Version="2.56.7">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.13" />
+    <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.14" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-    <PackageReference Include="Vasont.Inspire.Core" Version="1.0.17" />
+    <PackageReference Include="Vasont.Inspire.Core" Version="1.0.18" />
   </ItemGroup>
 
   <ItemGroup>

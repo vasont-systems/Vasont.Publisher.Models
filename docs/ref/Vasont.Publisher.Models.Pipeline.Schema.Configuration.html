@@ -278,6 +278,39 @@ public string Description { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/new/main/apiSpec/new?filename=Vasont_Publisher_Models_Pipeline_Schema_Configuration_Jobs.md&amp;value=---%0Auid%3A%20Vasont.Publisher.Models.Pipeline.Schema.Configuration.Jobs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/blob/develop/src/Pipeline/Schema/Configuration.cs/#L79">View Source</a>
+  </span>
+  <a id="Vasont_Publisher_Models_Pipeline_Schema_Configuration_Jobs_" data-uid="Vasont.Publisher.Models.Pipeline.Schema.Configuration.Jobs*"></a>
+  <h4 id="Vasont_Publisher_Models_Pipeline_Schema_Configuration_Jobs" data-uid="Vasont.Publisher.Models.Pipeline.Schema.Configuration.Jobs">Jobs</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a list of jobs for the agent to process and execute through. Jobs are an organizational concept within the configuration to process a
+list of tasks within a single context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Required]
+public List&lt;Job&gt; Jobs { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Vasont.Publisher.Models.Pipeline.Schema.Job.html">Job</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/new/main/apiSpec/new?filename=Vasont_Publisher_Models_Pipeline_Schema_Configuration_Name.md&amp;value=---%0Auid%3A%20Vasont.Publisher.Models.Pipeline.Schema.Configuration.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -314,7 +347,7 @@ public string Name { get; set; }</code></pre>
     <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/new/main/apiSpec/new?filename=Vasont_Publisher_Models_Pipeline_Schema_Configuration_Revisions.md&amp;value=---%0Auid%3A%20Vasont.Publisher.Models.Pipeline.Schema.Configuration.Revisions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/blob/develop/src/Pipeline/Schema/Configuration.cs/#L89">View Source</a>
+    <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/blob/develop/src/Pipeline/Schema/Configuration.cs/#L90">View Source</a>
   </span>
   <a id="Vasont_Publisher_Models_Pipeline_Schema_Configuration_Revisions_" data-uid="Vasont.Publisher.Models.Pipeline.Schema.Configuration.Revisions*"></a>
   <h4 id="Vasont_Publisher_Models_Pipeline_Schema_Configuration_Revisions" data-uid="Vasont.Publisher.Models.Pipeline.Schema.Configuration.Revisions">Revisions</h4>
@@ -374,38 +407,6 @@ public PipelineSourceBase Source { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/new/main/apiSpec/new?filename=Vasont_Publisher_Models_Pipeline_Schema_Configuration_Stages.md&amp;value=---%0Auid%3A%20Vasont.Publisher.Models.Pipeline.Schema.Configuration.Stages%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/blob/develop/src/Pipeline/Schema/Configuration.cs/#L78">View Source</a>
-  </span>
-  <a id="Vasont_Publisher_Models_Pipeline_Schema_Configuration_Stages_" data-uid="Vasont.Publisher.Models.Pipeline.Schema.Configuration.Stages*"></a>
-  <h4 id="Vasont_Publisher_Models_Pipeline_Schema_Configuration_Stages" data-uid="Vasont.Publisher.Models.Pipeline.Schema.Configuration.Stages">Stages</h4>
-  <div class="markdown level1 summary"><p>Gets or sets a list of stages for the agent to process and execute through. Stages are an organizational concept within the configuration.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-public List&lt;Stage&gt; Stages { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Vasont.Publisher.Models.Pipeline.Schema.Stage.html">Stage</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/new/main/apiSpec/new?filename=Vasont_Publisher_Models_Pipeline_Schema_Configuration_StatusBadgesEnabled.md&amp;value=---%0Auid%3A%20Vasont.Publisher.Models.Pipeline.Schema.Configuration.StatusBadgesEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -440,7 +441,7 @@ public List&lt;Stage&gt; Stages { get; set; }</code></pre>
     <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/new/main/apiSpec/new?filename=Vasont_Publisher_Models_Pipeline_Schema_Configuration_Triggers.md&amp;value=---%0Auid%3A%20Vasont.Publisher.Models.Pipeline.Schema.Configuration.Triggers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/blob/develop/src/Pipeline/Schema/Configuration.cs/#L84">View Source</a>
+    <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/blob/develop/src/Pipeline/Schema/Configuration.cs/#L85">View Source</a>
   </span>
   <a id="Vasont_Publisher_Models_Pipeline_Schema_Configuration_Triggers_" data-uid="Vasont.Publisher.Models.Pipeline.Schema.Configuration.Triggers*"></a>
   <h4 id="Vasont_Publisher_Models_Pipeline_Schema_Configuration_Triggers" data-uid="Vasont.Publisher.Models.Pipeline.Schema.Configuration.Triggers">Triggers</h4>
@@ -504,7 +505,7 @@ public List&lt;Stage&gt; Stages { get; set; }</code></pre>
     <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/new/main/apiSpec/new?filename=Vasont_Publisher_Models_Pipeline_Schema_Configuration_Schema.md&amp;value=---%0Auid%3A%20Vasont.Publisher.Models.Pipeline.Schema.Configuration.Schema%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/blob/develop/src/Pipeline/Schema/Configuration.cs/#L95">View Source</a>
+    <a href="https://github.com/vasont-systems/Vasont.Publisher.Models/blob/develop/src/Pipeline/Schema/Configuration.cs/#L96">View Source</a>
   </span>
   <a id="Vasont_Publisher_Models_Pipeline_Schema_Configuration_Schema_" data-uid="Vasont.Publisher.Models.Pipeline.Schema.Configuration.Schema*"></a>
   <h4 id="Vasont_Publisher_Models_Pipeline_Schema_Configuration_Schema" data-uid="Vasont.Publisher.Models.Pipeline.Schema.Configuration.Schema">Schema()</h4>

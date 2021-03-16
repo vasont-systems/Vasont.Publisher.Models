@@ -50,6 +50,11 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         JavaSaxon,
 
         /// <summary>
+        /// An Apache Ant script is to be executed.
+        /// </summary>
+        ApacheAnt,
+
+        /// <summary>
         /// A XLTPROC script is to be executed.
         /// </summary>
         XltProc,

@@ -1123,6 +1123,11 @@
             A Java Saxon script is to be executed.
             </summary>
         </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ApacheAnt">
+            <summary>
+            An Apache Ant script is to be executed.
+            </summary>
+        </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.XltProc">
             <summary>
             A XLTPROC script is to be executed.

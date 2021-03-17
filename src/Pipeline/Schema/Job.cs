@@ -52,7 +52,7 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// <summary>
         /// Gets or sets the timeout in minutes that the job will wait before the task runner stops the job for failing to complete.
         /// </summary>
-        public uint TimeoutInMinutes { get; set; } = SchemaDefaults.DefaultJobTimeoutMinutes;
+        public uint JobTimeoutInMinutes { get; set; } = SchemaDefaults.DefaultJobTimeoutMinutes;
 
         /// <summary>
         /// Gets or sets the job pool configuration.

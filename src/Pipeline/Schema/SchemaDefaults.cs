@@ -11,14 +11,19 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
     public static class SchemaDefaults
     {
         /// <summary>
+        /// The default task timeout minutes.
+        /// </summary>
+        public const int DefaultTaskTimeoutMinutes = 10;
+
+        /// <summary>
         /// The default job timeout minutes.
         /// </summary>
-        public const int DefaultJobTimeoutMinutes = 10;
+        public const int DefaultJobTimeoutMinutes = 60;
 
         /// <summary>
         /// The default agent cancel timeout minutes.
         /// </summary>
-        public const int DefaultAgentCancelTimeoutMinutes = 60;
+        public const int DefaultAgentCancelTimeoutMinutes = 120;
 
         /// <summary>
         /// The default maximum parallel threads a job can execute.

@@ -196,5 +196,11 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// Gets or sets the custom configuration parameters for the selected step plugin.
         /// </summary>
         public Dictionary<string, string> Configuration { get; set; } = new Dictionary<string, string>();
+
+        /// <summary>
+        /// Gets or sets the run timeout minutes.
+        /// </summary>
+        /// <value>The run timeout minutes.</value>
+        public int RunTimeoutMinutes { get; set; } = SchemaDefaults.DefaultTaskTimeoutMinutes;
     }
 }

@@ -1007,7 +1007,7 @@
             Gets or sets a value indicating whether the job will continue if one or more tasks return an error result.
             </summary>
         </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.TimeoutInMinutes">
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.Job.JobTimeoutInMinutes">
             <summary>
             Gets or sets the timeout in minutes that the job will wait before the task runner stops the job for failing to complete.
             </summary>
@@ -1265,6 +1265,12 @@
             Gets or sets the custom configuration parameters for the selected step plugin.
             </summary>
         </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.Schema.JobTask.RunTimeoutMinutes">
+            <summary>
+            Gets or sets the run timeout minutes.
+            </summary>
+            <value>The run timeout minutes.</value>
+        </member>
         <member name="T:Vasont.Publisher.Models.Pipeline.Schema.WorkspaceActionCleanup">
             <summary>
             Contains an enumerated list of workspace cleanup actions.
@@ -1494,6 +1500,11 @@
         <member name="T:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults">
             <summary>
             Contains a collection of default values for the schema definition classes.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskTimeoutMinutes">
+            <summary>
+            The default task timeout minutes.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultJobTimeoutMinutes">

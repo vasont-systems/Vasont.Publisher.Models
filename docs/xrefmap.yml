@@ -2117,6 +2117,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Publisher.Models.Pipeline.Schema.Job.JobId
   nameWithType: Job.JobId
+- uid: Vasont.Publisher.Models.Pipeline.Schema.Job.JobTimeoutInMinutes
+  name: JobTimeoutInMinutes
+  href: ref/Vasont.Publisher.Models.Pipeline.Schema.Job.html#Vasont_Publisher_Models_Pipeline_Schema_Job_JobTimeoutInMinutes
+  commentId: P:Vasont.Publisher.Models.Pipeline.Schema.Job.JobTimeoutInMinutes
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.Job.JobTimeoutInMinutes
+  nameWithType: Job.JobTimeoutInMinutes
+- uid: Vasont.Publisher.Models.Pipeline.Schema.Job.JobTimeoutInMinutes*
+  name: JobTimeoutInMinutes
+  href: ref/Vasont.Publisher.Models.Pipeline.Schema.Job.html#Vasont_Publisher_Models_Pipeline_Schema_Job_JobTimeoutInMinutes_
+  commentId: Overload:Vasont.Publisher.Models.Pipeline.Schema.Job.JobTimeoutInMinutes
+  isSpec: "True"
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.Job.JobTimeoutInMinutes
+  nameWithType: Job.JobTimeoutInMinutes
 - uid: Vasont.Publisher.Models.Pipeline.Schema.Job.Name
   name: Name
   href: ref/Vasont.Publisher.Models.Pipeline.Schema.Job.html#Vasont_Publisher_Models_Pipeline_Schema_Job_Name
@@ -2169,19 +2182,6 @@ references:
   isSpec: "True"
   fullName: Vasont.Publisher.Models.Pipeline.Schema.Job.Tasks
   nameWithType: Job.Tasks
-- uid: Vasont.Publisher.Models.Pipeline.Schema.Job.TimeoutInMinutes
-  name: TimeoutInMinutes
-  href: ref/Vasont.Publisher.Models.Pipeline.Schema.Job.html#Vasont_Publisher_Models_Pipeline_Schema_Job_TimeoutInMinutes
-  commentId: P:Vasont.Publisher.Models.Pipeline.Schema.Job.TimeoutInMinutes
-  fullName: Vasont.Publisher.Models.Pipeline.Schema.Job.TimeoutInMinutes
-  nameWithType: Job.TimeoutInMinutes
-- uid: Vasont.Publisher.Models.Pipeline.Schema.Job.TimeoutInMinutes*
-  name: TimeoutInMinutes
-  href: ref/Vasont.Publisher.Models.Pipeline.Schema.Job.html#Vasont_Publisher_Models_Pipeline_Schema_Job_TimeoutInMinutes_
-  commentId: Overload:Vasont.Publisher.Models.Pipeline.Schema.Job.TimeoutInMinutes
-  isSpec: "True"
-  fullName: Vasont.Publisher.Models.Pipeline.Schema.Job.TimeoutInMinutes
-  nameWithType: Job.TimeoutInMinutes
 - uid: Vasont.Publisher.Models.Pipeline.Schema.Job.Workspace
   name: Workspace
   href: ref/Vasont.Publisher.Models.Pipeline.Schema.Job.html#Vasont_Publisher_Models_Pipeline_Schema_Job_Workspace
@@ -2375,6 +2375,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTask.OutputVariables
   nameWithType: JobTask.OutputVariables
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTask.RunTimeoutMinutes
+  name: RunTimeoutMinutes
+  href: ref/Vasont.Publisher.Models.Pipeline.Schema.JobTask.html#Vasont_Publisher_Models_Pipeline_Schema_JobTask_RunTimeoutMinutes
+  commentId: P:Vasont.Publisher.Models.Pipeline.Schema.JobTask.RunTimeoutMinutes
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTask.RunTimeoutMinutes
+  nameWithType: JobTask.RunTimeoutMinutes
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTask.RunTimeoutMinutes*
+  name: RunTimeoutMinutes
+  href: ref/Vasont.Publisher.Models.Pipeline.Schema.JobTask.html#Vasont_Publisher_Models_Pipeline_Schema_JobTask_RunTimeoutMinutes_
+  commentId: Overload:Vasont.Publisher.Models.Pipeline.Schema.JobTask.RunTimeoutMinutes
+  isSpec: "True"
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTask.RunTimeoutMinutes
+  nameWithType: JobTask.RunTimeoutMinutes
 - uid: Vasont.Publisher.Models.Pipeline.Schema.JobTask.Version
   name: Version
   href: ref/Vasont.Publisher.Models.Pipeline.Schema.JobTask.html#Vasont_Publisher_Models_Pipeline_Schema_JobTask_Version
@@ -2400,6 +2413,12 @@ references:
   commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AntennaHouse
   fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AntennaHouse
   nameWithType: JobTaskCommand.AntennaHouse
+- uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ApacheAnt
+  name: ApacheAnt
+  href: ref/Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.html#Vasont_Publisher_Models_Pipeline_Schema_JobTaskCommand_ApacheAnt
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ApacheAnt
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ApacheAnt
+  nameWithType: JobTaskCommand.ApacheAnt
 - uid: Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ArchiveFiles
   name: ArchiveFiles
   href: ref/Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.html#Vasont_Publisher_Models_Pipeline_Schema_JobTaskCommand_ArchiveFiles
@@ -2936,6 +2955,12 @@ references:
   commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultMaxParallelThreads
   fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultMaxParallelThreads
   nameWithType: SchemaDefaults.DefaultMaxParallelThreads
+- uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskTimeoutMinutes
+  name: DefaultTaskTimeoutMinutes
+  href: ref/Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.html#Vasont_Publisher_Models_Pipeline_Schema_SchemaDefaults_DefaultTaskTimeoutMinutes
+  commentId: F:Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskTimeoutMinutes
+  fullName: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskTimeoutMinutes
+  nameWithType: SchemaDefaults.DefaultTaskTimeoutMinutes
 - uid: Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.DefaultTaskVersion
   name: DefaultTaskVersion
   href: ref/Vasont.Publisher.Models.Pipeline.Schema.SchemaDefaults.html#Vasont_Publisher_Models_Pipeline_Schema_SchemaDefaults_DefaultTaskVersion

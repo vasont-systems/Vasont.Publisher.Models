@@ -1113,14 +1113,9 @@
             Contains an enumerated list of available commands to execute within the job task.
             </summary>
         </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Python">
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AntennaHouse">
             <summary>
-            A Python script is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.JavaSaxon">
-            <summary>
-            A Java Saxon script is to be executed.
+            An Antenna House script is to be executed.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ApacheAnt">
@@ -1128,84 +1123,9 @@
             An Apache Ant script is to be executed.
             </summary>
         </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.XltProc">
-            <summary>
-            A XLTPROC script is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DitaOt">
-            <summary>
-            A DITA-OT script is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AntennaHouse">
-            <summary>
-            A Antenna House script is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DocBook">
-            <summary>
-            A DocBook script is to be executed.
-            </summary>
-        </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ArchiveFiles">
             <summary>
             An Archive files command is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.CopyFiles">
-            <summary>
-            A copy files command is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.MoveFiles">
-            <summary>
-            A move files command is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DeleteFiles">
-            <summary>
-            A delete files command is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Curl">
-            <summary>
-            A cURL command is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.InstallSshKey">
-            <summary>
-            An install of an SSH key is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Ssh">
-            <summary>
-            An SSH command is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Sftp">
-            <summary>
-            An SFTP command is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DropBox">
-            <summary>
-            A DropBox command is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.GoogleDrive">
-            <summary>
-            A Google Drive command is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.OneDrive">
-            <summary>
-            A Microsoft OneDrive command is to be executed.
-            </summary>
-        </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AzureBlob">
-            <summary>
-            A Microsoft Azure Blob command is to be executed.
             </summary>
         </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AwsBucket">
@@ -1213,9 +1133,114 @@
             An AWS Bucket command is to be executed.
             </summary>
         </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.AzureBlob">
+            <summary>
+            A Microsoft Azure Blob command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Bash">
+            <summary>
+            A Bash shell script command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.BatchScript">
+            <summary>
+            A Windows .bat or .cmd batch script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.CommandLine">
+            <summary>
+            A Windows command line program is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.CopyFiles">
+            <summary>
+            A copy files command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.CurlUpload">
+            <summary>
+            A cURL Upload command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Delay">
+            <summary>
+            A delay is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DeleteFiles">
+            <summary>
+            A delete files command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DitaOt">
+            <summary>
+            A DITA-OT script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DocBook">
+            <summary>
+            A DocBook script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.DropBox">
+            <summary>
+            A DropBox command is to be executed.
+            </summary>
+        </member>
         <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Email">
             <summary>
             An e-mail delivery is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.ExtractFiles">
+            <summary>
+            An Extract archive files command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.InstallSshKey">
+            <summary>
+            An install of an SSH key is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.JavaSaxon">
+            <summary>
+            A Java Saxon script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.GoogleDriveUpload">
+            <summary>
+            A Google Drive command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.MoveFiles">
+            <summary>
+            A move files command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.OneDriveUpload">
+            <summary>
+            A Microsoft OneDrive command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Python">
+            <summary>
+            A Python script is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.Ssh">
+            <summary>
+            An SSH command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.SftpUpload">
+            <summary>
+            An SFTP command is to be executed.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.Schema.JobTaskCommand.XltProc">
+            <summary>
+            A XLTPROC script is to be executed.
             </summary>
         </member>
         <member name="T:Vasont.Publisher.Models.Pipeline.Schema.JobTask">

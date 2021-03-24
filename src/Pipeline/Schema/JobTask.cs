@@ -40,14 +40,9 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
     public enum JobTaskCommand
     {
         /// <summary>
-        /// A Python script is to be executed.
+        /// An Antenna House script is to be executed.
         /// </summary>
-        Python,
-
-        /// <summary>
-        /// A Java Saxon script is to be executed.
-        /// </summary>
-        JavaSaxon,
+        AntennaHouse,
 
         /// <summary>
         /// An Apache Ant script is to be executed.
@@ -55,29 +50,34 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         ApacheAnt,
 
         /// <summary>
-        /// A XLTPROC script is to be executed.
-        /// </summary>
-        XltProc,
-
-        /// <summary>
-        /// A DITA-OT script is to be executed.
-        /// </summary>
-        DitaOt,
-
-        /// <summary>
-        /// A Antenna House script is to be executed.
-        /// </summary>
-        AntennaHouse,
-
-        /// <summary>
-        /// A DocBook script is to be executed.
-        /// </summary>
-        DocBook,
-
-        /// <summary>
         /// An Archive files command is to be executed.
         /// </summary>
         ArchiveFiles,
+
+        /// <summary>
+        /// An AWS Bucket command is to be executed.
+        /// </summary>
+        AwsBucket,
+
+        /// <summary>
+        /// A Microsoft Azure Blob command is to be executed.
+        /// </summary>
+        AzureBlob,
+
+        /// <summary>
+        /// A Bash shell script command is to be executed.
+        /// </summary>
+        Bash,
+
+        /// <summary>
+        /// A Windows .bat or .cmd batch script is to be executed.
+        /// </summary>
+        BatchScript,
+
+        /// <summary>
+        /// A Windows command line program is to be executed.
+        /// </summary>
+        CommandLine,
 
         /// <summary>
         /// A copy files command is to be executed.
@@ -85,9 +85,14 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         CopyFiles,
 
         /// <summary>
-        /// A move files command is to be executed.
+        /// A cURL Upload command is to be executed.
         /// </summary>
-        MoveFiles,
+        CurlUpload,
+
+        /// <summary>
+        /// A delay is to be executed.
+        /// </summary>
+        Delay,
 
         /// <summary>
         /// A delete files command is to be executed.
@@ -95,14 +100,59 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         DeleteFiles,
 
         /// <summary>
-        /// A cURL command is to be executed.
+        /// A DITA-OT script is to be executed.
         /// </summary>
-        Curl,
+        DitaOt,
+
+        /// <summary>
+        /// A DocBook script is to be executed.
+        /// </summary>
+        DocBook,
+
+        /// <summary>
+        /// A DropBox command is to be executed.
+        /// </summary>
+        DropBox,
+
+        /// <summary>
+        /// An e-mail delivery is to be executed.
+        /// </summary>
+        Email,
+
+        /// <summary>
+        /// An Extract archive files command is to be executed.
+        /// </summary>
+        ExtractFiles,
 
         /// <summary>
         /// An install of an SSH key is to be executed.
         /// </summary>
         InstallSshKey,
+
+        /// <summary>
+        /// A Java Saxon script is to be executed.
+        /// </summary>
+        JavaSaxon,
+
+        /// <summary>
+        /// A Google Drive command is to be executed.
+        /// </summary>
+        GoogleDriveUpload,
+
+        /// <summary>
+        /// A move files command is to be executed.
+        /// </summary>
+        MoveFiles,
+
+        /// <summary>
+        /// A Microsoft OneDrive command is to be executed.
+        /// </summary>
+        OneDriveUpload,
+
+        /// <summary>
+        /// A Python script is to be executed.
+        /// </summary>
+        Python,
 
         /// <summary>
         /// An SSH command is to be executed.
@@ -112,37 +162,12 @@ namespace Vasont.Publisher.Models.Pipeline.Schema
         /// <summary>
         /// An SFTP command is to be executed.
         /// </summary>
-        Sftp,
+        SftpUpload,
 
         /// <summary>
-        /// A DropBox command is to be executed.
+        /// A XLTPROC script is to be executed.
         /// </summary>
-        DropBox,
-
-        /// <summary>
-        /// A Google Drive command is to be executed.
-        /// </summary>
-        GoogleDrive,
-
-        /// <summary>
-        /// A Microsoft OneDrive command is to be executed.
-        /// </summary>
-        OneDrive,
-
-        /// <summary>
-        /// A Microsoft Azure Blob command is to be executed.
-        /// </summary>
-        AzureBlob,
-
-        /// <summary>
-        /// An AWS Bucket command is to be executed.
-        /// </summary>
-        AwsBucket,
-
-        /// <summary>
-        /// An e-mail delivery is to be executed.
-        /// </summary>
-        Email
+        XltProc
     }
 
     /// <summary>

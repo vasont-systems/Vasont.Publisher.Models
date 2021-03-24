@@ -13,16 +13,16 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://vasont-systems.github.io/Vasont.Publisher.Models</PackageProjectUrl>
     <PackageTags>CMS</PackageTags>
-    <PackageReleaseNotes>Added RunTimeoutMinutes to JobTask model.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated and added Job task types.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2021.1.6</Version>
+    <Version>2021.1.7</Version>
   </PropertyGroup>
   
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>2021.1.6.0</AssemblyVersion>
-    <FileVersion>2021.1.6.0</FileVersion>
+    <AssemblyVersion>2021.1.7.0</AssemblyVersion>
+    <FileVersion>2021.1.7.0</FileVersion>
     <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
     <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>

@@ -105,7 +105,7 @@ namespace Vasont.Publisher.Models.Pipeline
             {
                 if (!string.IsNullOrWhiteSpace(value))
                 {
-                    this.Metadata = JsonConvert.DeserializeObject<Dictionary<string, string>>(value);
+                    this.Metadata = JsonConvert.DeserializeObject<PipelineRunMetadataModel>(value);
                 }
             }
         }
@@ -113,7 +113,7 @@ namespace Vasont.Publisher.Models.Pipeline
         /// <summary>
         /// Gets or sets an optional set of metadata for the notification message.
         /// </summary>
-        public Dictionary<string, string> Metadata { get; set; } = new Dictionary<string, string>();
+        public PipelineRunMetadataModel Metadata { get; set; } = new PipelineRunMetadataModel();
 
         /// <summary>
         /// Gets or sets the request date of a job.

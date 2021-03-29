@@ -741,6 +741,51 @@
             </summary>
             <value>The search text.</value>
         </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys">
+            <summary>
+            This class contains a collection of pipeline run metadata constants containing common reserved key names for metadata values required to be stored
+            within the pipeline run metadata object.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys.SourceUri">
+            <summary>
+            This metadata key will provide a URI to the original source of a pipeline run request.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys.ArtifactUri">
+            <summary>
+            This metadata key will provide a URI to the final artifacts of a pipeline run request.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys.LogUri">
+            <summary>
+            This metadata key will provide a URI to the final compiled logging report from a pipeline run request.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel">
+            <summary>
+            This helper model represents a metadata dictionary within the pipeline run model.
+            </summary>
+            <seealso cref="!:Dictionary&lt;string, string&gt;" />
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.SourceUri">
+            <summary>
+            Gets or sets the source URI from the metadata dictionary values.
+            </summary>
+            <value>The source URI.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.ArtifactUri">
+            <summary>
+            Gets or sets the artifact URI from the metadata dictionary values.
+            </summary>
+            <value>The artifact URI.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.LogUri">
+            <summary>
+            Gets or sets the log URI from the metadata dictionary values.
+            </summary>
+            <value>The log URI.</value>
+        </member>
         <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunState">
             <summary>
             Contains an enumerated list of pipeline run states.

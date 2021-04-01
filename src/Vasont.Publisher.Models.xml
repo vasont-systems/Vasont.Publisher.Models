@@ -1743,6 +1743,47 @@
             </summary>
             <value>The results.</value>
         </member>
+        <member name="T:Vasont.Publisher.Models.Reports.DashboardModel">
+            <summary>
+            This class contains the metrics KPI for the publisher dashboard interface.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Reports.DashboardModel.TotalRunsSubmitted">
+            <summary>
+            Gets or sets the total runs submitted.
+            </summary>
+            <value>The total runs submitted.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Reports.DashboardModel.TotalRunsInProgress">
+            <summary>
+            Gets or sets the total runs in progress.
+            </summary>
+            <value>The total runs in progress calculated from user's total runs not in a success or failed state.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Reports.DashboardModel.AverageProcessingTimeMinutes">
+            <summary>
+            Gets or sets the average processing time minutes.
+            </summary>
+            <value>The average processing time minutes calculated from an avg runtime across all user's runs start and end date difference.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Reports.DashboardModel.TotalRunsSuccessful">
+            <summary>
+            Gets or sets the total runs successful.
+            </summary>
+            <value>The total runs successful calculated from user's total runs in a success or success with issues state.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Reports.DashboardModel.TotalRunsFailed">
+            <summary>
+            Gets or sets the total runs failed.
+            </summary>
+            <value>The total runs failed calculated from user's total runs in a failed state.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Reports.DashboardModel.RecentRuns">
+            <summary>
+            Gets or sets the recent runs.
+            </summary>
+            <value>The top 10 most recent pipeline runs.</value>
+        </member>
         <member name="T:Vasont.Publisher.Models.Security.FeatureAbilities">
             <summary>
             This class contains static feature ability keys used for feature security claims assignment.

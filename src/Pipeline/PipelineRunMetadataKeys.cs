@@ -25,5 +25,10 @@ namespace Vasont.Publisher.Models.Pipeline
         /// This metadata key will provide a URI to the final compiled logging report from a pipeline run request.
         /// </summary>
         public const string LogUri = "LogUri";
+
+        /// <summary>
+        /// This metadata key will provide a details model for information related to the pipeline run.
+        /// </summary>
+        public const string ExecutionDetails = "ExecutionDetails";
     }
 }

@@ -741,6 +741,41 @@
             </summary>
             <value>The search text.</value>
         </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunExecutionDetailsModel">
+            <summary>
+            This class contains detail information for a pipeline run.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunExecutionDetailsModel.Runtime">
+            <summary>
+            Gets or sets the runtime.
+            </summary>
+            <value>The runtime.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunExecutionDetailsModel.Demands">
+            <summary>
+            Gets or sets the demands.
+            </summary>
+            <value>Contains a list of demands for the run, in "{key}{operand}{value}" format.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunExecutionDetailsModel.SourceType">
+            <summary>
+            Gets or sets the type of the source.
+            </summary>
+            <value>The type of the source.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunExecutionDetailsModel.SourceName">
+            <summary>
+            Gets or sets the name of the source.
+            </summary>
+            <value>The name of the source.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunExecutionDetailsModel.Variables">
+            <summary>
+            Gets or sets the variables.
+            </summary>
+            <value>Contains a list of variables for the run, in "{name}={value}" format.</value>
+        </member>
         <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys">
             <summary>
             This class contains a collection of pipeline run metadata constants containing common reserved key names for metadata values required to be stored
@@ -762,10 +797,21 @@
             This metadata key will provide a URI to the final compiled logging report from a pipeline run request.
             </summary>
         </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys.ExecutionDetails">
+            <summary>
+            This metadata key will provide a details model for information related to the pipeline run.
+            </summary>
+        </member>
         <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel">
             <summary>
             This helper model represents a metadata dictionary within the pipeline run model.
             </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.ExecutionDetails">
+            <summary>
+            Gets or sets the details from the metadata dictionary values.
+            </summary>
+            <value>The details model.</value>
         </member>
         <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.SourceUriDetails">
             <summary>

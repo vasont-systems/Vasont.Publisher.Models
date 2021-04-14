@@ -5,7 +5,6 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Pipeline
 {
-    using System;
     using System.Collections.Generic;
     using Newtonsoft.Json;
 
@@ -14,6 +13,38 @@ namespace Vasont.Publisher.Models.Pipeline
     /// </summary>
     public class PipelineRunMetadataModel : Dictionary<string, string>
     {
+        /// <summary>
+        /// Gets or sets the details from the metadata dictionary values.
+        /// </summary>
+        /// <value>The details model.</value>
+        [JsonIgnore]
+        public PipelineRunExecutionDetailsModel ExecutionDetails
+        {
+            get
+            {
+                PipelineRunExecutionDetailsModel result = null;
+
+                if (!this.TryGetValue(PipelineRunMetadataKeys.ExecutionDetails, out string value))
+                {
+                    result = JsonConvert.DeserializeObject<PipelineRunExecutionDetailsModel>(value);
+                }
+
+                return result;
+            }
+
+            set
+            {
+                if (this.ContainsKey(PipelineRunMetadataKeys.ExecutionDetails))
+                {
+                    this[PipelineRunMetadataKeys.ExecutionDetails] = JsonConvert.SerializeObject(value);
+                }
+                else
+                {
+                    this.Add(PipelineRunMetadataKeys.ExecutionDetails, JsonConvert.SerializeObject(value));
+                }
+            }
+        }
+
         /// <summary>
         /// Gets or sets the source URI from the metadata dictionary values.
         /// </summary>

@@ -13,16 +13,16 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://vasont-systems.github.io/Vasont.Publisher.Models</PackageProjectUrl>
     <PackageTags>CMS</PackageTags>
-    <PackageReleaseNotes>Added additional metadata models to the Pipeline Run metadata model class.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated some minor tweaks for role models.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2021.1.11</Version>
+    <Version>2021.1.12</Version>
   </PropertyGroup>
   
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>2021.1.11.0</AssemblyVersion>
-    <FileVersion>2021.1.11.0</FileVersion>
+    <AssemblyVersion>2021.1.12.0</AssemblyVersion>
+    <FileVersion>2021.1.12.0</FileVersion>
     <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
     <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
@@ -44,7 +44,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="docfx.console" Version="2.56.7">
+    <PackageReference Include="docfx.console" Version="2.58.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
@@ -54,7 +54,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-    <PackageReference Include="Vasont.Inspire.Core" Version="1.0.18" />
+    <PackageReference Include="Vasont.Inspire.Core" Version="1.0.22" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
+<!--
+// <copyright file="Vasont.Publisher.Models.xml" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
+// </copyright>
+-->
 <doc>
     <assembly>
         <name>Vasont.Publisher.Models</name>

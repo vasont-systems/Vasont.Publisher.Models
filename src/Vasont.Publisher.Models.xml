@@ -1,9 +1,4 @@
 <?xml version="1.0"?>
-<!--
-// <copyright file="Vasont.Publisher.Models.xml" company="GlobalLink Vasont">
-// Copyright (c) GlobalLink Vasont. All rights reserved.
-// </copyright>
--->
 <doc>
     <assembly>
         <name>Vasont.Publisher.Models</name>
@@ -1834,6 +1829,28 @@
             Gets or sets the recent runs.
             </summary>
             <value>The top 10 most recent pipeline runs.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Security.BrowseRoleModel">
+            <summary>
+            This class represents a role in the browse API endpoint.
+            </summary>
+            <seealso cref="T:Vasont.Publisher.Models.Security.MinimalRoleModel" />
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.BrowseRoleModel.CreatedDate">
+            <summary>
+            Gets or sets the record created date time.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.BrowseRoleModel.UpdatedDate">
+            <summary>
+            Gets or sets the record last updated date time.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Security.BrowseRoleModel.UserCount">
+            <summary>
+            Gets or sets the user count.
+            </summary>
+            <value>The user count.</value>
         </member>
         <member name="T:Vasont.Publisher.Models.Security.FeatureAbilities">
             <summary>

@@ -21,7 +21,7 @@ namespace Vasont.Publisher.Models.Security
         /// <summary>
         /// Gets or sets the record last updated date time.
         /// </summary>
-        public DateTime UpdatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
 
         /// <summary>
         /// Gets or sets the user count.

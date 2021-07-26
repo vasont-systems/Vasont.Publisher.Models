@@ -15,7 +15,7 @@ namespace Vasont.Publisher.Models.Security
         /// <summary>
         /// Gets or sets the role identity.
         /// </summary>
-        public long RoleId { get; set; }
+        public int RoleId { get; set; }
 
         /// <summary>
         /// Gets or sets the role name.

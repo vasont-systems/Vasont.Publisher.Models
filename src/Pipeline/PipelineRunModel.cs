@@ -10,6 +10,7 @@ namespace Vasont.Publisher.Models.Pipeline
     using System.ComponentModel.DataAnnotations;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Vasont.Publisher.Models.Pipeline.Schema;
     using Vasont.Publisher.Models.Security;
 
     /// <summary>

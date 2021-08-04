@@ -1734,6 +1734,141 @@
             Gets or sets the IANA time zone for the trigger time setting.
             </summary>
         </member>
+        <member name="T:Vasont.Publisher.Models.Pipeline.SourceConfigurationKeys">
+            <summary>
+            This class contains the basic expected source configuration keys used to store pipeline run source configuration values within the pipeline configuration.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.SourceConfigurationKeys.Authority">
+            <summary>
+            API authority for token generation.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.SourceConfigurationKeys.ResourceUri">
+            <summary>
+            API resource endpoint URI.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.SourceConfigurationKeys.ClientId">
+            <summary>
+            API client identifier.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.SourceConfigurationKeys.ClientScopes">
+            <summary>
+            API client scopes requested.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.SourceConfigurationKeys.ClientSecret">
+            <summary>
+            API client secret.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Pipeline.SourceConfigurationKeys.ClientFlow">
+            <summary>
+            API client flow type.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Publish.PublishRequestModel">
+            <summary>
+            This class contains a publish request model passed to trigger a publish operation within the GlobalLink Publisher API.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishRequestModel.PipelineId">
+            <summary>
+            Gets or sets the pipeline identifier used for the publish operation.
+            </summary>
+            <value>The pipeline identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishRequestModel.RootFileName">
+            <summary>
+            Gets or sets the name of the root file.
+            </summary>
+            <value>The name of the root file.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishRequestModel.RootComponentName">
+            <summary>
+            Gets or sets the name of the root component.
+            </summary>
+            <value>The name of the root component.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishRequestModel.WebhookUri">
+            <summary>
+            Gets or sets the webhook URI to call for publish run notifications.
+            </summary>
+            <value>The webhook URI.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishRequestModel.StartDate">
+            <summary>
+            Gets or sets the start date to initiate the request.
+            </summary>
+            <value>The start date.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishRequestModel.Parameters">
+            <summary>
+            Gets or sets a dictionary of additional parameters used for the publication request.
+            </summary>
+            <value>The parameters.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Publish.PublishResponseModel">
+            <summary>
+            This class returns the response for the publication request initiation.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishResponseModel.PipelineId">
+            <summary>
+            Gets or sets the pipeline identifier.
+            </summary>
+            <value>The pipeline identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishResponseModel.PipelineRunId">
+            <summary>
+            Gets or sets the pipeline run identifier.
+            </summary>
+            <value>The pipeline run identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishResponseModel.CreatedDate">
+            <summary>
+            Gets or sets the created date.
+            </summary>
+            <value>The created date.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishResponseModel.CreatedBy">
+            <summary>
+            Gets or sets the created by.
+            </summary>
+            <value>The created by.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishResponseModel.Initiated">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:Vasont.Publisher.Models.Publish.PublishResponseModel" /> is initiated.
+            </summary>
+            <value><c>true</c> if initiated; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishResponseModel.State">
+            <summary>
+            Gets or sets the state.
+            </summary>
+            <value>The state.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishResponseModel.Errors">
+            <summary>
+            Gets or sets the initiation errors.
+            </summary>
+            <value>The initiation errors.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishResponseModel.Warnings">
+            <summary>
+            Gets or sets the warnings.
+            </summary>
+            <value>The warnings.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Publish.PublishResponseModel.Source">
+            <summary>
+            Gets or sets the source.
+            </summary>
+            <value>The source.</value>
+        </member>
         <member name="T:Vasont.Publisher.Models.Queries.PaginatedQueryRequestModel">
             <summary>
             This class contains parameters passed to the query for filtering.

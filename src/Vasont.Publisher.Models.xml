@@ -4,6 +4,47 @@
         <name>Vasont.Publisher.Models</name>
     </assembly>
     <members>
+        <member name="T:Vasont.Publisher.Models.Agent.AgentRunStateModel">
+            <summary>
+            This class defines a run state model for agent notifications.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.AgentRunStateModel.Agent">
+            <summary>
+            Gets or sets the agent.
+            </summary>
+            <value>The agent.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.AgentRunStateModel.PipelineRunId">
+            <summary>
+            Gets or sets the pipeline run identifier.
+            </summary>
+            <value>The pipeline run identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.AgentRunStateModel.State">
+            <summary>
+            Gets or sets the state.
+            </summary>
+            <value>The state.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.AgentRunStateModel.Message">
+            <summary>
+            Gets or sets the message.
+            </summary>
+            <value>The message.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.AgentRunStateModel.Warnings">
+            <summary>
+            Gets or sets the warnings.
+            </summary>
+            <value>The warnings.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.AgentRunStateModel.Errors">
+            <summary>
+            Gets or sets the errors.
+            </summary>
+            <value>The errors.</value>
+        </member>
         <member name="T:Vasont.Publisher.Models.Common.CreatedUpdaterModelBase">
             <summary>
             This class contains basic created and updater properties for model records.

@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Pipeline
 {
+    using System;
     using System.Collections.Generic;
     using Vasont.Publisher.Models.Queries;
 
@@ -25,5 +26,29 @@ namespace Vasont.Publisher.Models.Pipeline
         /// </summary>
         /// <value>The search text.</value>
         public string SearchText { get; set; }
+
+        /// <summary>
+        /// Gets or sets the pipeline identifier.
+        /// </summary>
+        /// <value>The pipeline identifier.</value>
+        public Guid PipelineId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the user identifier.
+        /// </summary>
+        /// <value>The user identifier.</value>
+        public string UserId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the created date.
+        /// </summary>
+        /// <value>The created date.</value>
+        public DateTime CreatedDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the requested date.
+        /// </summary>
+        /// <value>The requested date.</value>
+        public DateTime RequestDate { get; set; }
     }
 }

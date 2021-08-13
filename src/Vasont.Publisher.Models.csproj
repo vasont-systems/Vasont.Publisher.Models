@@ -16,13 +16,13 @@
     <PackageReleaseNotes>Add Agent Run State Model for Notifications.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2021.1.16</Version>
+    <Version>2021.1.17</Version>
   </PropertyGroup>
   
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>2021.1.16.0</AssemblyVersion>
-    <FileVersion>2021.1.16.0</FileVersion>
+    <AssemblyVersion>2021.1.17.0</AssemblyVersion>
+    <FileVersion>2021.1.17.0</FileVersion>
     <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
     <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>

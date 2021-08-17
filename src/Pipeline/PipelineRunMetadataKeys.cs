@@ -14,17 +14,17 @@ namespace Vasont.Publisher.Models.Pipeline
         /// <summary>
         /// This metadata key will provide a URI to the original source of a pipeline run request.
         /// </summary>
-        public const string SourceUri = "SourceUri";
+        public const string Source = "Source";
 
         /// <summary>
         /// This metadata key will provide a URI to the final artifacts of a pipeline run request.
         /// </summary>
-        public const string ArtifactUri = "ArtifactUri";
+        public const string Artifact = "Artifact";
 
         /// <summary>
         /// This metadata key will provide a URI to the final compiled logging report from a pipeline run request.
         /// </summary>
-        public const string LogUri = "LogUri";
+        public const string Log = "Log";
 
         /// <summary>
         /// This metadata key will provide a details model for information related to the pipeline run.

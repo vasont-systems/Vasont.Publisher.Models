@@ -823,17 +823,17 @@
             within the pipeline run metadata object.
             </summary>
         </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys.SourceUri">
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys.Source">
             <summary>
             This metadata key will provide a URI to the original source of a pipeline run request.
             </summary>
         </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys.ArtifactUri">
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys.Artifact">
             <summary>
             This metadata key will provide a URI to the final artifacts of a pipeline run request.
             </summary>
         </member>
-        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys.LogUri">
+        <member name="F:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataKeys.Log">
             <summary>
             This metadata key will provide a URI to the final compiled logging report from a pipeline run request.
             </summary>
@@ -854,48 +854,48 @@
             </summary>
             <value>The details model.</value>
         </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.SourceUriDetails">
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.SourceDetails">
             <summary>
             Gets or sets the source URI from the metadata dictionary values.
             </summary>
             <value>The source URI.</value>
         </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.ArtifactUri">
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.ArtifactDetails">
             <summary>
             Gets or sets the artifact URI from the metadata dictionary values.
             </summary>
             <value>The artifact URI.</value>
         </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.LogUri">
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataModel.LogDetails">
             <summary>
             Gets or sets the log URI from the metadata dictionary values.
             </summary>
             <value>The log URI.</value>
         </member>
-        <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataUriModel">
+        <member name="T:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataTargetModel">
             <summary>
-            This class represents a pipeline run Uri details model for describing the content at the specified metadata URI endpoint.
+            This class represents a pipeline run target details model for describing the content at the specified metadata URI endpoint.
             </summary>
         </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataUriModel.ItemUri">
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataTargetModel.Target">
             <summary>
             Gets or sets the item URI.
             </summary>
             <value>The item URI.</value>
         </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataUriModel.ContentType">
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataTargetModel.ContentType">
             <summary>
             Gets or sets the type of the content.
             </summary>
             <value>The type of the content.</value>
         </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataUriModel.FileName">
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataTargetModel.FileName">
             <summary>
             Gets or sets the name of the file.
             </summary>
             <value>The name of the file.</value>
         </member>
-        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataUriModel.ContentLength">
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunMetadataTargetModel.ContentLength">
             <summary>
             Gets or sets the length of the content.
             </summary>
@@ -1032,6 +1032,30 @@
             Gets or sets the search text.
             </summary>
             <value>The search text.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunQueryRequestModel.PipelineId">
+            <summary>
+            Gets or sets the pipeline identifier.
+            </summary>
+            <value>The pipeline identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunQueryRequestModel.UserId">
+            <summary>
+            Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunQueryRequestModel.CreatedDate">
+            <summary>
+            Gets or sets the created date.
+            </summary>
+            <value>The created date.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Pipeline.PipelineRunQueryRequestModel.RequestDate">
+            <summary>
+            Gets or sets the requested date.
+            </summary>
+            <value>The requested date.</value>
         </member>
         <member name="T:Vasont.Publisher.Models.Pipeline.Schema.Configuration">
             <summary>

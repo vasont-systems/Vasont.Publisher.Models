@@ -24,7 +24,7 @@ namespace Vasont.Publisher.Models.Pipeline
             {
                 PipelineRunExecutionDetailsModel result = null;
 
-                if (!this.TryGetValue(PipelineRunMetadataKeys.ExecutionDetails, out string value))
+                if (this.TryGetValue(PipelineRunMetadataKeys.ExecutionDetails, out string value))
                 {
                     result = JsonConvert.DeserializeObject<PipelineRunExecutionDetailsModel>(value);
                 }
@@ -50,15 +50,15 @@ namespace Vasont.Publisher.Models.Pipeline
         /// </summary>
         /// <value>The source URI.</value>
         [JsonIgnore]
-        public PipelineRunMetadataUriModel SourceUriDetails
+        public PipelineRunMetadataTargetModel SourceDetails
         {
             get
             {
-                PipelineRunMetadataUriModel result = null;
+                PipelineRunMetadataTargetModel result = null;
 
-                if (!this.TryGetValue(PipelineRunMetadataKeys.SourceUri, out string value))
+                if (this.TryGetValue(PipelineRunMetadataKeys.Source, out string value))
                 {
-                    result = JsonConvert.DeserializeObject<PipelineRunMetadataUriModel>(value);
+                    result = JsonConvert.DeserializeObject<PipelineRunMetadataTargetModel>(value);
                 }
 
                 return result;
@@ -66,13 +66,13 @@ namespace Vasont.Publisher.Models.Pipeline
 
             set
             {
-                if (this.ContainsKey(PipelineRunMetadataKeys.SourceUri))
+                if (this.ContainsKey(PipelineRunMetadataKeys.Source))
                 {
-                    this[PipelineRunMetadataKeys.SourceUri] = JsonConvert.SerializeObject(value);
+                    this[PipelineRunMetadataKeys.Source] = JsonConvert.SerializeObject(value);
                 }
                 else
                 {
-                    this.Add(PipelineRunMetadataKeys.SourceUri, JsonConvert.SerializeObject(value));
+                    this.Add(PipelineRunMetadataKeys.Source, JsonConvert.SerializeObject(value));
                 }
             }
         }
@@ -82,15 +82,15 @@ namespace Vasont.Publisher.Models.Pipeline
         /// </summary>
         /// <value>The artifact URI.</value>
         [JsonIgnore]
-        public PipelineRunMetadataUriModel ArtifactUri
+        public PipelineRunMetadataTargetModel ArtifactDetails
         {
             get
             {
-                PipelineRunMetadataUriModel result = null;
+                PipelineRunMetadataTargetModel result = null;
 
-                if (!this.TryGetValue(PipelineRunMetadataKeys.ArtifactUri, out string value))
+                if (this.TryGetValue(PipelineRunMetadataKeys.Artifact, out string value))
                 {
-                    result = JsonConvert.DeserializeObject<PipelineRunMetadataUriModel>(value);
+                    result = JsonConvert.DeserializeObject<PipelineRunMetadataTargetModel>(value);
                 }
 
                 return result;
@@ -98,13 +98,13 @@ namespace Vasont.Publisher.Models.Pipeline
 
             set
             {
-                if (this.ContainsKey(PipelineRunMetadataKeys.ArtifactUri))
+                if (this.ContainsKey(PipelineRunMetadataKeys.Artifact))
                 {
-                    this[PipelineRunMetadataKeys.ArtifactUri] = JsonConvert.SerializeObject(value);
+                    this[PipelineRunMetadataKeys.Artifact] = JsonConvert.SerializeObject(value);
                 }
                 else
                 {
-                    this.Add(PipelineRunMetadataKeys.ArtifactUri, JsonConvert.SerializeObject(value));
+                    this.Add(PipelineRunMetadataKeys.Artifact, JsonConvert.SerializeObject(value));
                 }
             }
         }
@@ -114,15 +114,15 @@ namespace Vasont.Publisher.Models.Pipeline
         /// </summary>
         /// <value>The log URI.</value>
         [JsonIgnore]
-        public PipelineRunMetadataUriModel LogUri
+        public PipelineRunMetadataTargetModel LogDetails
         {
             get
             {
-                PipelineRunMetadataUriModel result = null;
+                PipelineRunMetadataTargetModel result = null;
 
-                if (!this.TryGetValue(PipelineRunMetadataKeys.LogUri, out string value))
+                if (this.TryGetValue(PipelineRunMetadataKeys.Log, out string value))
                 {
-                    result = JsonConvert.DeserializeObject<PipelineRunMetadataUriModel>(value);
+                    result = JsonConvert.DeserializeObject<PipelineRunMetadataTargetModel>(value);
                 }
 
                 return result;
@@ -130,13 +130,13 @@ namespace Vasont.Publisher.Models.Pipeline
 
             set
             {
-                if (this.ContainsKey(PipelineRunMetadataKeys.LogUri))
+                if (this.ContainsKey(PipelineRunMetadataKeys.Log))
                 {
-                    this[PipelineRunMetadataKeys.LogUri] = JsonConvert.SerializeObject(value);
+                    this[PipelineRunMetadataKeys.Log] = JsonConvert.SerializeObject(value);
                 }
                 else
                 {
-                    this.Add(PipelineRunMetadataKeys.LogUri, JsonConvert.SerializeObject(value));
+                    this.Add(PipelineRunMetadataKeys.Log, JsonConvert.SerializeObject(value));
                 }
             }
         }

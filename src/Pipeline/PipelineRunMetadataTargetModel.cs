@@ -1,22 +1,20 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="PipelineRunMetadataUriModel.cs" company="GlobalLink Vasont">
+// <copyright file="PipelineRunMetadataTargetModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
 namespace Vasont.Publisher.Models.Pipeline
 {
-    using System;
-
     /// <summary>
-    /// This class represents a pipeline run Uri details model for describing the content at the specified metadata URI endpoint.
+    /// This class represents a pipeline run target details model for describing the content at the specified metadata URI endpoint.
     /// </summary>
-    public class PipelineRunMetadataUriModel
+    public class PipelineRunMetadataTargetModel
     {
         /// <summary>
         /// Gets or sets the item URI.
         /// </summary>
         /// <value>The item URI.</value>
-        public Uri ItemUri { get; set; }
+        public string Target { get; set; }
 
         /// <summary>
         /// Gets or sets the type of the content.

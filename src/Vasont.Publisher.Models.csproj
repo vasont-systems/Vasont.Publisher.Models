@@ -13,16 +13,16 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://vasont-systems.github.io/Vasont.Publisher.Models</PackageProjectUrl>
     <PackageTags>CMS</PackageTags>
-    <PackageReleaseNotes>Fixed bugs in models and simplified.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added models for supporting container building.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2021.1.18</Version>
+    <Version>2021.1.19</Version>
   </PropertyGroup>
   
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>2021.1.18.0</AssemblyVersion>
-    <FileVersion>2021.1.18.0</FileVersion>
+    <AssemblyVersion>2021.1.19.0</AssemblyVersion>
+    <FileVersion>2021.1.19.0</FileVersion>
     <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
     <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
@@ -59,6 +59,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Agent\Configuration\" />
     <Folder Include="Assets\" />
   </ItemGroup>
 

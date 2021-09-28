@@ -45,6 +45,107 @@
             </summary>
             <value>The errors.</value>
         </member>
+        <member name="T:Vasont.Publisher.Models.Agent.AgentState">
+            <summary>
+            Contains an enumerated list of agent process states.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Agent.AgentState.Unknown">
+            <summary>
+            Agent is in an unknown state.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Agent.AgentState.Starting">
+            <summary>
+            The agent is starting.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Agent.AgentState.Running">
+            <summary>
+            The agent is running.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Agent.AgentState.Stopping">
+            <summary>
+            The agent is stopping.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Agent.AgentState.Stopped">
+            <summary>
+            The agent is stopped.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Agent.ContainerState">
+            <summary>
+            Contains an enumerated list of container states.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Agent.ContainerState.Unknown">
+            <summary>
+            Container is in an unknown state.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Agent.ContainerState.Starting">
+            <summary>
+            The container is starting.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Agent.ContainerState.Running">
+            <summary>
+            The container is running.
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Agent.ContainerState.Stopping">
+            <summary>
+            The container is stopping
+            </summary>
+        </member>
+        <member name="F:Vasont.Publisher.Models.Agent.ContainerState.Stopped">
+            <summary>
+            The container is stopped.
+            </summary>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Agent.Manager.AgentModel">
+            <summary>
+            Contains an agent management model.
+            </summary>
+            <seealso cref="T:Vasont.Publisher.Models.Agent.MicroAgentModel" />
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.Manager.AgentModel.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+            <value>The description.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.Manager.AgentModel.ContainerState">
+            <summary>
+            Gets or sets the state of the container.
+            </summary>
+            <value>The state of the container.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.Manager.AgentModel.AgentState">
+            <summary>
+            Gets or sets the state of the agent.
+            </summary>
+            <value>The state of the agent.</value>
+        </member>
+        <member name="T:Vasont.Publisher.Models.Agent.MicroAgentModel">
+            <summary>
+            Contains the minimal sized agent model properties.
+            </summary>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.MicroAgentModel.AgentId">
+            <summary>
+            Gets or sets the agent identifier.
+            </summary>
+            <value>The agent identifier.</value>
+        </member>
+        <member name="P:Vasont.Publisher.Models.Agent.MicroAgentModel.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
         <member name="T:Vasont.Publisher.Models.Common.CreatedUpdaterModelBase">
             <summary>
             This class contains basic created and updater properties for model records.
